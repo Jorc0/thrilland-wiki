@@ -6,6 +6,13 @@ Conecta con la comunidad de Thrilland y encuentra ayuda cuando la necesites.
 
 ## Contenido
 
+### [Reglas del Servidor](reglas.md)
+- Normas de conducta
+- Protecciones y construcción
+- Comunicación y respeto
+- Políticas de juego limpio
+- Sanciones y consecuencias
+
 ### [Discord](discord.md)
 - Cómo unirse
 - Canales importantes
