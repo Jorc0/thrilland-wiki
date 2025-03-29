@@ -1,0 +1,28 @@
+name: AI Commit Message Generator
+
+on:
+  push:
+    branches:
+      - main  # o la rama que uses
+
+jobs:
+  ai-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install ai-commit
+        run: npm install -g ai-commit
+
+      - name: Run ai-commit
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          ai-commit -y --type conventional
