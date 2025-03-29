@@ -1,36 +1,50 @@
 ---
-title: BPL - Mi Jardín Digital
-description: Bienvenido a mi jardín digital, un espacio donde cultivo ideas, reflexiones y aprendizajes
-tags:
-  - inicio
-  - bienvenida
-dg-publish: true
-dg-home: true
+title: Thrilland Wiki
+description: Wiki oficial del servidor Thrilland - Todo lo que necesitas saber sobre el servidor
 ---
 
-# Bienvenido a mi Jardín Digital
+# Bienvenido a Thrilland
 
-Este es un espacio donde cultivo ideas, reflexiones y aprendizajes. Un jardín digital donde las palabras crecen como plantas, se entrelazan como raíces y florecen en conexiones inesperadas.
+Bienvenido a la wiki oficial de Thrilland, tu guía completa para descubrir todos los secretos y características de nuestro servidor.
 
-## 🌱 ¿Qué encontrarás aquí?
+## Guías Principales
 
-- **Reflexiones personales** sobre tecnología, IA, y el mundo digital
-- **Experimentos** con herramientas y sistemas
-- **Aprendizajes** y descubrimientos
-- **Pensamientos en desarrollo** que aún están creciendo
+### [📘 Guía para Nuevos Jugadores](/guia-nuevos-jugadores)
+Todo lo que necesitas saber para empezar tu aventura en Thrilland.
 
-## 🗺️ Navegación
+### [⚔️ Sistema de Crafteos](/crafteos)
+Descubre nuestro sistema único de crafteos, esencias y objetos especiales.
 
-- Usa el buscador en la esquina superior derecha para encontrar contenido específico
-- Explora por [tags](/tags) o [categorías](/categories)
-- Sigue los enlaces internos para descubrir conexiones entre ideas
+### [👑 Rangos](/rangos)
+Información sobre la progresión y beneficios de cada rango.
 
-## 📝 Entradas destacadas
+### [💰 Economía](/economia)
+Sistema económico, tiendas y comercio entre jugadores.
 
-- [Qué versión de mí se lleva cada nueva persona](nuevaspersonas) - Sobre las imágenes parciales que dejamos en los demás
-- [Juicios diferentes, historias diferentes](00.Intro.md) - Sobre cómo los demás construyen versiones parciales de nosotros
-- [Declaración de intenciones](declaracion_de_intenciones) - Sobre la finalidad de este jardín digital
-- [Explorador de bitácora](explorador) - Un mapa interno de mi bitácora mental
-- [Funcionamiento](Funcionamiento) - Las herramientas técnicas detrás de este espacio
-- [Mapa mental](mapa_mental) - Sobre la estructura del pensamiento
-- [CodexMental](codexmental) - El manual de mi IA coeditora personal, diseñada para pensar y escribir conmigo 
+## Características del Servidor
+
+### [🛡️ Protecciones](/protecciones)
+Aprende a proteger tus construcciones y territorios.
+
+### [🎮 Eventos](/eventos)
+Calendario y tipos de eventos especiales.
+
+### [⚔️ PvP y Combate](/pvp-combate)
+Sistema de combate y zonas PvP.
+
+### [📜 Misiones](/misiones)
+Sistema de misiones diarias y principales.
+
+## Comunidad y Recursos
+
+### [🤝 Comunidad](/comunidad)
+Discord, staff y soporte.
+
+### [✨ Características Especiales](/caracteristicas-especiales)
+Mascotas, monturas y cosméticos.
+
+### [📚 Guías Avanzadas](/guias-avanzadas)
+Consejos y estrategias para jugadores experimentados.
+
+### [📖 Historia](/HISTORIA)
+Descubre el rico lore y la historia de Thrilland.
