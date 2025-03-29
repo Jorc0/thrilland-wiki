@@ -57,25 +57,30 @@ export const defaultContentPageLayout: PageLayout = {
       folderDefaultState: "open",
       useSavedState: true,
       mapFn: (node) => {
-        // Usar símbolos más simples y añadir espaciado para mejor legibilidad
+        let icon = "📄"
+        
         if (node.isFolder) {
-          node.displayName = "📁 " + node.displayName
+          // Para carpetas, usar el emoji del index.md si existe
+          icon = "📁"
+          node.displayName = `${icon} ${node.displayName}`
         } else {
-          // Si es un archivo index.md, mostrar un icono especial
+          // Para archivos, buscar el emoji en el frontmatter
           if (node.displayName === "index.md") {
-            node.displayName = "📑 Inicio"
+            icon = "📑"
+            node.displayName = `${icon} Inicio`
           } else {
-            // Usar el título si está disponible en los datos
+            // Usar el emoji del frontmatter si está disponible
+            icon = node.data?.emoji || "📄"
             const title = node.data?.title
-            node.displayName = "📄 " + (title || node.displayName.replace(".md", ""))
+            node.displayName = `${icon} ${title || node.displayName.replace(".md", "")}`
           }
         }
         return node
       },
       sortFn: (a, b) => {
         // Colocar index.md primero en cada carpeta
-        if (a.displayName === "📑 Inicio") return -1
-        if (b.displayName === "📑 Inicio") return 1
+        if (a.displayName.includes("📑 Inicio")) return -1
+        if (b.displayName.includes("📑 Inicio")) return 1
         
         // Luego ordenar carpetas y archivos
         if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
@@ -154,25 +159,30 @@ export const defaultListPageLayout: PageLayout = {
       folderDefaultState: "open",
       useSavedState: true,
       mapFn: (node) => {
-        // Usar símbolos más simples y añadir espaciado para mejor legibilidad
+        let icon = "📄"
+        
         if (node.isFolder) {
-          node.displayName = "📁 " + node.displayName
+          // Para carpetas, usar el emoji del index.md si existe
+          icon = "📁"
+          node.displayName = `${icon} ${node.displayName}`
         } else {
-          // Si es un archivo index.md, mostrar un icono especial
+          // Para archivos, buscar el emoji en el frontmatter
           if (node.displayName === "index.md") {
-            node.displayName = "📑 Inicio"
+            icon = "📑"
+            node.displayName = `${icon} Inicio`
           } else {
-            // Usar el título si está disponible en los datos
+            // Usar el emoji del frontmatter si está disponible
+            icon = node.data?.emoji || "📄"
             const title = node.data?.title
-            node.displayName = "📄 " + (title || node.displayName.replace(".md", ""))
+            node.displayName = `${icon} ${title || node.displayName.replace(".md", "")}`
           }
         }
         return node
       },
       sortFn: (a, b) => {
         // Colocar index.md primero en cada carpeta
-        if (a.displayName === "📑 Inicio") return -1
-        if (b.displayName === "📑 Inicio") return 1
+        if (a.displayName.includes("📑 Inicio")) return -1
+        if (b.displayName.includes("📑 Inicio")) return 1
         
         // Luego ordenar carpetas y archivos
         if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {

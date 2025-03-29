@@ -1,6 +1,7 @@
 ---
 title: Reglas del Servidor
 description: Normas y regulaciones para una mejor convivencia
+emoji: 📜
 ---
 
 # 🏆 Reglas del Servidor

@@ -1,6 +1,7 @@
 ---
 title: Sistema de Rangos
 description: Lista completa de rangos y sus beneficios
+emoji: 👑
 ---
 
 # 🏆 Rangos del Servidor

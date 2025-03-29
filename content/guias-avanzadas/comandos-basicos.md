@@ -1,6 +1,7 @@
 ---
 title: Comandos Básicos
 description: Lista completa de comandos disponibles en el servidor
+emoji: ⌨️
 ---
 
 # Comandos Básicos
