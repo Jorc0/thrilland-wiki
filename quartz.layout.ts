@@ -53,7 +53,7 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer({
       title: "Explorador",
-      folderClickBehavior: "link",
+      folderClickBehavior: "collapse",
       folderDefaultState: "open",
       useSavedState: true,
       mapFn: (node) => {
@@ -61,12 +61,21 @@ export const defaultContentPageLayout: PageLayout = {
         if (node.isFolder) {
           node.displayName = "📁 " + node.displayName
         } else {
-          node.displayName = "📄 " + node.displayName
+          // Si es un archivo index.md, mostrar un icono especial
+          if (node.displayName === "index.md") {
+            node.displayName = "📑 Inicio"
+          } else {
+            node.displayName = "📄 " + node.displayName.replace(".md", "")
+          }
         }
         return node
       },
       sortFn: (a, b) => {
-        // Primero ordenar carpetas, luego archivos
+        // Colocar index.md primero en cada carpeta
+        if (a.displayName === "📑 Inicio") return -1
+        if (b.displayName === "📑 Inicio") return 1
+        
+        // Luego ordenar carpetas y archivos
         if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
           return a.displayName.localeCompare(b.displayName, undefined, {
             numeric: true,
@@ -139,7 +148,7 @@ export const defaultListPageLayout: PageLayout = {
     }),
     Component.Explorer({
       title: "Explorador",
-      folderClickBehavior: "link",
+      folderClickBehavior: "collapse",
       folderDefaultState: "open",
       useSavedState: true,
       mapFn: (node) => {
@@ -147,12 +156,21 @@ export const defaultListPageLayout: PageLayout = {
         if (node.isFolder) {
           node.displayName = "📁 " + node.displayName
         } else {
-          node.displayName = "📄 " + node.displayName
+          // Si es un archivo index.md, mostrar un icono especial
+          if (node.displayName === "index.md") {
+            node.displayName = "📑 Inicio"
+          } else {
+            node.displayName = "📄 " + node.displayName.replace(".md", "")
+          }
         }
         return node
       },
       sortFn: (a, b) => {
-        // Primero ordenar carpetas, luego archivos
+        // Colocar index.md primero en cada carpeta
+        if (a.displayName === "📑 Inicio") return -1
+        if (b.displayName === "📑 Inicio") return 1
+        
+        // Luego ordenar carpetas y archivos
         if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
           return a.displayName.localeCompare(b.displayName, undefined, {
             numeric: true,
