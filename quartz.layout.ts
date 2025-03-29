@@ -55,7 +55,7 @@ export const defaultContentPageLayout: PageLayout = {
       title: "Explorador",
       folderClickBehavior: "link",
       folderDefaultState: "open",
-      useSavedState: true,
+      useSavedState: false,
       mapFn: (node) => {
         if (node.isFolder) {
           // Para carpetas, usar emoji basado en el nombre
@@ -181,7 +181,7 @@ export const defaultListPageLayout: PageLayout = {
       title: "Explorador",
       folderClickBehavior: "link",
       folderDefaultState: "open",
-      useSavedState: true,
+      useSavedState: false,
       mapFn: (node) => {
         if (node.isFolder) {
           // Para carpetas, usar emoji basado en el nombre
