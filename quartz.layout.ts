@@ -53,24 +53,48 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer({
       title: "Explorador",
-      folderClickBehavior: "collapse",
+      folderClickBehavior: "link",
       folderDefaultState: "open",
       useSavedState: true,
       mapFn: (node) => {
-        let icon = "📄"
-        
         if (node.isFolder) {
-          // Para carpetas, usar el emoji del index.md si existe
-          icon = "📁"
-          node.displayName = `${icon} ${node.displayName}`
+          // Para carpetas, usar emoji basado en el nombre
+          let folderIcon = "📁"
+          const folderName = node.displayName.toLowerCase()
+          
+          if (folderName === "rangos") folderIcon = "👑"
+          else if (folderName === "comunidad") folderIcon = "👥"
+          else if (folderName === "guias-avanzadas") folderIcon = "📚"
+          else if (folderName === "guia-nuevos-jugadores") folderIcon = "🌟"
+          else if (folderName === "economia") folderIcon = "💰"
+          else if (folderName === "protecciones") folderIcon = "🛡️"
+          else if (folderName === "eventos") folderIcon = "🎉"
+          else if (folderName === "pvp-combate") folderIcon = "⚔️"
+          else if (folderName === "misiones") folderIcon = "📋"
+          else if (folderName === "caracteristicas-especiales") folderIcon = "✨"
+          else if (folderName === "crafteos") folderIcon = "⚒️"
+          else if (folderName === "historia") folderIcon = "📖"
+          
+          node.displayName = `${folderIcon} ${node.displayName}`
         } else {
-          // Para archivos, buscar el emoji en el frontmatter
+          // Para archivos
           if (node.displayName === "index.md") {
-            icon = "📑"
-            node.displayName = `${icon} Inicio`
+            node.displayName = "📑 Inicio"
           } else {
-            // Usar el emoji del frontmatter si está disponible
-            icon = node.data?.emoji || "📄"
+            let icon = "📄"
+            const fileName = node.displayName.toLowerCase()
+            
+            // Asignar iconos basados en el nombre del archivo
+            if (fileName.includes("reglas")) icon = "📜"
+            else if (fileName.includes("comandos")) icon = "⌨️"
+            else if (fileName.includes("rangos")) icon = "👑"
+            else if (fileName.includes("economia")) icon = "💰"
+            else if (fileName.includes("pvp")) icon = "⚔️"
+            else if (fileName.includes("crafteos")) icon = "⚒️"
+            else if (fileName.includes("misiones")) icon = "📋"
+            else if (fileName.includes("eventos")) icon = "🎉"
+            else if (fileName.includes("guia")) icon = "📚"
+            
             const title = node.data?.title
             node.displayName = `${icon} ${title || node.displayName.replace(".md", "")}`
           }
@@ -155,24 +179,48 @@ export const defaultListPageLayout: PageLayout = {
     }),
     Component.Explorer({
       title: "Explorador",
-      folderClickBehavior: "collapse",
+      folderClickBehavior: "link",
       folderDefaultState: "open",
       useSavedState: true,
       mapFn: (node) => {
-        let icon = "📄"
-        
         if (node.isFolder) {
-          // Para carpetas, usar el emoji del index.md si existe
-          icon = "📁"
-          node.displayName = `${icon} ${node.displayName}`
+          // Para carpetas, usar emoji basado en el nombre
+          let folderIcon = "📁"
+          const folderName = node.displayName.toLowerCase()
+          
+          if (folderName === "rangos") folderIcon = "👑"
+          else if (folderName === "comunidad") folderIcon = "👥"
+          else if (folderName === "guias-avanzadas") folderIcon = "📚"
+          else if (folderName === "guia-nuevos-jugadores") folderIcon = "🌟"
+          else if (folderName === "economia") folderIcon = "💰"
+          else if (folderName === "protecciones") folderIcon = "🛡️"
+          else if (folderName === "eventos") folderIcon = "🎉"
+          else if (folderName === "pvp-combate") folderIcon = "⚔️"
+          else if (folderName === "misiones") folderIcon = "📋"
+          else if (folderName === "caracteristicas-especiales") folderIcon = "✨"
+          else if (folderName === "crafteos") folderIcon = "⚒️"
+          else if (folderName === "historia") folderIcon = "📖"
+          
+          node.displayName = `${folderIcon} ${node.displayName}`
         } else {
-          // Para archivos, buscar el emoji en el frontmatter
+          // Para archivos
           if (node.displayName === "index.md") {
-            icon = "📑"
-            node.displayName = `${icon} Inicio`
+            node.displayName = "📑 Inicio"
           } else {
-            // Usar el emoji del frontmatter si está disponible
-            icon = node.data?.emoji || "📄"
+            let icon = "📄"
+            const fileName = node.displayName.toLowerCase()
+            
+            // Asignar iconos basados en el nombre del archivo
+            if (fileName.includes("reglas")) icon = "📜"
+            else if (fileName.includes("comandos")) icon = "⌨️"
+            else if (fileName.includes("rangos")) icon = "👑"
+            else if (fileName.includes("economia")) icon = "💰"
+            else if (fileName.includes("pvp")) icon = "⚔️"
+            else if (fileName.includes("crafteos")) icon = "⚒️"
+            else if (fileName.includes("misiones")) icon = "📋"
+            else if (fileName.includes("eventos")) icon = "🎉"
+            else if (fileName.includes("guia")) icon = "📚"
+            
             const title = node.data?.title
             node.displayName = `${icon} ${title || node.displayName.replace(".md", "")}`
           }
