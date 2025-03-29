@@ -53,9 +53,18 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer({
       title: "Explorador",
-      folderClickBehavior: "collapse",
-      folderDefaultState: "collapsed",
+      folderClickBehavior: "link",
+      folderDefaultState: "open",
       useSavedState: true,
+      mapFn: (node) => {
+        // Usar símbolos más simples y añadir espaciado para mejor legibilidad
+        if (node.isFolder) {
+          node.displayName = "📁 " + node.displayName
+        } else {
+          node.displayName = "📄 " + node.displayName
+        }
+        return node
+      },
       sortFn: (a, b) => {
         // Primero ordenar carpetas, luego archivos
         if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
@@ -71,17 +80,8 @@ export const defaultContentPageLayout: PageLayout = {
         }
       },
       filterFn: (node) => {
-        // Excluir archivos con el tag "explorerexclude"
+        // Solo excluir archivos con tag específico
         return !node.data?.tags?.includes("explorerexclude")
-      },
-      mapFn: (node) => {
-        // Añadir símbolos para mejor visualización jerárquica
-        if (node.isFolder) {
-          node.displayName = "▼ " + node.displayName
-        } else {
-          // No añadimos prefijo a los archivos para mantener una vista más limpia
-          node.displayName = node.displayName
-        }
       },
       order: ["filter", "map", "sort"]
     }),
@@ -139,9 +139,18 @@ export const defaultListPageLayout: PageLayout = {
     }),
     Component.Explorer({
       title: "Explorador",
-      folderClickBehavior: "collapse",
-      folderDefaultState: "collapsed",
+      folderClickBehavior: "link",
+      folderDefaultState: "open",
       useSavedState: true,
+      mapFn: (node) => {
+        // Usar símbolos más simples y añadir espaciado para mejor legibilidad
+        if (node.isFolder) {
+          node.displayName = "📁 " + node.displayName
+        } else {
+          node.displayName = "📄 " + node.displayName
+        }
+        return node
+      },
       sortFn: (a, b) => {
         // Primero ordenar carpetas, luego archivos
         if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
@@ -157,17 +166,8 @@ export const defaultListPageLayout: PageLayout = {
         }
       },
       filterFn: (node) => {
-        // Excluir archivos con el tag "explorerexclude"
+        // Solo excluir archivos con tag específico
         return !node.data?.tags?.includes("explorerexclude")
-      },
-      mapFn: (node) => {
-        // Añadir símbolos para mejor visualización jerárquica
-        if (node.isFolder) {
-          node.displayName = "▼ " + node.displayName
-        } else {
-          // No añadimos prefijo a los archivos para mantener una vista más limpia
-          node.displayName = node.displayName
-        }
       },
       order: ["filter", "map", "sort"]
     }),
