@@ -65,7 +65,9 @@ export const defaultContentPageLayout: PageLayout = {
           if (node.displayName === "index.md") {
             node.displayName = "📑 Inicio"
           } else {
-            node.displayName = "📄 " + node.displayName.replace(".md", "")
+            // Usar el título si está disponible en los datos
+            const title = node.data?.title
+            node.displayName = "📄 " + (title || node.displayName.replace(".md", ""))
           }
         }
         return node
@@ -160,7 +162,9 @@ export const defaultListPageLayout: PageLayout = {
           if (node.displayName === "index.md") {
             node.displayName = "📑 Inicio"
           } else {
-            node.displayName = "📄 " + node.displayName.replace(".md", "")
+            // Usar el título si está disponible en los datos
+            const title = node.data?.title
+            node.displayName = "📄 " + (title || node.displayName.replace(".md", ""))
           }
         }
         return node

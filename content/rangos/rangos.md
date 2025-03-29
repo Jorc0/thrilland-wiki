@@ -1,3 +1,8 @@
+---
+title: Sistema de Rangos
+description: Lista completa de rangos y sus beneficios
+---
+
 # 🏆 Rangos del Servidor
 
 ¡Bienvenido al sistema de rangos de Thrilland! Aquí encontrarás todos los rangos disponibles y sus beneficios. Cada rango te otorga nuevas habilidades y ventajas para mejorar tu experiencia en el servidor.

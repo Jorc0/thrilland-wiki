@@ -1,4 +1,9 @@
-# Reglas del Servidor
+---
+title: Reglas del Servidor
+description: Normas y regulaciones para una mejor convivencia
+---
+
+# 🏆 Reglas del Servidor
 
 ## Respeto
 - No está permitido ningún tipo de lenguaje ofensivo, racista, sexista, etc.
