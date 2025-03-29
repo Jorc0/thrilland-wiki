@@ -1,5 +1,54 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { jsx } from "preact/jsx-runtime"
+import { QuartzComponent } from "./quartz/components/types"
+
+const Banner: QuartzComponent = () => {
+  return {
+    component: "div",
+    props: {
+      className: "banner",
+      children: [
+        {
+          component: "div",
+          props: {
+            className: "banner-content",
+            children: [
+              {
+                component: "img",
+                props: {
+                  src: "./static/logo.png",
+                  alt: "Thrilland Logo",
+                  className: "banner-logo",
+                },
+              },
+              {
+                component: "div",
+                props: {
+                  className: "banner-text",
+                  children: [
+                    {
+                      component: "h1",
+                      props: {
+                        children: "Thrilland Wiki",
+                      },
+                    },
+                    {
+                      component: "p",
+                      props: {
+                        children: "Tu guía completa para la aventura",
+                      },
+                    },
+                  ],
+                },
+              },
+            ],
+          },
+        },
+      ],
+    },
+  }
+}
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -9,13 +58,9 @@ export const sharedPageComponents: SharedLayout = {
     Component.Comments({
       provider: 'giscus',
       options: {
-        // from data-repo
         repo: 'Jorc0/quartz',
-        // from data-repo-id
         repoId: 'R_kgDOOOChkw',
-        // from data-category
         category: 'General',
-        // from data-category-id
         categoryId: 'DIC_kwDOOOChk84Cob6F',
       },
     }),
@@ -162,7 +207,7 @@ export const defaultContentPageLayout: PageLayout = {
   ],
 }
 
-// components for pages that display lists of pages  (e.g. tags or folders)
+// components for pages that display lists of pages (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
