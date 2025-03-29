@@ -2,9 +2,6 @@
 title: PvP y Combate
 description: Sistema de combate y PvP en el servidor
 ---
-
-# PvP y Combate
-
 Todo lo que necesitas saber sobre el sistema de combate en Thrilland.
 
 ## Contenido

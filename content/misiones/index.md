@@ -2,9 +2,6 @@
 title: Misiones y Quests
 description: Sistema de misiones y quests del servidor
 ---
-
-# Misiones y Quests
-
 Explora todas las misiones disponibles en Thrilland.
 
 ## Contenido

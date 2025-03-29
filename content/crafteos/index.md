@@ -2,9 +2,6 @@
 title: Sistema de Crafteos
 description: Guía completa del sistema de crafteos especiales
 ---
-
-# Sistema de Crafteos
-
 Descubre todos los crafteos especiales disponibles en Thrilland.
 
 ## Contenido

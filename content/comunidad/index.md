@@ -2,9 +2,6 @@
 title: Comunidad
 description: Información sobre la comunidad y recursos de soporte
 ---
-
-# Comunidad
-
 Conecta con la comunidad de Thrilland y encuentra ayuda cuando la necesites.
 
 ## Contenido

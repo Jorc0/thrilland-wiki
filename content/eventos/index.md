@@ -2,9 +2,6 @@
 title: Eventos
 description: Calendario y tipos de eventos en el servidor
 ---
-
-# Eventos
-
 Descubre todos los eventos que ocurren en Thrilland.
 
 ## Contenido

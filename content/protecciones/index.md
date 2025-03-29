@@ -2,9 +2,6 @@
 title: Protecciones y Claims
 description: Todo sobre cómo proteger tus construcciones y terrenos
 ---
-
-# Protecciones y Claims
-
 Aprende a proteger tus construcciones y territorios en Thrilland.
 
 ## Contenido

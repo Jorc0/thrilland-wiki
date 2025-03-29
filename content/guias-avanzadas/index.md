@@ -2,9 +2,6 @@
 title: Guías Avanzadas
 description: Consejos y estrategias avanzadas para jugadores experimentados
 ---
-
-# Guías Avanzadas
-
 Domina todos los aspectos del juego con estas guías avanzadas.
 
 ## Contenido

@@ -2,9 +2,6 @@
 title: Sistema de Rangos
 description: Información sobre los rangos y progresión en el servidor
 ---
-
-# Sistema de Rangos
-
 Descubre cómo funciona el sistema de rangos y progresión en Thrilland.
 
 ## Contenido

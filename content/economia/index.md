@@ -2,9 +2,6 @@
 title: Economía
 description: Sistema económico y comercial del servidor
 ---
-
-# Economía
-
 Aprende sobre el sistema económico y las diferentes formas de ganar dinero en Thrilland.
 
 ## Contenido
