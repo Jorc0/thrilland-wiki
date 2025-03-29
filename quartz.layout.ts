@@ -51,7 +51,40 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      title: "Explorador",
+      folderClickBehavior: "collapse",
+      folderDefaultState: "collapsed",
+      useSavedState: true,
+      sortFn: (a, b) => {
+        // Primero ordenar carpetas, luego archivos
+        if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
+          return a.displayName.localeCompare(b.displayName, undefined, {
+            numeric: true,
+            sensitivity: "base",
+          })
+        }
+        if (!a.isFolder && b.isFolder) {
+          return 1
+        } else {
+          return -1
+        }
+      },
+      filterFn: (node) => {
+        // Excluir archivos con el tag "explorerexclude"
+        return !node.data?.tags?.includes("explorerexclude")
+      },
+      mapFn: (node) => {
+        // Añadir símbolos para mejor visualización jerárquica
+        if (node.isFolder) {
+          node.displayName = "▼ " + node.displayName
+        } else {
+          // No añadimos prefijo a los archivos para mantener una vista más limpia
+          node.displayName = node.displayName
+        }
+      },
+      order: ["filter", "map", "sort"]
+    }),
   ],
   right: [
     Component.Graph({
