@@ -6,7 +6,7 @@ description: Guía completa sobre el sistema de habilidades en Thrilland
 
 # Sistema de Habilidades
 
-El servidor Thrilland cuenta con un avanzado sistema de habilidades que te permite mejorar tus capacidades a medida que juegas. Cada acción que realizas te otorga experiencia en una habilidad específica, permitiéndote desbloquear poderosas ventajas.
+El servidor cuenta con un avanzado sistema de habilidades que te permite mejorar tus capacidades a medida que juegas. Cada acción que realizas te otorga experiencia en una habilidad específica, permitiéndote desbloquear poderosas ventajas.
 
 ## Habilidades Disponibles
 
@@ -19,7 +19,7 @@ La habilidad de Agricultura mejora tu capacidad para cultivar y cosechar plantas
 **Habilidades pasivas:**
 - **Cosecha Abundante:** Aumenta la cantidad de cultivos que obtienes al cosechar (+10% por nivel)
 - **Granjero:** Incrementa la experiencia obtenida al cosechar (+10% por nivel)
-- **Maestro de la Guadaña:** Aumenta el daño con guadañas (+3% base, +2% por nivel)
+- **Maestro de la Guadaña:** Aumenta el daño con guadañas (+3% base, +2% por nivel)*
 - **Genetista:** Mejora las posibilidades de obtener semillas (+1% base, +2% por nivel)
 - **Aura de Crecimiento:** Acelera el crecimiento de los cultivos cercanos (+12% por nivel, radio de 30 bloques)
 

@@ -1,5 +1,5 @@
 ---
-title: "Colecta de Fondos para el Proyecto"
+title: "Donaciones"
 description: "Ayúdanos a mantener Thrilland en marcha con una donación voluntaria"
 tags: [comunidad, sostenibilidad, donaciones, apoyo]
 ---
@@ -26,6 +26,18 @@ Todo está enfocado a **mejorar la experiencia de juego sin romper la igualdad e
 
 ---
 
+## 🌟 Donadores Destacados
+
+Queremos agradecer de manera especial a aquellos que han contribuido con sus donaciones para mantener Thrilland en marcha. Su apoyo es fundamental para el desarrollo continuo del servidor y la comunidad.
+
+### Lista de Donadores
+
+- ** ** - € 
+
+> Si deseas que tu nombre aparezca en esta lista, por favor indícalo al momento de realizar tu donación.
+
+---
+
 ## 🤝 Cómo donar
 
 Si quieres contribuir, puedes hacerlo desde este enlace seguro y directo:
@@ -33,8 +45,6 @@ Si quieres contribuir, puedes hacerlo desde este enlace seguro y directo:
 🔗 [Donar a través de Stripe](https://donate.stripe.com/7sIg0pfF4d8c5McaEE)
 
 > Puedes aportar desde **1 € en adelante**. No hay cantidades mínimas, y toda ayuda suma.
-
-*(Si necesitas factura o justificante, contáctanos por Discord)*
 
 ---
 
@@ -54,6 +64,6 @@ Solo con estar aquí, leer esto, o recomendar el proyecto a alguien, **ya estás
 
 ---
 
-Gracias por formar parte de esta locura.  
+Gracias por formar parte de esto.  
 El servidor somos todos, y juntos lo estamos construyendo.
 

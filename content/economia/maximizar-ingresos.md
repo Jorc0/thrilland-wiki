@@ -10,7 +10,7 @@ Si quieres hacer fortuna en Thrilland, el sistema de trabajos (Jobs) es una de l
 
 ## Estrategias por Trabajo
 
-### Minero ⛏️
+### Minero 🪨
 
 **Pagos destacados:**
 - Diamante: **20.0** monedas
@@ -22,7 +22,7 @@ Si quieres hacer fortuna en Thrilland, el sistema de trabajos (Jobs) es una de l
 2. Usa encantamiento Fortuna III para multiplicar tus ganancias
 3. Busca biomas de montaña para esmeraldas
 4. Explora el Nether a nivel Y=15 para Ancient Debris
-5. Utiliza el método de minado en rama para maximizar eficiencia
+5. Utiliza el método de minado en rama: haz un túnel principal y cada pocos bloques, cava pequeños túneles a los lados
 
 ### Leñador 🌳
 
