@@ -13,7 +13,7 @@ emoji: "🎮"
 - [ ] ⏸️ En pausa
 
 ## 📝 Descripción General
-Sistema integral de menús para el servidor Minecraft que proporciona una interfaz unificada y funcional para diversas características del servidor.
+Sistema integral de menús que proporciona una interfaz unificada y funcional para diversas características del servidor.
 
 ## 🎯 Objetivos
 - [ ] Implementar un sistema de menús coherente y funcional
