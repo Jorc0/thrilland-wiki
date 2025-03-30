@@ -1,68 +1,59 @@
 ---
-title: "Donaciones"
+title: "Colecta de Fondos para el Proyecto"
 description: "Ayúdanos a mantener Thrilland en marcha con una donación voluntaria"
 tags: [comunidad, sostenibilidad, donaciones, apoyo]
 ---
-Thrilland es un proyecto hecho con cariño, esfuerzo y muchísimas horas detrás. Todo lo que ves —desde los sistemas de clanes, menús personalizados y warps, hasta los detalles del entorno y los plugins— se mantiene **sin ánimo de lucro** y con un objetivo claro: construir un mundo vivo donde puedas jugar y formar parte de una comunidad duradera.
 
-## ¿Por qué pedimos ayuda?
+# 💰 Colecta de Fondos para el Desarrollo de Thrilland
 
-Aunque no queremos que nadie se sienta obligado a contribuir, mantener un servidor de estas características **tiene costes reales**, tanto de **hosting** como de **plugins premium, recursos web y diseño de assets personalizados**.
+Thrilland no es solo un servidor. Es una idea que evoluciona, un proyecto artesanal donde cada menú, sistema y mecánica están hechos con mimo. Y aunque muchas cosas se hacen con pasión, **otras necesitan dinero**.
 
-Queremos que **Thrilland sea sostenible**, sin depender de sistemas pay-to-win ni de ventajas injustas para los que más pagan. Por eso optamos por esta vía:
+Queremos que todo siga siendo **gratuito, accesible y sin ventajas de pago**, pero también **autosostenible**. Por eso abrimos esta vía de apoyo opcional:
 
-> **Una colecta de fondos abierta, voluntaria y transparente.**
-
----
-
-## ¿A qué se destinará lo recaudado?
-
-- 🧩 Hosting del servidor Minecraft
-- 🧪 Licencias y plugins premium
-- 🌐 Dominios y gastos web
-- 🎨 Assets y materiales visuales para el juego y la wiki
-- 🛠️ Posibles mejoras en infraestructura
-
-Todo euro cuenta. Y si no puedes ayudar económicamente, **difundir este enlace ya es un gran apoyo**.
+> **Una colecta de fondos voluntaria para cubrir gastos técnicos, sin recurrir al modelo pay-to-win.**
 
 ---
 
-## 👉 ¿Cómo donar?
+## ¿A qué destinamos las donaciones?
 
-Puedes hacerlo a través del siguiente enlace:
+- ☁️ Hosting del servidor
+- 🧩 Plugins premium y herramientas de desarrollo
+- 🌐 Mantenimiento web y dominios
+- 🎨 Assets visuales (texturas, íconos, elementos gráficos)
+- 🧪 Recursos para pruebas y optimización
 
-🔗 [Donar vía PayPal](https://paypal.me/ejemplo) ← *(sustituye por tu enlace real)*
-
-También puedes usar este QR para escanearlo desde tu móvil:
-
-![QR de Donación](../assets/qr-paypal.png) *(coloca tu imagen QR aquí si tienes una)*
-
-> Puedes aportar desde **1 € en adelante**. No hay mínimo real, y el sistema permite elegir la cantidad que desees donar.
+Todo está enfocado a **mejorar la experiencia de juego sin romper la igualdad entre jugadores**.
 
 ---
 
-## ¿Quién puede donar?
+## 🤝 Cómo donar
 
-Cualquiera que crea en el proyecto, haya jugado aunque sea una vez o simplemente quiera apoyar una iniciativa diferente, sin necesidad de esperar recompensas.
+Si quieres contribuir, puedes hacerlo desde este enlace seguro y directo:
 
-> Si alguna vez has sentido que Thrilland te ha dado una buena experiencia, esta es una forma de devolver ese valor.
+🔗 [Donar a través de Stripe](https://donate.stripe.com/7sIg0pfF4d8c5McaEE)
 
----
+> Puedes aportar desde **1 € en adelante**. No hay cantidades mínimas, y toda ayuda suma.
 
-## ¿Y si no puedo donar?
-
-No pasa absolutamente nada. **Thrilland seguirá siendo gratuito para todos**.
-
-Pero si puedes ayudarnos a compartir este proyecto, hablar bien de él o invitar a más jugadores, **ya estás apoyando más de lo que crees**.
+*(Si necesitas factura o justificante, contáctanos por Discord)*
 
 ---
 
-## Seguimiento y transparencia
+## 📦 Transparencia
 
-Iremos compartiendo el progreso de lo recaudado y en qué se está usando en esta misma wiki y en el Discord oficial.
+Todo lo recaudado será utilizado **únicamente para el mantenimiento y desarrollo del servidor y la wiki**. Compartiremos actualizaciones sobre los gastos cubiertos y los avances habilitados gracias a las donaciones.
 
-Gracias por estar aquí. Sin comunidad, no hay servidor.  
-Y sin vuestra ayuda, Thrilland no sería más que un mapa vacío.
+Además, el canal de #donaciones en nuestro Discord servirá como tablón de transparencia y agradecimientos.
 
-🧡
+---
+
+## 🧡 ¿Y si no puedo donar?
+
+No hay problema. Thrilland seguirá abierto para todos.
+
+Solo con estar aquí, leer esto, o recomendar el proyecto a alguien, **ya estás ayudando más de lo que crees**.
+
+---
+
+Gracias por formar parte de esta locura.  
+El servidor somos todos, y juntos lo estamos construyendo.
 

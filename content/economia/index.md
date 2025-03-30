@@ -8,50 +8,60 @@ description: Todo lo que necesitas saber sobre el sistema económico del servido
 
 El servidor cuenta con un sistema económico completo que te permite ganar, gastar e intercambiar dinero. Esta sección te explicará todos los aspectos económicos del servidor.
 
-## Sistemas Principales
+## Sistema de Trabajos
 
-### [Sistema de Trabajos](/economia/trabajos)
+La principal forma de ganar dinero en Thrilland es a través del sistema de trabajos (Jobs), que te recompensa por realizar actividades normales como minar, construir, cultivar y cazar.
 
-El sistema de trabajos (Jobs) te permite ganar dinero realizando actividades normales como minar, construir, cultivar o cazar. Tenemos 12 trabajos diferentes, cada uno con sus propias recompensas y progresión.
+### Guías de Trabajos
 
-- [**Guía Completa de Trabajos**](/economia/trabajos) - Información detallada sobre cada trabajo
-- [**Bonificaciones y Límites**](/economia/bonificaciones-trabajos) - Cómo funcionan las bonificaciones y penalizaciones
-- [**Maximizar tus Ingresos**](/economia/maximizar-ingresos) - Estrategias para ganar dinero eficientemente
+- [**🧰 Guía Completa de Trabajos**](/economia/trabajos) - Información detallada sobre los 12 trabajos disponibles
+- [**📊 Bonificaciones y Límites**](/economia/bonificaciones-trabajos) - Cómo funcionan las bonificaciones y penalizaciones
+- [**💸 Maximizar tus Ingresos**](/economia/maximizar-ingresos) - Estrategias avanzadas para ganar dinero eficientemente
 
-### Tiendas y Comercio
+## Tiendas y Comercio
 
-Thrilland cuenta con diferentes sistemas para comprar, vender e intercambiar items:
+Thrilland cuenta con diversos sistemas para comprar, vender e intercambiar items:
 
-- **Tiendas de Jugadores** - Crea tu propia tienda y vende tus productos
-- **Tienda del Servidor** - Compra y vende items básicos a precios fijos
-- **Sistema de Subastas** - Subasta tus objetos más valiosos al mejor postor
+- [**🏪 Tienda del Servidor**](/economia/tienda) - Compra y venta de ítems básicos
+- **💼 Tiendas de Jugadores** - Crea tu propia tienda y vende tus productos
+- **🔨 Sistema de Subastas** - Subasta tus objetos más valiosos al mejor postor
 
-### Monedas y Tokens
+## Tipos de Moneda
 
-En Thrilland existen diferentes tipos de "monedas" que puedes utilizar:
+En Thrilland existen diferentes "monedas" que puedes utilizar:
 
-- **Coins** - La moneda principal para la mayoría de transacciones
-- **Puntos de Trabajo** - Obtenidos mediante el sistema de Jobs, para compras especiales
-- **Tokens de Evento** - Moneda especial durante eventos limitados
+- **💵 Coins** - La moneda principal para la mayoría de transacciones
+- **⭐ Puntos de Trabajo** - Obtenidos mediante el sistema de Jobs, canjeables por items especiales
+- **🎟️ Tokens de Evento** - Moneda especial durante eventos limitados
 
 ## Consejos para Principiantes
 
 Si acabas de unirte al servidor, estos son los mejores consejos para establecer una economía sólida:
 
 1. **Únete a trabajos básicos** - Minero, Leñador y Granjero son excelentes para empezar
-2. **Establece una base** - Tener una zona de operaciones eficiente es crucial
-3. **Invierte en herramientas** - Herramientas de mejor calidad significan más ganancias
-4. **Participa en eventos** - Los eventos suelen ofrecer recompensas económicas importantes
-5. **Únete a un clan** - Trabajar con otros puede multiplicar tu eficiencia económica
+2. **Invierte en herramientas** - Las herramientas con encantamientos como Fortuna y Eficiencia aumentan tus ganancias
+3. **Participa en eventos** - Los eventos ofrecen recompensas económicas importantes
+4. **Aprovecha las misiones diarias** - Cada trabajo ofrece misiones diarias con recompensas adicionales
+5. **Utiliza la tienda del servidor** - Vende recursos que no necesitas para obtener dinero rápido
+
+## Comandos Útiles
+
+- `/jobs join [trabajo]` - Unirse a un trabajo
+- `/jobs browse` - Ver todos los trabajos disponibles
+- `/jobs stats` - Ver tus estadísticas de trabajos
+- `/bal` o `/balance` - Ver tu saldo actual
+- `/shop` - Abrir la tienda del servidor
+- `/sell hand` - Vender el ítem que tienes en la mano
+- `/sell all` - Vender todos los ítems vendibles de tu inventario
 
 ## Economía Avanzada
 
 Para jugadores experimentados, ofrecemos sistemas económicos más complejos:
 
-- **Impuestos y Bonificaciones** - Sistema de impuestos para clanes y ciudades
-- **Inversiones** - Opciones para invertir dinero y obtener retornos pasivos
-- **Mercado de Valores** - Sistema de comercio de acciones entre jugadores
+- **📈 Sistema de Rangos** - Desbloquea rangos especiales al aumentar tu nivel global de trabajos
+- **🏦 Banco del Servidor** - Almacena tu dinero de forma segura y gana intereses
+- **🏙️ Economía de Clanes** - Sistema económico colaborativo para grupos organizados
 
 ---
 
-Explora las diferentes secciones para conocer más a fondo cada aspecto de la economía. ¡Conviértete en el jugador más rico de Thrilland! 
+Si tienes alguna duda sobre el sistema económico, no dudes en preguntar a los administradores o moderadores. ¡Esperamos que disfrutes haciendo fortuna en Thrilland! 
