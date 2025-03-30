@@ -13,10 +13,6 @@ Explora todas las misiones disponibles en Thrilland.
 - Resets
 
 ### [Misiones Principales](misiones-principales.md)
-- Historia principal
-- Requisitos
-- Progreso
-- Recompensas especiales
 
 ### [Sistema de Recompensas](recompensas.md)
 - Tipos de recompensas
@@ -27,5 +23,3 @@ Explora todas las misiones disponibles en Thrilland.
 ### [Progreso y Logros](progreso.md)
 - Sistema de logros
 - Títulos desbloqueables
-- Recompensas por progreso
-- Rankings de misiones 

@@ -16,3 +16,4 @@ replit.nix
 .bashrc
 .github/workflows/ai-commit.yml
 ideas 
+server/

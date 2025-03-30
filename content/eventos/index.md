@@ -22,7 +22,6 @@ Descubre todos los eventos que ocurren en Thrilland.
 ### [Premios y Recompensas](premios.md)
 - Recompensas por participación
 - Premios especiales
-- Sistema de puntos
 - Rankings
 
 ### [Eventos Especiales](eventos-especiales.md)

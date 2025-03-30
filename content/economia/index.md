@@ -9,12 +9,10 @@ Aprende sobre el sistema económico y las diferentes formas de ganar dinero en T
 ### [Sistema Monetario](sistema-monetario.md)
 - Moneda del servidor
 - Cómo ganar dinero
-- Inflación y economía
 
 ### [Tiendas](tiendas.md)
 - Tienda del servidor
 - Precios de referencia
-- Ofertas especiales
 
 ### [Mercado de Jugadores](mercado.md)
 - Cómo crear tu tienda

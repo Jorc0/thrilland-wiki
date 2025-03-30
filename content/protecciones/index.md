@@ -12,10 +12,6 @@ Aprende a proteger tus construcciones y territorios en Thrilland.
 - Límites por rango
 
 ### [Tipos de Protección](tipos-proteccion.md)
-- Protecciones normales
-- Protecciones especiales
-- Cofres privados
-- Puertas y botones
 
 ### [Banderas y Permisos](banderas.md)
 - Configuración de banderas
@@ -24,7 +20,5 @@ Aprende a proteger tus construcciones y territorios en Thrilland.
 - Trusts y roles
 
 ### [Gestión Avanzada](gestion-avanzada.md)
-- Subregiones
-- Protecciones temporales
 - Protecciones compartidas
 - Resolución de conflictos 

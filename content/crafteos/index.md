@@ -31,10 +31,6 @@ Descubre todos los crafteos especiales disponibles en Thrilland.
 - Efectos y beneficios
 
 ### [Protecciones](protecciones-crafteo.md)
-- Items de protección
-- Mejoras de armadura
-- Encantamientos especiales
-- Crafteos defensivos
 
 ### [Talismanes](talismanes.md)
 - Tipos de talismanes

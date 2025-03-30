@@ -16,19 +16,7 @@ Descubre todas las características únicas que hacen especial a Thrilland.
 - Evolución y mejoras
 
 ### [Monturas](monturas.md)
-- Tipos de monturas
-- Cómo conseguirlas
-- Estadísticas
-- Personalización
 
 ### [Cosméticos](cosmeticos.md)
-- Partículas
-- Efectos visuales
-- Trails
-- Auras
 
 ### [Efectos Especiales](efectos.md)
-- Efectos de muerte
-- Efectos de victoria
-- Animaciones especiales
-- Personalización visual 

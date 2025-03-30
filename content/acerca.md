@@ -13,9 +13,3 @@ emoji: 👉🏻
   - HypeCraft
   - HyperCloud
 - Actual SysAdmin y DevOps de THRILLAND
-
-### Farkuto
-
-### Keey
-
-### Mitera5
