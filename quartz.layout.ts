@@ -1,59 +1,44 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
-import { jsx } from "preact/jsx-runtime"
 import { QuartzComponent } from "./quartz/components/types"
+import { jsx } from "preact/jsx-runtime"
 
-const Banner: QuartzComponent = () => {
+const Banner = () => {
   return {
-    component: "div",
-    props: {
+    component: jsx("div", {
       className: "banner",
-      children: [
-        {
-          component: "div",
-          props: {
-            className: "banner-content",
-            children: [
-              {
-                component: "img",
-                props: {
-                  src: "./static/logo.png",
-                  alt: "Thrilland Logo",
-                  className: "banner-logo",
-                },
-              },
-              {
-                component: "div",
-                props: {
-                  className: "banner-text",
-                  children: [
-                    {
-                      component: "h1",
-                      props: {
-                        children: "Thrilland Wiki",
-                      },
-                    },
-                    {
-                      component: "p",
-                      props: {
-                        children: "Tu guía completa para la aventura",
-                      },
-                    },
-                  ],
-                },
-              },
-            ],
-          },
-        },
-      ],
-    },
+      children: jsx("img", {
+        src: "/static/logo.png",
+        alt: "Thrilland Logo"
+      })
+    }),
+    css: `
+      .banner {
+        width: 100%;
+        background: linear-gradient(135deg, var(--light) 0%, var(--secondary) 100%);
+        padding: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+      }
+      
+      .banner img {
+        max-width: 200px;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+      }
+    `
   }
 }
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
-  header: [],
+  header: [
+    Component.PageTitle(),
+    Component.Search(),
+    Component.Darkmode(),
+  ],
   afterBody: [
     Component.Comments({
       provider: 'giscus',
@@ -85,17 +70,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TagList(),
   ],
   left: [
-    Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
-        { Component: Component.Darkmode() },
-      ],
-    }),
     Component.Explorer({
       title: "Explorador",
       folderClickBehavior: "link",
@@ -207,7 +181,7 @@ export const defaultContentPageLayout: PageLayout = {
   ],
 }
 
-// components for pages that display lists of pages (e.g. tags or folders)
+// components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
