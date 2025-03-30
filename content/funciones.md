@@ -6,200 +6,77 @@ description: Lista completa de características y funcionalidades disponibles en
 
 # Funciones del Servidor Thrilland
 
-```yaml
-sistema:
-  - nombre: Rollbacks
-    descripcion: Sistema de recuperación de datos ante problemas
-    estado: Activo
-  
-  - nombre: Roll back inventario
-    descripcion: Recuperación de inventarios perdidos
-    estado: Activo
-  
-  - nombre: Integración discord
-    descripcion: Conexión entre el servidor y Discord
-    estado: Activo
-  
-  - nombre: Libro de reglas
-    descripcion: Normativa completa del servidor
-    estado: Activo
-  
-  - nombre: Protecciones para el lag
-    descripcion: Sistemas anti-lag como stacker
-    estado: Activo
-  
-  - nombre: VC (mod)
-    descripcion: Sistema de comunicación por voz
-    estado: Activo
-  
-  - nombre: Cuentas seguras Y2FA
-    descripcion: Autenticación de dos factores
-    estado: Activo
-  
-  - nombre: Mapa web
-    descripcion: Visualización del mapa del servidor en navegador
-    estado: Activo
-  
-  - nombre: RTP
-    descripcion: Teletransporte aleatorio
-    estado: Activo
-  
-  - nombre: Ascensores
-    descripcion: Sistema de elevación vertical
-    estado: Activo
-  
-  - nombre: Sanciones
-    descripcion: Sistema de gestión de infracciones
-    estado: Activo
-  
-  - nombre: Chat interactivo
-    descripcion: Sistema de comunicación mejorado
-    estado: Activo
-  
-  - nombre: Matrimonio entre jugadores
-    descripcion: Sistema de unión entre usuarios
-    estado: Activo
-  
-  - nombre: Tradeos entre jugadores
-    descripcion: Intercambio de items seguro
-    estado: Activo
-  
-  - nombre: Texturas
-    descripcion: Packs de texturas personalizadas
-    estado: Activo
-  
-  - nombre: Estadísticas
-    descripcion: Visualización de datos en spawn y menú
-    estado: Activo
+En esta página encontrarás todas las características y funcionalidades que ofrece nuestro servidor. Estas se dividen en tres categorías principales: Sistema, Personalización y Jugabilidad.
 
-personalizacion:
-  - nombre: Pets
-    descripcion: Mascotas personalizadas
-    estado: En desarrollo
-  
-  - nombre: Muebles
-    descripcion: Decoración para bases
-    estado: Activo
-  
-  - nombre: Bailes
-    descripcion: Animaciones de baile
-    estado: Activo
-  
-  - nombre: Emoticonos
-    descripcion: Expresiones animadas
-    estado: Activo
-  
-  - nombre: Skins personalizadas
-    descripcion: Apariencias únicas para jugadores
-    estado: Activo
+## 🛠️ Sistema
 
-jugabilidad:
-  - nombre: Encantamientos especiales
-    descripcion: Mejoras únicas para herramientas y armaduras
-    estado: Activo
-  
-  - nombre: Cofre de muerte
-    descripcion: Recuperación de items al morir
-    estado: Activo
-  
-  - nombre: AH
-    descripcion: Casa de subastas
-    estado: Activo
-  
-  - nombre: Aura skills
-    descripcion: Habilidades especiales
-    estado: Activo
-  
-  - nombre: Banco
-    descripcion: Almacenamiento seguro de dinero
-    estado: Activo
-  
-  - nombre: Estructuras personalizadas
-    descripcion: Construcciones especiales con cofres únicos por persona
-    estado: En revisión
-  
-  - nombre: NPCs
-    descripcion: Personajes no jugables interactivos
-    estado: Activo
-  
-  - nombre: Clanes
-    descripcion: Sistema de grupos organizados
-    estado: Activo
-  
-  - nombre: Global Quests
-    descripcion: Misiones para todo el servidor
-    estado: Activo
-  
-  - nombre: Recetas personalizadas
-    descripcion: Crafteos únicos del servidor
-    estado: En desarrollo
-  
-  - nombre: Tradeos NPC
-    descripcion: Comercio con personajes del servidor
-    estado: Activo
-  
-  - nombre: Duelos PvP
-    descripcion: Combates 1v1 mediante /duel
-    estado: Activo
-  
-  - nombre: Elite mobs
-    descripcion: Criaturas especiales con habilidades únicas
-    estado: En espera
-  
-  - nombre: Crates
-    descripcion: Cajas con recompensas aleatorias
-    estado: Activo
-  
-  - nombre: Items personalizados
-    descripcion: Objetos únicos del servidor
-    estado: Activo
-  
-  - nombre: Jobs
-    descripcion: Sistema de trabajos y profesiones
-    estado: Activo
-  
-  - nombre: Kits
-    descripcion: Paquetes de items para diferentes rangos
-    estado: Activo
-  
-  - nombre: Protecciones
-    descripcion: Sistema para proteger terrenos
-    estado: Activo
-  
-  - nombre: Quests
-    descripcion: Misiones individuales
-    estado: Activo
-  
-  - nombre: Logros
-    descripcion: Sistema de reconocimientos por cumplir objetivos
-    estado: Activo
-  
-  - nombre: Sistema PvP competitivo
-    descripcion: Combate jugador contra jugador con ranking
-    estado: Activo
-  
-  - nombre: Shop
-    descripcion: Tienda del servidor con /shop
-    estado: Activo
-  
-  - nombre: Gambling
-    descripcion: Sistema de apuestas
-    estado: Activo
-  
-  - nombre: Votes
-    descripcion: Recompensas por votar por el servidor
-    estado: Activo
-  
-  - nombre: Recompensas por tiempo de juego
-    descripcion: Premios por horas acumuladas
-    estado: Activo
-  
-  - nombre: Recompensas diarias
-    descripcion: Bonificaciones por conectarse cada día
-    estado: Activo
-```
+Funcionalidades técnicas que mejoran la experiencia general del servidor.
 
-## Desarrollo Continuo
+| Función | Descripción | Estado |
+|---------|-------------|--------|
+| Rollbacks | Sistema de recuperación de datos ante problemas | ✅ Activo |
+| Roll back inventario | Recuperación de inventarios perdidos | ✅ Activo |
+| Integración discord | Conexión entre el servidor y Discord | ✅ Activo |
+| Libro de reglas | Normativa completa del servidor | ✅ Activo |
+| Protecciones para el lag | Sistemas anti-lag como stacker | ✅ Activo |
+| VC (mod) | Sistema de comunicación por voz | ✅ Activo |
+| Cuentas seguras Y2FA | Autenticación de dos factores | ✅ Activo |
+| Mapa web | Visualización del mapa del servidor en navegador | ✅ Activo |
+| RTP | Teletransporte aleatorio | ✅ Activo |
+| Ascensores | Sistema de elevación vertical | ✅ Activo |
+| Sanciones | Sistema de gestión de infracciones | ✅ Activo |
+| Chat interactivo | Sistema de comunicación mejorado | ✅ Activo |
+| Matrimonio entre jugadores | Sistema de unión entre usuarios | ✅ Activo |
+| Tradeos entre jugadores | Intercambio de items seguro | ✅ Activo |
+| Texturas | Packs de texturas personalizadas | ✅ Activo |
+| Estadísticas | Visualización de datos en spawn y menú | ✅ Activo |
+
+## 🎨 Personalización
+
+Elementos que permiten a los jugadores personalizar su experiencia y aspecto.
+
+| Función | Descripción | Estado |
+|---------|-------------|--------|
+| Pets | Mascotas personalizadas | 🔄 En desarrollo |
+| Muebles | Decoración para bases | ✅ Activo |
+| Bailes | Animaciones de baile | ✅ Activo |
+| Emoticonos | Expresiones animadas | ✅ Activo |
+| Skins personalizadas | Apariencias únicas para jugadores | ✅ Activo |
+
+## 🎮 Jugabilidad
+
+Características que enriquecen la experiencia de juego directamente.
+
+| Función | Descripción | Estado |
+|---------|-------------|--------|
+| Encantamientos especiales | Mejoras únicas para herramientas y armaduras | ✅ Activo |
+| Cofre de muerte | Recuperación de items al morir | ✅ Activo |
+| AH | Casa de subastas | ✅ Activo |
+| Aura skills | Habilidades especiales | ✅ Activo |
+| Banco | Almacenamiento seguro de dinero | ✅ Activo |
+| Estructuras personalizadas | Construcciones especiales con cofres únicos por persona | 🔄 En revisión |
+| NPCs | Personajes no jugables interactivos | ✅ Activo |
+| Clanes | Sistema de grupos organizados | ✅ Activo |
+| Global Quests | Misiones para todo el servidor | ✅ Activo |
+| Recetas personalizadas | Crafteos únicos del servidor | 🔄 En desarrollo |
+| Tradeos NPC | Comercio con personajes del servidor | ✅ Activo |
+| Duelos PvP | Combates 1v1 mediante /duel | ✅ Activo |
+| Elite mobs | Criaturas especiales con habilidades únicas | ⏸️ En espera |
+| Crates | Cajas con recompensas aleatorias | ✅ Activo |
+| Items personalizados | Objetos únicos del servidor | ✅ Activo |
+| Jobs | Sistema de trabajos y profesiones | ✅ Activo |
+| Kits | Paquetes de items para diferentes rangos | ✅ Activo |
+| Protecciones | Sistema para proteger terrenos | ✅ Activo |
+| Quests | Misiones individuales | ✅ Activo |
+| Logros | Sistema de reconocimientos por cumplir objetivos | ✅ Activo |
+| Sistema PvP competitivo | Combate jugador contra jugador con ranking | ✅ Activo |
+| Shop | Tienda del servidor con /shop | ✅ Activo |
+| Gambling | Sistema de apuestas | ✅ Activo |
+| Votes | Recompensas por votar por el servidor | ✅ Activo |
+| Recompensas por tiempo de juego | Premios por horas acumuladas | ✅ Activo |
+| Recompensas diarias | Bonificaciones por conectarse cada día | ✅ Activo |
+
+## 🚀 Desarrollo Continuo
 
 Estas funcionalidades están en constante evolución y mejora. Algunas características marcadas como "En desarrollo" o "En espera" estarán disponibles próximamente.
 
