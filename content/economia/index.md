@@ -18,11 +18,13 @@ La principal forma de ganar dinero en Thrilland es a través del sistema de trab
 - [**📊 Bonificaciones y Límites**](/economia/bonificaciones-trabajos) - Cómo funcionan las bonificaciones y penalizaciones
 - [**💸 Maximizar tus Ingresos**](/economia/maximizar-ingresos) - Estrategias avanzadas para ganar dinero eficientemente
 
-## Tiendas y Comercio
+## Comercio
 
 Thrilland cuenta con diversos sistemas para comprar, vender e intercambiar items:
 
 - [**🏪 Tienda del Servidor**](/economia/tienda) - Compra y venta de ítems básicos
+- [**🛒 Tienda Premium**](/tienda) - Productos especiales con dinero real
+- [**🔄 Sistema de Intercambios**](/economia/intercambios) - Intercambia objetos con vendedores especiales
 - **💼 Tiendas de Jugadores** - Crea tu propia tienda y vende tus productos
 - **🔨 Sistema de Subastas** - Subasta tus objetos más valiosos al mejor postor
 
