@@ -2,6 +2,7 @@
 title: Sobre Nosotros
 emoji: 👉🏻
 ---
+
 ## Equipo de Desarrollo
 
 ### Jorc0

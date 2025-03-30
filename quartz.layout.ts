@@ -113,9 +113,14 @@ export const defaultContentPageLayout: PageLayout = {
             else if (fileName.includes("misiones")) icon = "📋"
             else if (fileName.includes("eventos")) icon = "🎉"
             else if (fileName.includes("guia")) icon = "📚"
+            else if (fileName === "acerca.md") icon = "👥"
             
             const title = node.data?.title
             node.displayName = `${icon} ${title || node.displayName.replace(".md", "")}`
+            // Eliminar el título del contenido si existe
+            if (node.data?.content) {
+              node.data.content = node.data.content.replace(/^# .*\n/, '')
+            }
           }
         }
         return node
@@ -239,9 +244,14 @@ export const defaultListPageLayout: PageLayout = {
             else if (fileName.includes("misiones")) icon = "📋"
             else if (fileName.includes("eventos")) icon = "🎉"
             else if (fileName.includes("guia")) icon = "📚"
+            else if (fileName === "acerca.md") icon = "👥"
             
             const title = node.data?.title
             node.displayName = `${icon} ${title || node.displayName.replace(".md", "")}`
+            // Eliminar el título del contenido si existe
+            if (node.data?.content) {
+              node.data.content = node.data.content.replace(/^# .*\n/, '')
+            }
           }
         }
         return node

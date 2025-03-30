@@ -1,18 +1,23 @@
-import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import { classNames } from "../util/lang"
+import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
-const ArticleTitle: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
-  const title = fileData.frontmatter?.title
-  if (title) {
-    return <h1 class={classNames(displayClass, "article-title")}>{title}</h1>
-  } else {
+function ArticleTitle({ fileData, displayClass }: QuartzComponentProps) {
+  // Si el título está en el frontmatter, no mostramos nada
+  if (fileData.frontmatter?.title) {
     return null
   }
+
+  return (
+    <h1 class={`article-title ${displayClass ?? ""}`}>{fileData.slug}</h1>
+  )
 }
 
 ArticleTitle.css = `
 .article-title {
-  margin: 2rem 0 0 0;
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--dark);
 }
 `
 

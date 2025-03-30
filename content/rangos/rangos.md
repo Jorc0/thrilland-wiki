@@ -1,5 +1,5 @@
 ---
-title: Sistema de Rangos
+title: Rangos disponibles
 description: Lista completa de rangos y sus beneficios
 emoji: 👑
 ---

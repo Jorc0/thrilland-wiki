@@ -1,5 +1,5 @@
 ---
-title: Sistema de Rangos
+title: Rangos
 description: Información sobre los rangos y progresión en el servidor
 ---
 Descubre cómo funciona el sistema de rangos y progresión en Thrilland.
