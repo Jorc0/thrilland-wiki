@@ -10,7 +10,7 @@ Si quieres hacer fortuna en Thrilland, el sistema de trabajos (Jobs) es una de l
 
 ## Estrategias por Trabajo
 
-### Minero 🪨
+### Minero ⛏️
 
 **Pagos destacados:**
 - Diamante: **20.0** monedas
