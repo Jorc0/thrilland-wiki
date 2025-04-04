@@ -8,38 +8,26 @@ Descubre todos los crafteos especiales disponibles en Thrilland.
 
 ### [Crafteos Nuevos](crafteos-nuevos.md)
 - Lista de crafteos
-- Requisitos
-- Materiales necesarios
 - Guías paso a paso
 
 ### [Ingredientes](ingredientes.md)
 - Materiales básicos
 - Materiales raros
-- Dónde encontrarlos
 - Cómo obtenerlos
 
 ### [Esencias](esencias.md)
 - Tipos de esencias
 - Cómo obtenerlas
-- Usos y combinaciones
-- Efectos especiales
 
 ### [Núcleos](nucleos.md)
 - Tipos de núcleos
 - Proceso de creación
-- Combinaciones posibles
-- Efectos y beneficios
 
 ### [Protecciones](protecciones-crafteo.md)
 
 ### [Talismanes](talismanes.md)
-- Tipos de talismanes
-- Efectos y poderes
-- Cómo crearlos
-- Combinaciones óptimas
 
 ### [Armas](armas.md)
 - Armas especiales
 - Mejoras de armas
 - Encantamientos únicos
-- Crafteos ofensivos 
