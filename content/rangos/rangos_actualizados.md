@@ -3,7 +3,7 @@ title: "Rangos"
 description: "Información sobre los rangos y progresión en el servidor"
 emoji: "👑"
 ---
-# 📊 Tabla de Rangos Espirituales
+# 📊 Tabla de Rangos
 
 *Versión consolidada del sistema de rangos con recompensas organizadas.*
 
