@@ -69,8 +69,7 @@ Explorador:
   # ■■■■■■■■■■■■■■■■■ COMANDOS A EJECUTAR ■■■■■■■■■■■■■■■■■■
   Commands:
   - lp user [playerName] group set explorador
-  - broadcast! &8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha subido al rango &8⚔
-    &e&lExplorador &8⚔&e!
+  - broadcast! &8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha subido al rango &8⚔&e&lExplorador &8⚔&e!
   - crates key give [playerName] common 1
   # ■■■■■■■■■■■■■■■■■■■■■ REQUISITOS ■■■■■■■■■■■■■■■■■■■■■■■
   StatsRequirements:
@@ -117,8 +116,7 @@ Aprendiz:
   # ■■■■■■■■■■■■■■■■■■■ COMANDOS A EJECUTAR ■■■■■■■■■■■■■■■■■■■
   Commands:
   - lp user [playerName] group set aprendiz
-  - broadcast! &8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha subido al rango &8⚔
-    &d&lAprendiz &8⚔&e!
+  - broadcast! &8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha subido al rango &8⚔&d&lAprendiz &8⚔&e!
   - pet add [playerName] common pig
   - crates key give [playerName] common 3
   # ■■■■■■■■■■■■■■■■■■■■■ REQUISITOS ■■■■■■■■■■■■■■■■■■■■■■■
@@ -162,8 +160,7 @@ Aventurero:
   # ■■■■■■■■■■■■■■■■■■■ COMANDOS A EJECUTAR ■■■■■■■■■■■■■■■■■■■
   Commands:
   - lp user [playerName] group set aventurero
-  - broadcast! &8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha subido al rango &8⚔
-    &6&lAventurero &8⚔&e!
+  - broadcast! &8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha subido al rango &8⚔&6&lAventurero &8⚔&e!
   - crates key give [playerName] rare 2
   # ■■■■■■■■■■■■■■■■■■■■■ REQUISITOS ■■■■■■■■■■■■■■■■■■■■■■■
   StatsRequirements:
@@ -206,8 +203,7 @@ Centinela:
   # ■■■■■■■■■■■■■■■■■■■ COMANDOS A EJECUTAR ■■■■■■■■■■■■■■■■■■■
   Commands:
   - lp user [playerName] group set centinela
-  - broadcast! &8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha subido al rango &8⚔
-    &b&lCentinela &8⚔&e!
+  - broadcast! &8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha subido al rango &8⚔&b&lCentinela &8⚔&e!
   - crates key give [playerName] rare 3
   # ■■■■■■■■■■■■■■■■■■■■■ REQUISITOS ■■■■■■■■■■■■■■■■■■■■■■■
   StatsRequirements:
@@ -251,8 +247,7 @@ Caballero:
   # ■■■■■■■■■■■■■■■■■■■ COMANDOS A EJECUTAR ■■■■■■■■■■■■■■■■■■■
   Commands:
   - lp user [playerName] group set caballero
-  - broadcast! &8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha subido al rango &8⚔
-    &9&lCaballero &8⚔&e!
+  - broadcast! &8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha subido al rango &8⚔&9&lCaballero &8⚔&e!
   - crates key give [playerName] rare 2
   # ■■■■■■■■■■■■■■■■■■■■■ REQUISITOS ■■■■■■■■■■■■■■■■■■■■■■■
   StatsRequirements:
@@ -297,8 +292,7 @@ Paladin:
   # ■■■■■■■■■■■■■■■■■■■ COMANDOS A EJECUTAR ■■■■■■■■■■■■■■■■■■■
   Commands:
   - lp user [playerName] group set paladin
-  - broadcast! &8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha subido al rango &8⚔
-    &5&lPaladín &8⚔&e!
+  - broadcast! &8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha subido al rango &8⚔&5&lPaladín &8⚔&e!
   - crates key give [playerName] epic 1
   # ■■■■■■■■■■■■■■■■■■■■■ REQUISITOS ■■■■■■■■■■■■■■■■■■■■■■■
   StatsRequirements:
@@ -345,8 +339,7 @@ Campeon:
   # ■■■■■■■■■■■■■■■■■■■ COMANDOS A EJECUTAR ■■■■■■■■■■■■■■■■■■■
   Commands:
   - lp user [playerName] group set campeon
-  - broadcast! &8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha subido al rango &8⚔
-    &2&lCampeón &8⚔&e!
+  - broadcast! &8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha subido al rango &8⚔&2&lCampeón &8⚔&e!
   - crates key give [playerName] epic 2
   # ■■■■■■■■■■■■■■■■■■■■■ REQUISITOS ■■■■■■■■■■■■■■■■■■■■■■■
   StatsRequirements:
@@ -393,8 +386,7 @@ Heroe:
   # ■■■■■■■■■■■■■■■■■■■ COMANDOS A EJECUTAR ■■■■■■■■■■■■■■■■■■■
   Commands:
   - lp user [playerName] group set heroe
-  - broadcast! &8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha subido al rango &8⚔
-    &a&lHéroe &8⚔&e!
+  - broadcast! &8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha subido al rango &8⚔&a&lHéroe &8⚔&e!
   - crates key give [playerName] epic 3
   # ■■■■■■■■■■■■■■■■■■■■■ REQUISITOS ■■■■■■■■■■■■■■■■■■■■■■■
   StatsRequirements:
@@ -441,8 +433,7 @@ Leyenda:
   # ■■■■■■■■■■■■■■■■■■■ COMANDOS A EJECUTAR ■■■■■■■■■■■■■■■■■■■
   Commands:
   - lp user [playerName] group set leyenda
-  - broadcast! &8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha subido al rango &8⚔
-    &c&lLeyenda &8⚔&e!
+  - broadcast! &8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha subido al rango &8⚔&c&lLeyenda &8⚔&e!
   - crates key give [playerName] epic 3
   # ■■■■■■■■■■■■■■■■■■■■■ REQUISITOS ■■■■■■■■■■■■■■■■■■■■■■■
   StatsRequirements:
@@ -491,8 +482,7 @@ Implacable:
   # ■■■■■■■■■■■■■■■■■■■ COMANDOS A EJECUTAR ■■■■■■■■■■■■■■■■■■■
   Commands:
   - lp user [playerName] group set implacable
-  - broadcast! &8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha subido al rango &8⚔
-    &4&lImplacable &8⚔&e!
+  - broadcast! &8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha subido al rango &8⚔&4&lImplacable &8⚔&e!
   - crates key give [playerName] epic 3
   # ■■■■■■■■■■■■■■■■■■■■■ REQUISITOS ■■■■■■■■■■■■■■■■■■■■■■■
   StatsRequirements:
@@ -544,8 +534,7 @@ Inmortal:
   # ■■■■■■■■■■■■■■■■■■■ COMANDOS A EJECUTAR ■■■■■■■■■■■■■■■■■■■
   Commands:
   - lp user [playerName] group set inmortal
-  - broadcast! &8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha subido al rango &8✯
-    &d&lInmortal &8✯&e!
+  - broadcast! &8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha subido al rango &8✯&d&lInmortal &8✯&e!
   - crates key give [playerName] mythic 2
   # ■■■■■■■■■■■■■■■■■■■■■ REQUISITOS ■■■■■■■■■■■■■■■■■■■■■■■
   StatsRequirements:
@@ -594,8 +583,7 @@ Dios:
   # ■■■■■■■■■■■■■■■■■■■ COMANDOS A EJECUTAR ■■■■■■■■■■■■■■■■■■■
   Commands:
   - lp user [playerName] group set dios
-  - 'broadcast! &8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha alcanzado el rango
-    máximo: &8✯ &6&lDios &8✯&e!'
+  - 'broadcast! &8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha alcanzado el rango máximo: &8✯ &6&lDios &8✯&e!'
   - crates key give [playerName] mythic 4
   - firework [playerName] 3 blue,red,gold,purple,green
   # ■■■■■■■■■■■■■■■■■■■■■ REQUISITOS ■■■■■■■■■■■■■■■■■■■■■■■
