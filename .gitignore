@@ -1,3 +1,15 @@
+# Primero definir excepciones específicas
+!server/plugins/CMI/Settings/Ranks.yml
+# !server/plugins/NOMBRE_DEL_PLUGIN/**/*.yaml
+# Ejemplo: !server/plugins/CMI/**/*.yml
+
+# Luego excluir carpeta server (excepto lo definido arriba)
+server/
+!server/plugins/
+!server/plugins/CMI/
+!server/plugins/CMI/Settings/
+
+# Otros archivos y carpetas a ignorar
 .DS_Store
 .gitignore
 node_modules
@@ -16,4 +28,3 @@ replit.nix
 .bashrc
 .github/workflows/ai-commit.yml
 ideas 
-server/
