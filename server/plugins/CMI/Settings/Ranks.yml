@@ -18,8 +18,8 @@
 # ╚══════════════════════════════════════════════════════════════════════════════╝
 
 # ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-# ║                            *** RANGO VISITANTE ***                           ║
-# ║                 NIVEL 0 - RANGO INICIAL SIN COSTO MONETARIO                  ║
+# ║                          *** RANGO VISITANTE ***                             ║
+# ║                     NIVEL 0 - RANGO INICIAL SIN COSTE                        ║
 # ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 Visitante:
   Enabled: true
@@ -34,7 +34,7 @@ Visitante:
   - '&7AFK: &e5m'
   - ''
   - '&f&oEl alma acaba de surgir del ciclo del Éter.'
-  # ■■■■■■■■■■■■■■■■■ PROGRESIÓN DE RANGOS ■■■■■■■■■■■■■■■■■
+  # ■■■■■■■■■■■■■■■■■ PROGRESIÓN DE RANGO ■■■■■■■■■■■■■■■■■
   NextRanks:
   - Explorador
   # ■■■■■■■■■■■■■■■■■ COMANDOS A EJECUTAR ■■■■■■■■■■■■■■■■■■
@@ -54,7 +54,7 @@ Explorador:
   # ■■■■■■■■■■■■■■■■■ PROGRESIÓN DE RANGOS ■■■■■■■■■■■■■■■■■
   NextRanks:
   - Aprendiz
-  # ■■■■■■■■■■■■■■■■■■■ COSTO MONETARIO ■■■■■■■■■■■■■■■■■■■■
+  # ■■■■■■■■■■■■■■■■■■■ COSTE ■■■■■■■■■■■■■■■■■■■■
   MoneyCost: 3500
   # ■■■■■■■■■■■■■■■■■■ DESCRIPCIÓN Y LORE ■■■■■■■■■■■■■■■■■■
   Description:
@@ -76,8 +76,8 @@ Explorador:
   StatsRequirements:
   - PlayTime:3600   # Tiempo de juego: 1 hora
   - Travel:4000     # Distancia total recorrida: 4000 bloques
-  - MobKills:16     # Criaturas eliminadas: 16
-  - ItemCrafts:24   # Objetos fabricados: 24
+  - MobKills:16     # Mobs eliminados: 16
+  - ItemCrafts:24   # Objetos crafteados: 24
   - ChestOpen:32    # Cofres abiertos: 32 
   - DamageDealt:16  # Daño total infligido: 16 puntos
   - ItemEnchanted:24 # Objetos encantados:  24
@@ -94,12 +94,12 @@ Aprendiz:
   DisplayName: '&8⚔ &d&lAprendiz &8⚔'
   AutoRankup: false
   RankupConfirmation: true
-  # ----- Progresión de rangos -----
+  # ■■■■■■■■■■■■■■■■■■■ PROGRESIÓN DE RANGOS ■■■■■■■■■■■■■■■■■■■
   NextRanks:
   - Aventurero
-  # ----- Costo monetario: 15000 -----
+  # ■■■■■■■■■■■■■■■■■■■ COSTE ■■■■■■■■■■■■■■■■■■■■
   MoneyCost: 15000
-  # ----- Descripción y lore -----
+  # ■■■■■■■■■■■■■■■■■■■ DESCRIPCIÓN Y LORE ■■■■■■■■■■■■■■■■■■■
   Description:
   - '&7Jobs: &e1'
   - '&7Protecciones: &e2'
@@ -114,19 +114,19 @@ Aprendiz:
   - '&7AFK: &e15m'
   - ''
   - '&f&oInicia su senda de conocimiento.'
-  # ----- Comandos a ejecutar -----
+  # ■■■■■■■■■■■■■■■■■■■ COMANDOS A EJECUTAR ■■■■■■■■■■■■■■■■■■■
   Commands:
   - lp user [playerName] group set aprendiz
   - broadcast! &8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha subido al rango &8⚔
     &d&lAprendiz &8⚔&e!
   - pet add [playerName] common pig
   - crates key give [playerName] common 3
-  # ----- Requisitos (Tiempo: 3h) -----
+  # ■■■■■■■■■■■■■■■■■■■■■ REQUISITOS ■■■■■■■■■■■■■■■■■■■■■■■
   StatsRequirements:
   - PlayTime:10800  # Tiempo de juego: 3 horas
   - Travel:12000    # Distancia total recorrida: 12000 bloques
-  - MobKills:48     # Criaturas eliminadas: 48
-  - ItemCrafts:72   # Objetos fabricados: 72
+  - MobKills:48     # Mobs eliminados: 48
+  - ItemCrafts:72   # Objetos crafteados: 72
   - ChestOpen:96    # Cofres abiertos: 96
   - DamageDealt:48  # Daño total infligido: 48 puntos
   - ItemEnchanted:72 # Objetos encantados:  72
@@ -143,12 +143,12 @@ Aventurero:
   DisplayName: '&8⚔ &6&lAventurero &8⚔'
   AutoRankup: false
   RankupConfirmation: true
-  # ----- Progresión de rangos -----
+  # ■■■■■■■■■■■■■■■■■■■ PROGRESIÓN DE RANGOS ■■■■■■■■■■■■■■■■■■■
   NextRanks:
   - Centinela
-  # ----- Costo monetario: 40000 -----
+  # ■■■■■■■■■■■■■■■■■■■ COSTE ■■■■■■■■■■■■■■■■■■■■
   MoneyCost: 40000
-  # ----- Descripción y lore -----
+  # ■■■■■■■■■■■■■■■■■■■ DESCRIPCIÓN Y LORE ■■■■■■■■■■■■■■■■■■■
   Description:
   - '&7Jobs: &e1'
   - '&7Protecciones: &e2'
@@ -159,18 +159,18 @@ Aventurero:
   - '&7AFK: &e20m'
   - ''
   - '&f&oAprende a vivir del mundo.'
-  # ----- Comandos a ejecutar -----
+  # ■■■■■■■■■■■■■■■■■■■ COMANDOS A EJECUTAR ■■■■■■■■■■■■■■■■■■■
   Commands:
   - lp user [playerName] group set aventurero
   - broadcast! &8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha subido al rango &8⚔
     &6&lAventurero &8⚔&e!
   - crates key give [playerName] rare 2
-  # ----- Requisitos (Tiempo: 6h) -----
+  # ■■■■■■■■■■■■■■■■■■■■■ REQUISITOS ■■■■■■■■■■■■■■■■■■■■■■■
   StatsRequirements:
   - PlayTime:21600  # Tiempo de juego: 6 horas
   - Travel:24000    # Distancia total recorrida: 24000 bloques
-  - MobKills:96     # Criaturas eliminadas: 96
-  - ItemCrafts:144  # Objetos fabricados: 144
+  - MobKills:96     # Mobs eliminados: 96
+  - ItemCrafts:144  # Objetos crafteados: 144
   - ChestOpen:192   # Cofres abiertos: 192
   - DamageDealt:96  # Daño total infligido: 96 puntos
   - ItemEnchanted:144 # Objetos encantados:  144
@@ -187,12 +187,12 @@ Centinela:
   DisplayName: '&8⚔ &b&lCentinela &8⚔'
   AutoRankup: false
   RankupConfirmation: true
-  # ----- Progresión de rangos -----
+  # ■■■■■■■■■■■■■■■■■■■ PROGRESIÓN DE RANGOS ■■■■■■■■■■■■■■■■■■■
   NextRanks:
   - Caballero
-  # ----- Costo monetario: 60000 -----
+  # ■■■■■■■■■■■■■■■■■■■ COSTE ■■■■■■■■■■■■■■■■■■■■
   MoneyCost: 60000
-  # ----- Descripción y lore -----
+  # ■■■■■■■■■■■■■■■■■■■ DESCRIPCIÓN Y LORE ■■■■■■■■■■■■■■■■■■■
   Description:
   - '&7Jobs: &e2'
   - '&7Protecciones: &e3'
@@ -203,18 +203,18 @@ Centinela:
   - '&7AFK: &e25m'
   - ''
   - '&f&oConoce el flujo del equilibrio.'
-  # ----- Comandos a ejecutar -----
+  # ■■■■■■■■■■■■■■■■■■■ COMANDOS A EJECUTAR ■■■■■■■■■■■■■■■■■■■
   Commands:
   - lp user [playerName] group set centinela
   - broadcast! &8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha subido al rango &8⚔
     &b&lCentinela &8⚔&e!
   - crates key give [playerName] rare 3
-  # ----- Requisitos (Tiempo: 10h) -----
+  # ■■■■■■■■■■■■■■■■■■■■■ REQUISITOS ■■■■■■■■■■■■■■■■■■■■■■■
   StatsRequirements:
   - PlayTime:36000  # Tiempo de juego: 10 horas
   - Travel:40000    # Distancia total recorrida: 40000 bloques
-  - MobKills:160    # Criaturas eliminadas: 160
-  - ItemCrafts:240  # Objetos fabricados: 240
+  - MobKills:160    # Mobs eliminados: 160
+  - ItemCrafts:240  # Objetos crafteados: 240
   - ChestOpen:320   # Cofres abiertos: 320
   - DamageDealt:160 # Daño total infligido: 160 puntos
   - ItemEnchanted:240 # Objetos encantados:  240
@@ -231,12 +231,12 @@ Caballero:
   DisplayName: '&8⚔ &9&lCaballero &8⚔'
   AutoRankup: false
   RankupConfirmation: true
-  # ----- Progresión de rangos -----
+  # ■■■■■■■■■■■■■■■■■■■ PROGRESIÓN DE RANGOS ■■■■■■■■■■■■■■■■■■■
   NextRanks:
   - Paladin
-  # ----- Costo monetario: 100000 -----
+  # ■■■■■■■■■■■■■■■■■■■ COSTE ■■■■■■■■■■■■■■■■■■■■
   MoneyCost: 100000
-  # ----- Descripción y lore -----
+  # ■■■■■■■■■■■■■■■■■■■ DESCRIPCIÓN Y LORE ■■■■■■■■■■■■■■■■■■■
   Description:
   - '&7Jobs: &e2'
   - '&7Protecciones: &e3'
@@ -248,18 +248,18 @@ Caballero:
   - '&6Creación de clan'
   - ''
   - '&f&oDefensor del pueblo de DHUM.'
-  # ----- Comandos a ejecutar -----
+  # ■■■■■■■■■■■■■■■■■■■ COMANDOS A EJECUTAR ■■■■■■■■■■■■■■■■■■■
   Commands:
   - lp user [playerName] group set caballero
   - broadcast! &8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha subido al rango &8⚔
     &9&lCaballero &8⚔&e!
   - crates key give [playerName] rare 2
-  # ----- Requisitos (Tiempo: 15h) -----
+  # ■■■■■■■■■■■■■■■■■■■■■ REQUISITOS ■■■■■■■■■■■■■■■■■■■■■■■
   StatsRequirements:
   - PlayTime:54000  # Tiempo de juego: 15 horas
   - Travel:60000    # Distancia total recorrida: 60000 bloques
-  - MobKills:240    # Criaturas eliminadas: 240
-  - ItemCrafts:360  # Objetos fabricados: 360
+  - MobKills:240    # Mobs eliminados: 240
+  - ItemCrafts:360  # Objetos crafteados: 360
   - ChestOpen:480   # Cofres abiertos: 480
   - DamageDealt:240 # Daño total infligido: 240 puntos
   - ItemEnchanted:360 # Objetos encantados:  360
@@ -277,12 +277,12 @@ Paladin:
   DisplayName: '&8⚔ &5&lPaladín &8⚔'
   AutoRankup: false
   RankupConfirmation: true
-  # ----- Progresión de rangos -----
+  # ■■■■■■■■■■■■■■■■■■■ PROGRESIÓN DE RANGOS ■■■■■■■■■■■■■■■■■■■
   NextRanks:
   - Campeon
-  # ----- Costo monetario: 150000 -----
+  # ■■■■■■■■■■■■■■■■■■■ COSTE ■■■■■■■■■■■■■■■■■■■■
   MoneyCost: 150000
-  # ----- Descripción y lore -----
+  # ■■■■■■■■■■■■■■■■■■■ DESCRIPCIÓN Y LORE ■■■■■■■■■■■■■■■■■■■
   Description:
   - '&7Jobs: &e2'
   - '&7Protecciones: &e4'
@@ -294,23 +294,23 @@ Paladin:
   - '&6Creación de clan'
   - ''
   - '&f&oRecibe el favor del fragmento.'
-  # ----- Comandos a ejecutar -----
+  # ■■■■■■■■■■■■■■■■■■■ COMANDOS A EJECUTAR ■■■■■■■■■■■■■■■■■■■
   Commands:
   - lp user [playerName] group set paladin
   - broadcast! &8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha subido al rango &8⚔
     &5&lPaladín &8⚔&e!
   - crates key give [playerName] epic 1
-  # ----- Requisitos (Tiempo: 20h) -----
+  # ■■■■■■■■■■■■■■■■■■■■■ REQUISITOS ■■■■■■■■■■■■■■■■■■■■■■■
   StatsRequirements:
   - PlayTime:72000  # Tiempo de juego: 20 horas
   - Travel:80000    # Distancia total recorrida: 80000 bloques
-  - MobKills:320    # Criaturas eliminadas: 320
-  - ItemCrafts:480  # Objetos fabricados: 480
+  - MobKills:320    # Mobs eliminados: 320
+  - ItemCrafts:480  # Objetos crafteados: 480
   - ChestOpen:640   # Cofres abiertos: 640
   - DamageDealt:320 # Daño total infligido: 320 puntos
   - ItemEnchanted:480 # Objetos encantados:  480
   - TradedWithVillager:160 # Intercambios con aldeanos: 160
-  - MonsterKills:320# Monstruos eliminados: 320
+  - MonsterKills:320 # Monstruos eliminados: 320
   - ElytraTravel:16000 # Distancia volada con elytra: 16000 bloques
   - PlayerKills:8   # Jugadores eliminados: 8
 
@@ -324,12 +324,12 @@ Campeon:
   DisplayName: '&8⚔ &2&lCampeón &8⚔'
   AutoRankup: false
   RankupConfirmation: true
-  # ----- Progresión de rangos -----
+  # ■■■■■■■■■■■■■■■■■■■ PROGRESIÓN DE RANGOS ■■■■■■■■■■■■■■■■■■■
   NextRanks:
   - Heroe
-  # ----- Costo monetario: 225000 -----
+  # ■■■■■■■■■■■■■■■■■■■ COSTE ■■■■■■■■■■■■■■■■■■■■
   MoneyCost: 225000
-  # ----- Descripción y lore -----
+  # ■■■■■■■■■■■■■■■■■■■ DESCRIPCIÓN Y LORE ■■■■■■■■■■■■■■■■■■■
   Description:
   - '&7Jobs: &e3'
   - '&7Protecciones: &e4'
@@ -342,18 +342,18 @@ Campeon:
   - '&6Creación de clan'
   - ''
   - '&f&oRecoge la gloria del combate.'
-  # ----- Comandos a ejecutar -----
+  # ■■■■■■■■■■■■■■■■■■■ COMANDOS A EJECUTAR ■■■■■■■■■■■■■■■■■■■
   Commands:
   - lp user [playerName] group set campeon
   - broadcast! &8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha subido al rango &8⚔
     &2&lCampeón &8⚔&e!
   - crates key give [playerName] epic 2
-  # ----- Requisitos (Tiempo: 25h) -----
+  # ■■■■■■■■■■■■■■■■■■■■■ REQUISITOS ■■■■■■■■■■■■■■■■■■■■■■■
   StatsRequirements:
   - PlayTime:90000  # Tiempo de juego: 25 horas
   - Travel:100000   # Distancia total recorrida: 100000 bloques
-  - MobKills:400    # Criaturas eliminadas: 400
-  - ItemCrafts:600    # Objetos fabricados: 600
+  - MobKills:400    # Mobs eliminados: 400
+  - ItemCrafts:600    # Objetos crafteados: 600
   - ChestOpen:800     # Cofres abiertos: 800
   - DamageDealt:400    # Daño total infligido: 400 puntos
   - ItemEnchanted:600     # Objetos encantados:  600
@@ -372,12 +372,12 @@ Heroe:
   DisplayName: '&8⚔ &a&lHéroe &8⚔'
   AutoRankup: false
   RankupConfirmation: true
-  # ----- Progresión de rangos -----
+  # ■■■■■■■■■■■■■■■■■■■ PROGRESIÓN DE RANGOS ■■■■■■■■■■■■■■■■■■■
   NextRanks:
   - Leyenda
-  # ----- Costo monetario: 400000 -----
+  # ■■■■■■■■■■■■■■■■■■■ COSTE ■■■■■■■■■■■■■■■■■■■■
   MoneyCost: 400000
-  # ----- Descripción y lore -----
+  # ■■■■■■■■■■■■■■■■■■■ DESCRIPCIÓN Y LORE ■■■■■■■■■■■■■■■■■■■
   Description:
   - '&7Jobs: &e3'
   - '&7Protecciones: &e5'
@@ -390,25 +390,25 @@ Heroe:
   - '&6Creación de clan'
   - ''
   - '&f&oEl héroe que forja leyendas.'
-  # ----- Comandos a ejecutar -----
+  # ■■■■■■■■■■■■■■■■■■■ COMANDOS A EJECUTAR ■■■■■■■■■■■■■■■■■■■
   Commands:
   - lp user [playerName] group set heroe
   - broadcast! &8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha subido al rango &8⚔
     &a&lHéroe &8⚔&e!
   - crates key give [playerName] epic 3
-  # ----- Requisitos (Tiempo: 35h) -----
+  # ■■■■■■■■■■■■■■■■■■■■■ REQUISITOS ■■■■■■■■■■■■■■■■■■■■■■■
   StatsRequirements:
   - PlayTime:126000 # Tiempo de juego: 35 horas
   - Travel:140000   # Distancia total recorrida: 140000 bloques
-  - MobKills:560    # Criaturas eliminadas: 560
-  - ItemCrafts:840    # Objetos fabricados: 840
-  - ChestOpen:1120     # Cofres abiertos: 1120
-  - DamageDealt:560    # Daño total infligido: 560 puntos
-  - ItemEnchanted:840     # Objetos encantados:  840
-  - TradedWithVillager:280    # Intercambios con aldeanos: 280
-  - MonsterKills:560    # Monstruos eliminados: 560
-  - ElytraTravel:28000    # Distancia volada con elytra: 28000 bloques
-  - PlayerKills:14    # Jugadores eliminados: 14
+  - MobKills:560    # Mobs eliminados: 560
+  - ItemCrafts:840  # Objetos crafteados: 840
+  - ChestOpen:1120  # Cofres abiertos: 1120
+  - DamageDealt:560 # Daño total infligido: 560 puntos
+  - ItemEnchanted:840 # Objetos encantados:  840
+  - TradedWithVillager:280 # Intercambios con aldeanos: 280
+  - MonsterKills:560 # Monstruos eliminados: 560
+  - ElytraTravel:28000 # Distancia volada con elytra: 28000 bloques
+  - PlayerKills:14  # Jugadores eliminados: 14
 
 # ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 # ║                            *** RANGO LEYENDA ***                             ║
@@ -420,12 +420,12 @@ Leyenda:
   DisplayName: '&8⚔ &c&lLeyenda &8⚔'
   AutoRankup: false
   RankupConfirmation: true
-  # ----- Progresión de rangos -----
+  # ■■■■■■■■■■■■■■■■■■■ PROGRESIÓN DE RANGOS ■■■■■■■■■■■■■■■■■■■
   NextRanks:
   - Implacable
-  # ----- Costo monetario: 500000 -----
+  # ■■■■■■■■■■■■■■■■■■■ COSTE ■■■■■■■■■■■■■■■■■■■■
   MoneyCost: 500000
-  # ----- Descripción y lore -----
+  # ■■■■■■■■■■■■■■■■■■■ DESCRIPCIÓN Y LORE ■■■■■■■■■■■■■■■■■■■
   Description:
   - '&7Jobs: &e3'
   - '&7Protecciones: &e5'
@@ -438,26 +438,26 @@ Leyenda:
   - '&6Creación de clan'
   - ''
   - '&f&oSu nombre queda en las crónicas.'
-  # ----- Comandos a ejecutar -----
+  # ■■■■■■■■■■■■■■■■■■■ COMANDOS A EJECUTAR ■■■■■■■■■■■■■■■■■■■
   Commands:
   - lp user [playerName] group set leyenda
   - broadcast! &8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha subido al rango &8⚔
     &c&lLeyenda &8⚔&e!
   - crates key give [playerName] epic 3
-  # ----- Requisitos (Tiempo: 50h) -----
+  # ■■■■■■■■■■■■■■■■■■■■■ REQUISITOS ■■■■■■■■■■■■■■■■■■■■■■■
   StatsRequirements:
   - PlayTime:180000 # Tiempo de juego: 50 horas
   - Travel:200000   # Distancia total recorrida: 200000 bloques
-  - MobKills:800    # Criaturas eliminadas: 800
-  - ItemCrafts:1200    # Objetos fabricados: 1200
-  - ChestOpen:1600     # Cofres abiertos: 1600
-  - DamageDealt:800    # Daño total infligido: 800 puntos
-  - ItemEnchanted:1200     # Objetos encantados:  1200
-  - TradedWithVillager:400    # Intercambios con aldeanos: 400
-  - MonsterKills:800    # Monstruos eliminados: 800
-  - ElytraTravel:40000    # Distancia volada con elytra: 40000 bloques
-  - PlayerKills:20    # Jugadores eliminados: 20
-  - FishCaught:1600    # Peces pescados: 1600
+  - MobKills:800    # Mobs eliminados: 800
+  - ItemCrafts:1200 # Objetos crafteados: 1200
+  - ChestOpen:1600  # Cofres abiertos: 1600
+  - DamageDealt:800 # Daño total infligido: 800 puntos
+  - ItemEnchanted:1200 # Objetos encantados:  1200
+  - TradedWithVillager:400 # Intercambios con aldeanos: 400
+  - MonsterKills:800 # Monstruos eliminados: 800
+  - ElytraTravel:40000 # Distancia volada con elytra: 40000 bloques
+  - PlayerKills:20  # Jugadores eliminados: 20
+  - FishCaught:1600 # Peces pescados: 1600
 
 # ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 # ║                           *** RANGO IMPLACABLE ***                           ║
@@ -472,7 +472,7 @@ Implacable:
   # ■■■■■■■■■■■■■■■■■■■ PROGRESIÓN DE RANGOS ■■■■■■■■■■■■■■■■■■■
   NextRanks:
   - Inmortal
-  # ■■■■■■■■■■■■■■■■■■■ COSTO MONETARIO ■■■■■■■■■■■■■■■■■■■■
+  # ■■■■■■■■■■■■■■■■■■■ COSTE ■■■■■■■■■■■■■■■■■■■■
   MoneyCost: 750000
   # ■■■■■■■■■■■■■■■■■■■ DESCRIPCIÓN Y LORE ■■■■■■■■■■■■■■■■■■■
   Description:
@@ -498,16 +498,16 @@ Implacable:
   StatsRequirements:
   - PlayTime:234000 # Tiempo de juego: 65 horas
   - Travel:260000   # Distancia total recorrida: 260000 bloques
-  - MobKills:1040   # Criaturas eliminadas: 1040
-  - ItemCrafts:1560    # Objetos fabricados: 1560
-  - ChestOpen:2080     # Cofres abiertos: 2080
-  - DamageDealt:1040    # Daño total infligido: 1040 puntos
-  - ItemEnchanted:1560     # Objetos encantados:  1560
-  - TradedWithVillager:520    # Intercambios con aldeanos: 520
-  - MonsterKills:1040    # Monstruos eliminados: 1040
-  - ElytraTravel:52000    # Distancia volada con elytra: 52000 bloques
-  - PlayerKills:26    # Jugadores eliminados: 26
-  - FishCaught:2080    # Peces pescados: 2080
+  - MobKills:1040   # Mobs eliminados: 1040
+  - ItemCrafts:1560 # Objetos crafteados: 1560
+  - ChestOpen:2080  # Cofres abiertos: 2080
+  - DamageDealt:1040 # Daño total infligido: 1040 puntos
+  - ItemEnchanted:1560 # Objetos encantados:  1560
+  - TradedWithVillager:520 # Intercambios con aldeanos: 520
+  - MonsterKills:1040 # Monstruos eliminados: 1040
+  - ElytraTravel:52000 # Distancia volada con elytra: 52000 bloques
+  - PlayerKills:26  # Jugadores eliminados: 26
+  - FishCaught:2080 # Peces pescados: 2080
   # ■■■■■■■■■■■■■■■■■■■ BONIFICACIONES ■■■■■■■■■■■■■■■■■■■■■
   JobsBoost:
     exp: 5
@@ -525,7 +525,7 @@ Inmortal:
   # ■■■■■■■■■■■■■■■■■■■ PROGRESIÓN DE RANGOS ■■■■■■■■■■■■■■■■■■■
   NextRanks:
   - Dios
-  # ■■■■■■■■■■■■■■■■■■■ COSTO MONETARIO ■■■■■■■■■■■■■■■■■■■■
+  # ■■■■■■■■■■■■■■■■■■■ COSTE ■■■■■■■■■■■■■■■■■■■■
   MoneyCost: 1000000
   # ■■■■■■■■■■■■■■■■■■■ DESCRIPCIÓN Y LORE ■■■■■■■■■■■■■■■■■■■
   Description:
@@ -551,16 +551,16 @@ Inmortal:
   StatsRequirements:
   - PlayTime:324000 # Tiempo de juego: 90 horas
   - Travel:360000   # Distancia total recorrida: 360000 bloques
-  - MobKills:1440   # Criaturas eliminadas: 1440
-  - ItemCrafts:2160    # Objetos fabricados: 2160
-  - ChestOpen:2880     # Cofres abiertos: 2880
-  - DamageDealt:1440    # Daño total infligido: 1440 puntos
-  - ItemEnchanted:2160     # Objetos encantados:  2160
-  - TradedWithVillager:720    # Intercambios con aldeanos: 720
-  - MonsterKills:1440    # Monstruos eliminados: 1440
-  - ElytraTravel:72000    # Distancia volada con elytra: 72000 bloques
-  - PlayerKills:36    # Jugadores eliminados: 36
-  - FishCaught:2880    # Peces pescados: 2880
+  - MobKills:1440   # Mobs eliminados: 1440
+  - ItemCrafts:2160 # Objetos crafteados: 2160
+  - ChestOpen:2880  # Cofres abiertos: 2880
+  - DamageDealt:1440 # Daño total infligido: 1440 puntos
+  - ItemEnchanted:2160 # Objetos encantados:  2160
+  - TradedWithVillager:720 # Intercambios con aldeanos: 720
+  - MonsterKills:1440 # Monstruos eliminados: 1440
+  - ElytraTravel:72000 # Distancia volada con elytra: 72000 bloques
+  - PlayerKills:36  # Jugadores eliminados: 36
+  - FishCaught:2880 # Peces pescados: 2880
   # ■■■■■■■■■■■■■■■■■■■ BONIFICACIONES ■■■■■■■■■■■■■■■■■■■■■
   JobsBoost:
     exp: 10
@@ -575,7 +575,7 @@ Dios:
   DisplayName: '&8✯ &6&lDios &8✯'
   AutoRankup: false
   RankupConfirmation: true
-  # ■■■■■■■■■■■■■■■■■■■ COSTO MONETARIO ■■■■■■■■■■■■■■■■■■■■
+  # ■■■■■■■■■■■■■■■■■■■ COSTE ■■■■■■■■■■■■■■■■■■■■
   MoneyCost: 1500000
   # ■■■■■■■■■■■■■■■■■■■ DESCRIPCIÓN Y LORE ■■■■■■■■■■■■■■■■■■■
   Description:
@@ -602,16 +602,16 @@ Dios:
   StatsRequirements:
   - PlayTime:997200 # Tiempo de juego: 277 horas
   - Travel:1108000  # Distancia total recorrida: 1108000 bloques
-  - MobKills:4432    # Criaturas eliminadas: 4432
-  - ItemCrafts:6648    # Objetos fabricados: 6648
-  - ChestOpen:8864     # Cofres abiertos: 8864
-  - DamageDealt:4432    # Daño total infligido: 4432 puntos
-  - ItemEnchanted:6648     # Objetos encantados:  6648
-  - TradedWithVillager:2216    # Intercambios con aldeanos: 2216
-  - MonsterKills:4432    # Monstruos eliminados: 4432
-  - ElytraTravel:221600    # Distancia volada con elytra: 221600 bloques
-  - PlayerKills:110    # Jugadores eliminados: 110
-  - FishCaught:8864    # Peces pescados: 8864
+  - MobKills:4432   # Mobs eliminados: 4432
+  - ItemCrafts:6648 # Objetos crafteados: 6648
+  - ChestOpen:8864  # Cofres abiertos: 8864
+  - DamageDealt:4432 # Daño total infligido: 4432 puntos
+  - ItemEnchanted:6648 # Objetos encantados:  6648
+  - TradedWithVillager:2216 # Intercambios con aldeanos: 2216
+  - MonsterKills:4432 # Monstruos eliminados: 4432
+  - ElytraTravel:221600 # Distancia volada con elytra: 221600 bloques
+  - PlayerKills:110 # Jugadores eliminados: 110
+  - FishCaught:8864 # Peces pescados: 8864
   # ■■■■■■■■■■■■■■■■■■■ BONIFICACIONES ■■■■■■■■■■■■■■■■■■■■■
   JobsBoost:
     exp: 15
