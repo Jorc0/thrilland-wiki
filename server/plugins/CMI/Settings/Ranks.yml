@@ -79,7 +79,7 @@ Explorador:
   - ItemCrafts:24   # Objetos crafteados: 24
   - ChestOpen:32    # Cofres abiertos: 32 
   - DamageDealt:16  # Daño total infligido: 16 puntos
-  - ItemEnchanted:24 # Objetos encantados:  24
+  - Jump:240 # Objetos encantados:  240
   - TradedWithVillager:8 # Intercambios con aldeanos: 8
   - MonsterKills:16 # Monstruos eliminados: 16
 
@@ -127,7 +127,7 @@ Aprendiz:
   - ItemCrafts:72   # Objetos crafteados: 72
   - ChestOpen:96    # Cofres abiertos: 96
   - DamageDealt:48  # Daño total infligido: 48 puntos
-  - ItemEnchanted:72 # Objetos encantados:  72
+  - Jump:720 # Objetos encantados:  720
   - TradedWithVillager:24 # Intercambios con aldeanos: 24
   - MonsterKills:48 # Monstruos eliminados: 48
 
@@ -170,7 +170,7 @@ Aventurero:
   - ItemCrafts:144  # Objetos crafteados: 144
   - ChestOpen:192   # Cofres abiertos: 192
   - DamageDealt:96  # Daño total infligido: 96 puntos
-  - ItemEnchanted:144 # Objetos encantados:  144
+  - Jump:1440 # Objetos encantados:  1440
   - TradedWithVillager:48 # Intercambios con aldeanos: 48
   - MonsterKills:96 # Monstruos eliminados: 96
 
@@ -213,7 +213,7 @@ Centinela:
   - ItemCrafts:240  # Objetos crafteados: 240
   - ChestOpen:320   # Cofres abiertos: 320
   - DamageDealt:160 # Daño total infligido: 160 puntos
-  - ItemEnchanted:240 # Objetos encantados:  240
+  - Jump:2400 # Objetos encantados:  2400
   - TradedWithVillager:80 # Intercambios con aldeanos: 80
   - MonsterKills:160# Monstruos eliminados: 160
 
@@ -257,9 +257,9 @@ Caballero:
   - ItemCrafts:360  # Objetos crafteados: 360
   - ChestOpen:480   # Cofres abiertos: 480
   - DamageDealt:240 # Daño total infligido: 240 puntos
-  - ItemEnchanted:360 # Objetos encantados:  360
+  - Jump:3600 # Objetos encantados:  3600
   - TradedWithVillager:120 # Intercambios con aldeanos: 120
-  - MonsterKills:240# Monstruos eliminados: 240
+  - MonsterKills:240 # Monstruos eliminados: 240
   - PlayerKills:6   # Jugadores eliminados: 6
 
 # ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
@@ -302,7 +302,7 @@ Paladin:
   - ItemCrafts:480  # Objetos crafteados: 480
   - ChestOpen:640   # Cofres abiertos: 640
   - DamageDealt:320 # Daño total infligido: 320 puntos
-  - ItemEnchanted:480 # Objetos encantados:  480
+  - Jump:4800 # Objetos encantados:  4800
   - TradedWithVillager:160 # Intercambios con aldeanos: 160
   - MonsterKills:320 # Monstruos eliminados: 320
   - ElytraTravel:16000 # Distancia volada con elytra: 16000 bloques
@@ -349,7 +349,7 @@ Campeon:
   - ItemCrafts:600    # Objetos crafteados: 600
   - ChestOpen:800     # Cofres abiertos: 800
   - DamageDealt:400    # Daño total infligido: 400 puntos
-  - ItemEnchanted:600     # Objetos encantados:  600
+  - Jump:6000 # Objetos encantados:  6000
   - TradedWithVillager:200    # Intercambios con aldeanos: 200
   - MonsterKills:400    # Monstruos eliminados: 400
   - ElytraTravel:20000    # Distancia volada con elytra: 20000 bloques
@@ -396,7 +396,7 @@ Heroe:
   - ItemCrafts:840  # Objetos crafteados: 840
   - ChestOpen:1120  # Cofres abiertos: 1120
   - DamageDealt:560 # Daño total infligido: 560 puntos
-  - ItemEnchanted:840 # Objetos encantados:  840
+  - Jump:8400 # Objetos encantados:  8400
   - TradedWithVillager:280 # Intercambios con aldeanos: 280
   - MonsterKills:560 # Monstruos eliminados: 560
   - ElytraTravel:28000 # Distancia volada con elytra: 28000 bloques
@@ -443,7 +443,7 @@ Leyenda:
   - ItemCrafts:1200 # Objetos crafteados: 1200
   - ChestOpen:1600  # Cofres abiertos: 1600
   - DamageDealt:800 # Daño total infligido: 800 puntos
-  - ItemEnchanted:1200 # Objetos encantados:  1200
+  - Jump:12000 # Objetos encantados:  12000
   - TradedWithVillager:400 # Intercambios con aldeanos: 400
   - MonsterKills:800 # Monstruos eliminados: 800
   - ElytraTravel:40000 # Distancia volada con elytra: 40000 bloques
@@ -492,7 +492,7 @@ Implacable:
   - ItemCrafts:1560 # Objetos crafteados: 1560
   - ChestOpen:2080  # Cofres abiertos: 2080
   - DamageDealt:1040 # Daño total infligido: 1040 puntos
-  - ItemEnchanted:1560 # Objetos encantados:  1560
+  - Jump:15600 # Objetos encantados:  15600
   - TradedWithVillager:520 # Intercambios con aldeanos: 520
   - MonsterKills:1040 # Monstruos eliminados: 1040
   - ElytraTravel:52000 # Distancia volada con elytra: 52000 bloques
@@ -544,12 +544,11 @@ Inmortal:
   - ItemCrafts:2160 # Objetos crafteados: 2160
   - ChestOpen:2880  # Cofres abiertos: 2880
   - DamageDealt:1440 # Daño total infligido: 1440 puntos
-  - ItemEnchanted:2160 # Objetos encantados:  2160
+  - Jump:21600 # Objetos encantados:  21600
   - TradedWithVillager:720 # Intercambios con aldeanos: 720
   - MonsterKills:1440 # Monstruos eliminados: 1440
   - ElytraTravel:72000 # Distancia volada con elytra: 72000 bloques
   - PlayerKills:36  # Jugadores eliminados: 36
-  - FishCaught:2880 # Peces pescados: 2880
   # ■■■■■■■■■■■■■■■■■■■ BONIFICACIONES ■■■■■■■■■■■■■■■■■■■■■
   JobsBoost:
     exp: 10
@@ -594,12 +593,11 @@ Dios:
   - ItemCrafts:6648 # Objetos crafteados: 6648
   - ChestOpen:8864  # Cofres abiertos: 8864
   - DamageDealt:4432 # Daño total infligido: 4432 puntos
-  - ItemEnchanted:6648 # Objetos encantados:  6648
+  - Jump:66480 # Objetos encantados:  66480
   - TradedWithVillager:2216 # Intercambios con aldeanos: 2216
   - MonsterKills:4432 # Monstruos eliminados: 4432
   - ElytraTravel:221600 # Distancia volada con elytra: 221600 bloques
   - PlayerKills:110 # Jugadores eliminados: 110
-  - FishCaught:8864 # Peces pescados: 8864
   # ■■■■■■■■■■■■■■■■■■■ BONIFICACIONES ■■■■■■■■■■■■■■■■■■■■■
   JobsBoost:
     exp: 15

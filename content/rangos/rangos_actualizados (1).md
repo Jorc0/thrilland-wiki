@@ -1,24 +1,424 @@
 ---
-title: "Rangos"
-description: "Información sobre los rangos y progresión en el servidor"
-emoji: "👑"
+title: Progresión por Requisitos
+description: Sistema de rangos obtenibles por méritos dentro del juego
+emoji: 🎯
 ---
-# 📊 Tabla de Rangos
 
-*Versión consolidada del sistema de rangos con recompensas organizadas.*
+# 🧭 Sistema de Progresión por Requisitos
 
-| Rango | Precio | ⏱️ Horas | 🎁 Recompensas | 🔑 Llaves | 📋 Requisitos | 📜 |
-|:-----:|:---------:|:----------------:|:-------------:|:---------:|:----------------------:|:------:|
-| **🌱 Visitante** | 0 | — | <details><summary>💫 Ver recompensas</summary>• 1 home<br>• 1 job<br>• 2 slots en /ah<br>• Protección: 1</details> | — | <details><summary>🔍 Ver requisitos</summary>Ninguno</details> | El alma acaba de surgir del ciclo del Éter. |
-| **Explorador** | 3500 | 1h | <details><summary>💫 Ver recompensas</summary>• 2 homes<br>• 1 job<br>• 3 slots en /ah<br>• Protección: 1<br>• Cambio de skin</details> | 1x Llave Común | <details><summary>🔍 Ver requisitos</summary>• Tiempo de juego: 1h<br>• Distancia total recorrida: 4000<br>• Mobs eliminados: 16<br>• Objetos crafteados: 24<br>• Cofres abiertos: 32<br>• Daño infligido: 16<br>• Objetos encantados: 24<br>• Intercambios con aldeanos: 8<br>• Monstruos eliminados: 16</details> | Comienza a escuchar los susurros del mundo. |
-| **Aprendiz** | 15000 | 3h | <details><summary>💫 Ver recompensas</summary>• 2 homes<br>• 1 job<br>• 3 slots en /ah<br>• Protección: 2<br>• Cambio de skin</details> | 3x Llave Común | <details><summary>🔍 Ver requisitos</summary>• Tiempo de juego: 3h<br>• Distancia total recorrida: 12000<br>• Mobs eliminados: 48<br>• Objetos crafteados: 72<br>• Cofres abiertos: 96<br>• Daño infligido: 48<br>• Objetos encantados: 72<br>• Intercambios con aldeanos: 24<br>• Monstruos eliminados: 48</details> | Inicia su senda de conocimiento. |
-| **Aventurero** | 40000 | 6h | <details><summary>💫 Ver recompensas</summary>• 2 homes<br>• 1 job<br>• 4 slots en /ah<br>• Protección: 2<br>• Cambio de skin</details> | 2x Llave Rara | <details><summary>🔍 Ver requisitos</summary>• Tiempo de juego: 6h<br>• Distancia total recorrida: 24000<br>• Mobs eliminados: 96<br>• Objetos crafteados: 144<br>• Cofres abiertos: 192<br>• Daño infligido: 96<br>• Objetos encantados: 144<br>• Intercambios con aldeanos: 48<br>• Monstruos eliminados: 96</details> | Aprende a vivir del mundo. |
-| **Centinela** | 60000 | 10h | <details><summary>💫 Ver recompensas</summary>• 3 homes<br>• 2 jobs<br>• 4 slots en /ah<br>• Protección: 3<br>• Cambio de skin</details> | 3x Llave Rara | <details><summary>🔍 Ver requisitos</summary>• Tiempo de juego: 10h<br>• Distancia total recorrida: 40000<br>• Mobs eliminados: 160<br>• Objetos crafteados: 240<br>• Cofres abiertos: 320<br>• Daño infligido: 160<br>• Objetos encantados: 240<br>• Intercambios con aldeanos: 80<br>• Monstruos eliminados: 160</details> | Conoce el flujo del equilibrio. |
-| **Caballero** | 100000 | 15h | <details><summary>💫 Ver recompensas</summary>• 3 homes<br>• 2 jobs<br>• 5 slots en /ah<br>• Protección: 3<br>• Cambio de skin</details> | 2x Llave Rara | <details><summary>🔍 Ver requisitos</summary>• Tiempo de juego: 15h<br>• Distancia total recorrida: 60000<br>• Mobs eliminados: 240<br>• Objetos crafteados: 360<br>• Cofres abiertos: 480<br>• Daño infligido: 240<br>• Objetos encantados: 360<br>• Intercambios con aldeanos: 120<br>• Monstruos eliminados: 240<br>• Jugadores eliminados: 6</details> | Defensor del pueblo de DHUM. |
-| **Paladín** | 150000 | 20h | <details><summary>💫 Ver recompensas</summary>• 3 homes<br>• 2 jobs<br>• 5 slots en /ah<br>• Protección: 4<br>• Cambio de skin</details> | 1x Llave Épica | <details><summary>🔍 Ver requisitos</summary>• Tiempo de juego: 20h<br>• Distancia total recorrida: 80000<br>• Mobs eliminados: 320<br>• Objetos crafteados: 480<br>• Cofres abiertos: 640<br>• Daño infligido: 320<br>• Objetos encantados: 480<br>• Intercambios con aldeanos: 160<br>• Monstruos eliminados: 320<br>• Distancia con elytra: 16000<br>• Jugadores eliminados: 8</details> | Recibe el favor del fragmento. |
-| **Campeón** | 225000 | 25h | <details><summary>💫 Ver recompensas</summary>• 3 homes<br>• 3 jobs<br>• 6 slots en /ah<br>• Protección: 4<br>• Cambio de skin</details> | 2x Llave Épica | <details><summary>🔍 Ver requisitos</summary>• Tiempo de juego: 25h<br>• Distancia total recorrida: 100000<br>• Mobs eliminados: 400<br>• Objetos crafteados: 600<br>• Cofres abiertos: 800<br>• Daño infligido: 400<br>• Objetos encantados: 600<br>• Intercambios con aldeanos: 200<br>• Monstruos eliminados: 400<br>• Distancia con elytra: 20000<br>• Jugadores eliminados: 10</details> | Recoge la gloria del combate. |
-| **Héroe** | 400000 | 35h | <details><summary>💫 Ver recompensas</summary>• 4 homes<br>• 3 jobs<br>• 6 slots en /ah<br>• Protección: 5<br>• Cambio de skin</details> | 3x Llave Épica | <details><summary>🔍 Ver requisitos</summary>• Tiempo de juego: 35h<br>• Distancia total recorrida: 140000<br>• Mobs eliminados: 560<br>• Objetos crafteados: 840<br>• Cofres abiertos: 1120<br>• Daño infligido: 560<br>• Objetos encantados: 840<br>• Intercambios con aldeanos: 280<br>• Monstruos eliminados: 560<br>• Distancia con elytra: 28000<br>• Jugadores eliminados: 14</details> | El héroe que forja leyendas. |
-| **Leyenda** | 500000 | 50h | <details><summary>💫 Ver recompensas</summary>• 4 homes<br>• 3 jobs<br>• 7 slots en /ah<br>• Protección: 5<br>• Cambio de skin</details> | 3x Llave Épica | <details><summary>🔍 Ver requisitos</summary>• Tiempo de juego: 50h<br>• Distancia total recorrida: 200000<br>• Mobs eliminados: 800<br>• Objetos crafteados: 1200<br>• Cofres abiertos: 1600<br>• Daño infligido: 800<br>• Objetos encantados: 1200<br>• Intercambios con aldeanos: 400<br>• Monstruos eliminados: 800<br>• Distancia con elytra: 40000<br>• Jugadores eliminados: 20<br>• Peces pescados: 1600</details> | Su nombre queda en las crónicas. |
-| **Implacable** | 750000 | 65h | <details><summary>💫 Ver recompensas</summary>• 5 homes<br>• 4 jobs<br>• 7 slots en /ah<br>• Protección: 6<br>• Cambio de skin<br>• +5% XP de jobs</details> | 3x Llave Épica | <details><summary>🔍 Ver requisitos</summary>• Tiempo de juego: 65h<br>• Distancia total recorrida: 260000<br>• Mobs eliminados: 1040<br>• Objetos crafteados: 1560<br>• Cofres abiertos: 2080<br>• Daño infligido: 1040<br>• Objetos encantados: 1560<br>• Intercambios con aldeanos: 520<br>• Monstruos eliminados: 1040<br>• Distancia con elytra: 52000<br>• Jugadores eliminados: 26<br>• Peces pescados: 2080</details> | Su alma no se detiene ante nada. |
-| **Inmortal** | 1000000 | 90h | <details><summary>💫 Ver recompensas</summary>• 6 homes<br>• 4 jobs<br>• 8 slots en /ah<br>• Protección: 6<br>• Cambio de skin<br>• +10% XP de jobs</details> | 2x Llave Mítica | <details><summary>🔍 Ver requisitos</summary>• Tiempo de juego: 90h<br>• Distancia total recorrida: 360000<br>• Mobs eliminados: 1440<br>• Objetos crafteados: 2160<br>• Cofres abiertos: 2880<br>• Daño infligido: 1440<br>• Objetos encantados: 2160<br>• Intercambios con aldeanos: 720<br>• Monstruos eliminados: 1440<br>• Distancia con elytra: 72000<br>• Jugadores eliminados: 36<br>• Peces pescados: 2880</details> | Trascendencia espiritual manifiesta. |
-| **Dios** | 1500000 | 277h | <details><summary>💫 Ver recompensas</summary>• 7 homes<br>• 5 jobs<br>• 8 slots en /ah<br>• Protección: 7<br>• Cambio de skin<br>• +15% XP de jobs</details> | 4x Llave Mítica | <details><summary>🔍 Ver requisitos</summary>• Tiempo de juego: 277h<br>• Distancia total recorrida: 1108000<br>• Mobs eliminados: 4432<br>• Objetos crafteados: 6648<br>• Cofres abiertos: 8864<br>• Daño infligido: 4432<br>• Objetos encantados: 6648<br>• Intercambios con aldeanos: 2216<br>• Monstruos eliminados: 4432<br>• Distancia con elytra: 221600<br>• Jugadores eliminados: 110<br>• Peces pescados: 8864</details> | La armonía habita en su ser. |
+Este sistema está diseñado para recompensar a los jugadores que se esfuerzan y progresan de forma natural dentro del juego. A diferencia de los rangos comprables con monedas, estos rangos se obtienen **cumpliendo condiciones específicas**.
+
+Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están acompañados de un pequeño fragmento de lore para profundizar en tu rol dentro de **Thrilland**.
+
+---
+
+## 📜 Lista de Rangos
+
+### 🌱 Visitante
+- 💰 Precio: Gratuito
+- ⏱️ Requisito de tiempo: —
+- 🎁 Recompensas:
+  - 1 home
+  - 1 job
+  - 2 slots en /ah
+  - Protección: 1
+- 📋 Requisitos: Ninguno
+- ✨ Lore: *El alma acaba de surgir del ciclo del Éter.*
+
+---
+
+### 🌍 Explorador
+- 💰 Precio: 3.500 
+- ⏱️ Tiempo requerido: 1h
+- <details>
+  <summary>🎁 Ver recompensas</summary>
+  
+  - 2 homes
+  - 1 job
+  - 3 slots en /ah
+  - Protección: 1
+  - Cambio de skin
+  - 1x Llave Común
+</details>
+- <details>
+  <summary>📋 Ver requisitos</summary>
+  
+  - 1h de juego
+  - 4000 de distancia recorrida
+  - 16 mobs eliminados
+  - 24 objetos crafteados
+  - 32 cofres abiertos
+  - 16 de daño infligido
+  - 240 objetos encantados
+  - 8 intercambios con aldeanos
+  - 16 monstruos eliminados
+</details>
+- ✨ Lore: *Comienza a escuchar los susurros del mundo.*
+
+---
+
+### 📚 Aprendiz
+- 💰 Precio: 15.000 
+- ⏱️ Tiempo requerido: 3h
+- <details>
+  <summary>🎁 Ver recompensas</summary>
+  
+  - 2 homes
+  - 1 job
+  - 3 slots en /ah
+  - Protección: 2
+  - Cambio de skin
+  - 3x Llave Común
+</details>
+- <details>
+  <summary>📋 Ver requisitos</summary>
+  
+  - 3h de juego
+  - 12000 de distancia recorrida
+  - 48 mobs eliminados
+  - 72 objetos crafteados
+  - 96 cofres abiertos
+  - 48 de daño infligido
+  - 720 objetos encantados
+  - 24 intercambios con aldeanos
+  - 48 monstruos eliminados
+</details>
+- ✨ Lore: *Inicia su senda de conocimiento.*
+
+---
+
+### ⚔️ Aventurero
+- 💰 Precio: 40.000 
+- ⏱️ Tiempo requerido: 6h
+- <details>
+  <summary>🎁 Ver recompensas</summary>
+  
+  - 2 homes
+  - 1 job
+  - 4 slots en /ah
+  - Protección: 2
+  - Cambio de skin
+  - 2x Llave Rara
+</details>
+- <details>
+  <summary>📋 Ver requisitos</summary>
+  
+  - 6h de juego
+  - 24000 de distancia recorrida
+  - 96 mobs eliminados
+  - 144 objetos crafteados
+  - 192 cofres abiertos
+  - 96 de daño infligido
+  - 1440 objetos encantados
+  - 48 intercambios con aldeanos
+  - 96 monstruos eliminados
+</details>
+- ✨ Lore: *Aprende a vivir del mundo.*
+
+---
+
+### 🛡️ Centinela
+- 💰 Precio: 60.000 
+- ⏱️ Tiempo requerido: 10h
+- <details>
+  <summary>🎁 Ver recompensas</summary>
+  
+  - 3 homes
+  - 2 jobs
+  - 4 slots en /ah
+  - Protección: 3
+  - Cambio de skin
+  - 3x Llave Rara
+</details>
+- <details>
+  <summary>📋 Ver requisitos</summary>
+  
+  - 10h de juego
+  - 40000 de distancia recorrida
+  - 160 mobs eliminados
+  - 240 objetos crafteados
+  - 320 cofres abiertos
+  - 160 de daño infligido
+  - 2400 objetos encantados
+  - 80 intercambios con aldeanos
+  - 160 monstruos eliminados
+</details>
+- ✨ Lore: *Conoce el flujo del equilibrio.*
+
+---
+
+### 🐎 Caballero
+- 💰 Precio: 100.000 
+- ⏱️ Tiempo requerido: 15h
+- <details>
+  <summary>🎁 Ver recompensas</summary>
+  
+  - 3 homes
+  - 2 jobs
+  - 5 slots en /ah
+  - Protección: 3
+  - Cambio de skin
+  - 2x Llave Rara
+</details>
+- <details>
+  <summary>📋 Ver requisitos</summary>
+  
+  - 15h de juego
+  - 60000 de distancia recorrida
+  - 240 mobs eliminados
+  - 360 objetos crafteados
+  - 480 cofres abiertos
+  - 240 de daño infligido
+  - 3600 objetos encantados
+  - 120 intercambios con aldeanos
+  - 240 monstruos eliminados
+  - 6 jugadores eliminados
+</details>
+- ✨ Lore: *Defensor del pueblo de DHUM.*
+
+---
+
+### ⚔️ Paladín
+- 💰 Precio: 150.000 
+- ⏱️ Tiempo requerido: 20h
+- <details>
+  <summary>🎁 Ver recompensas</summary>
+  
+  - 3 homes
+  - 2 jobs
+  - 5 slots en /ah
+  - Protección: 4
+  - Cambio de skin
+  - 1x Llave Épica
+</details>
+- <details>
+  <summary>📋 Ver requisitos</summary>
+  
+  - 20h de juego
+  - 80000 de distancia recorrida
+  - 320 mobs eliminados
+  - 480 objetos crafteados
+  - 640 cofres abiertos
+  - 320 de daño infligido
+  - 4800 objetos encantados
+  - 160 intercambios con aldeanos
+  - 320 monstruos eliminados
+  - 16000 de vuelo con elytra
+  - 8 jugadores eliminados
+</details>
+- ✨ Lore: *Recibe el favor del fragmento.*
+
+---
+
+### 🏆 Campeón
+- 💰 Precio: 225.000 
+- ⏱️ Tiempo requerido: 25h
+- <details>
+  <summary>🎁 Ver recompensas</summary>
+  
+  - 3 homes
+  - 3 jobs
+  - 6 slots en /ah
+  - Protección: 4
+  - Cambio de skin
+  - 2x Llave Épica
+</details>
+- <details>
+  <summary>📋 Ver requisitos</summary>
+  
+  - 25h de juego
+  - 100000 de distancia recorrida
+  - 400 mobs eliminados
+  - 600 objetos crafteados
+  - 800 cofres abiertos
+  - 400 de daño infligido
+  - 6000 objetos encantados
+  - 200 intercambios con aldeanos
+  - 400 monstruos eliminados
+  - 20000 de vuelo con elytra
+  - 10 jugadores eliminados
+</details>
+- ✨ Lore: *Recoge la gloria del combate.*
+
+---
+
+### 🦸 Héroe
+- 💰 Precio: 400.000 
+- ⏱️ Tiempo requerido: 35h
+- <details>
+  <summary>🎁 Ver recompensas</summary>
+  
+  - 4 homes
+  - 3 jobs
+  - 6 slots en /ah
+  - Protección: 5
+  - Cambio de skin
+  - 3x Llave Épica
+</details>
+- <details>
+  <summary>📋 Ver requisitos</summary>
+  
+  - 35h de juego
+  - 140000 de distancia recorrida
+  - 560 mobs eliminados
+  - 840 objetos crafteados
+  - 1120 cofres abiertos
+  - 560 de daño infligido
+  - 8400 objetos encantados
+  - 280 intercambios con aldeanos
+  - 560 monstruos eliminados
+  - 28000 de vuelo con elytra
+  - 14 jugadores eliminados
+</details>
+- ✨ Lore: *El héroe que forja leyendas.*
+
+---
+
+### 👑 Leyenda
+- 💰 Precio: 500.000 
+- ⏱️ Tiempo requerido: 50h
+- <details>
+  <summary>🎁 Ver recompensas</summary>
+  
+  - 4 homes
+  - 3 jobs
+  - 7 slots en /ah
+  - Protección: 5
+  - Cambio de skin
+  - 3x Llave Épica
+</details>
+- <details>
+  <summary>📋 Ver requisitos</summary>
+  
+  - 50h de juego
+  - 200000 de distancia recorrida
+  - 800 mobs eliminados
+  - 1200 objetos crafteados
+  - 1600 cofres abiertos
+  - 800 de daño infligido
+  - 12000 objetos encantados
+  - 400 intercambios con aldeanos
+  - 800 monstruos eliminados
+  - 40000 de vuelo con elytra
+  - 20 jugadores eliminados
+  - 1600 peces pescados
+</details>
+- ✨ Lore: *Su nombre queda en las crónicas.*
+
+---
+
+### ⚡ Implacable
+- 💰 Precio: 750.000 
+- ⏱️ Tiempo requerido: 65h
+- <details>
+  <summary>🎁 Ver recompensas</summary>
+  
+  - 5 homes
+  - 4 jobs
+  - 7 slots en /ah
+  - Protección: 6
+  - Cambio de skin
+  - +5% XP de jobs
+  - 3x Llave Épica
+</details>
+- <details>
+  <summary>📋 Ver requisitos</summary>
+  
+  - 65h de juego
+  - 260000 de distancia recorrida
+  - 1040 mobs eliminados
+  - 1560 objetos crafteados
+  - 2080 cofres abiertos
+  - 1040 de daño infligido
+  - 15600 objetos encantados
+  - 520 intercambios con aldeanos
+  - 1040 monstruos eliminados
+  - 52000 de vuelo con elytra
+  - 26 jugadores eliminados
+  - 2080 peces pescados
+</details>
+- ✨ Lore: *Su alma no se detiene ante nada.*
+
+---
+
+### 🦅 Inmortal
+- 💰 Precio: 1.000.000 
+- ⏱️ Tiempo requerido: 90h
+- <details>
+  <summary>🎁 Ver recompensas</summary>
+  
+  - 6 homes
+  - 4 jobs
+  - 8 slots en /ah
+  - Protección: 6
+  - Cambio de skin
+  - +10% XP de jobs
+  - 2x Llave Mítica
+</details>
+- <details>
+  <summary>📋 Ver requisitos</summary>
+  
+  - 90h de juego
+  - 360000 de distancia recorrida
+  - 1440 mobs eliminados
+  - 2160 objetos crafteados
+  - 2880 cofres abiertos
+  - 1440 de daño infligido
+  - 21600 objetos encantados
+  - 720 intercambios con aldeanos
+  - 1440 monstruos eliminados
+  - 72000 de vuelo con elytra
+  - 36 jugadores eliminados
+  - 2880 peces pescados
+</details>
+- ✨ Lore: *Trascendencia espiritual manifiesta.*
+
+---
+
+### 👑 Dios
+- 💰 Precio: 1.500.000 
+- ⏱️ Tiempo requerido: 277h
+- <details>
+  <summary>🎁 Ver recompensas</summary>
+  
+  - 7 homes
+  - 5 jobs
+  - 8 slots en /ah
+  - Protección: 7
+  - Cambio de skin
+  - +15% XP de jobs
+  - 4x Llave Mítica
+</details>
+- <details>
+  <summary>📋 Ver requisitos</summary>
+  
+  - 277h de juego
+  - 1.108.000 de distancia recorrida
+  - 4432 mobs eliminados
+  - 6648 objetos crafteados
+  - 8864 cofres abiertos
+  - 4432 de daño infligido
+  - 66480 objetos encantados
+  - 2216 intercambios con aldeanos
+  - 4432 monstruos eliminados
+  - 221600 de vuelo con elytra
+  - 110 jugadores eliminados
+  - 8864 peces pescados
+</details>
+- ✨ Lore: *La armonía habita en su ser.*
+
+---
+
+## 🧩 ¿Cómo progreso?
+
+Puedes usar el comando `/rankinfo` en el juego para revisar tus estadísticas actuales. Una vez cumplas los requisitos y tengas el dinero necesario, podrás usar `/rankup` para subir al siguiente rango.
+
+También puedes revisar tu progreso en el menú de rangos con `/menu`.
+
+> 🗺️ *Sugerencia*: Combinando tu progreso con misiones y logros, avanzarás más rápido y desbloquearás secretos únicos en Thrilland.
+
+
+
+> 💡 **Nota**: El progreso se mide automáticamente por el sistema, pero puedes consultar tu avance usando `/progreso` dentro del servidor.
+
+¿Quieres conocer los beneficios de cada rango comprable? Consulta la página 👉 [Rangos del Servidor](rangos.md)
