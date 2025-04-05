@@ -5,6 +5,7 @@
 
 # Luego excluir carpeta server (excepto lo definido arriba)
 server/
+Documentation/
 !server/plugins/
 !server/plugins/CMI/
 !server/plugins/CMI/Settings/

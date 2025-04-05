@@ -38,9 +38,9 @@ Elementos que permiten a los jugadores personalizar su experiencia y aspecto.
 | Función | Descripción | Estado |
 |---------|-------------|--------|
 | Pets | Mascotas personalizadas | 🔄 En desarrollo |
-| Muebles | Decoración para bases | ✅ Activo |
-| Bailes | Animaciones de baile | ✅ Activo |
-| Emoticonos | Expresiones animadas | ✅ Activo |
+| Muebles | Decoración para bases | ❌ Posiblemente se elimina |
+| Bailes | Animaciones de baile | ❌ Posiblemente se elimina |
+| Emoticonos | Expresiones animadas | ❌ Posiblemente se elimina |
 | Skins personalizadas | Apariencias únicas para jugadores | ✅ Activo |
 
 ## 🎮 Jugabilidad
@@ -49,32 +49,32 @@ Características que enriquecen la experiencia de juego directamente.
 
 | Función | Descripción | Estado |
 |---------|-------------|--------|
-| Encantamientos especiales | Mejoras únicas para herramientas y armaduras | ✅ Activo |
+| Encantamientos especiales | Mejoras únicas para herramientas y armaduras | 🔄 En desarrollo |
 | Cofre de muerte | Recuperación de items al morir | ✅ Activo |
-| AH | Casa de subastas | ✅ Activo |
+| AH | Casa de subastas | 🔄 En desarrollo |
 | Aura skills | Habilidades especiales | ✅ Activo |
 | Banco | Almacenamiento seguro de dinero | ✅ Activo |
 | Estructuras personalizadas | Construcciones especiales con cofres únicos por persona | 🔄 En revisión |
-| NPCs | Personajes no jugables interactivos | ✅ Activo |
-| Clanes | Sistema de grupos organizados | ✅ Activo |
-| Global Quests | Misiones para todo el servidor | ✅ Activo |
+| NPCs | Personajes no jugables interactivos | 🔄 En desarrollo |
+| Clanes | Sistema de grupos organizados | 🔄 En desarrollo |
+| Global Quests | Misiones para todo el servidor | 🔄 En desarrollo |
 | Recetas personalizadas | Crafteos únicos del servidor | 🔄 En desarrollo |
-| Tradeos NPC | Comercio con personajes del servidor | ✅ Activo |
-| Duelos PvP | Combates 1v1 mediante /duel | ✅ Activo |
-| Elite mobs | Criaturas especiales con habilidades únicas | ⏸️ En espera |
+| Tradeos NPC | Comercio con personajes del servidor | 🔄 En desarrollo |
+| Duelos PvP | Combates 1v1 mediante /duel | 🔄 En desarrollo |
+| Elite mobs | Criaturas especiales con habilidades únicas | ⏸️ En pausa |
 | Crates | Cajas con recompensas aleatorias | ✅ Activo |
-| Items personalizados | Objetos únicos del servidor | ✅ Activo |
-| Jobs | Sistema de trabajos y profesiones | ✅ Activo |
+| Items personalizados | Objetos únicos del servidor | 🔄 Rediseño |
+| Jobs | Sistema de trabajos y profesiones | 🔄 En desarrollo |
 | Kits | Paquetes de items para diferentes rangos | ✅ Activo |
 | Protecciones | Sistema para proteger terrenos | ✅ Activo |
-| Quests | Misiones individuales | ✅ Activo |
-| Logros | Sistema de reconocimientos por cumplir objetivos | ✅ Activo |
-| Sistema PvP competitivo | Combate jugador contra jugador con ranking | ✅ Activo |
-| Shop | Tienda del servidor con /shop | ✅ Activo |
+| Quests | Misiones individuales | 🔄 En desarrollo |
+| Logros | Sistema de reconocimientos por cumplir objetivos | 🔄 En desarrollo |
+| Sistema PvP competitivo | Combate jugador contra jugador con ranking | 🔄 En desarrollo |
+| Shop | Tienda del servidor con /shop | 🔄 En desarrollo |
 | Gambling | Sistema de apuestas | ✅ Activo |
 | Votes | Recompensas por votar por el servidor | ✅ Activo |
-| Recompensas por tiempo de juego | Premios por horas acumuladas | ✅ Activo |
-| Recompensas diarias | Bonificaciones por conectarse cada día | ✅ Activo |
+| Recompensas por tiempo de juego | Premios por horas acumuladas | 🔄 En desarrollo |
+| Recompensas diarias | Bonificaciones por conectarse cada día | 🔄 En desarrollo |
 
 ## 🚀 Desarrollo Continuo
 
