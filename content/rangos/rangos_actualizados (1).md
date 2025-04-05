@@ -1,6 +1,6 @@
 
 ---
-title: "Rangos"
+title: "Rangoss"
 description: "Información sobre los rangos y progresión en el servidor"
 emoji: "👑"
 ---
