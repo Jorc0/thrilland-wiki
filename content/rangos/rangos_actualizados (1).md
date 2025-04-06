@@ -1,10 +1,11 @@
 ---
-title: Progresión por Requisitos
-description: Sistema de rangos obtenibles por méritos dentro del juego
+title: Rangos
+description: Lista completa de rangos
 emoji: 🎯
+showGraph: false
 ---
 
-# 🧭 Sistema de Progresión por Requisitos
+## 🧭 RANGOS
 
 Este sistema está diseñado para recompensar a los jugadores que se esfuerzan y progresan de forma natural dentro del juego. A diferencia de los rangos comprables con monedas, estos rangos se obtienen **cumpliendo condiciones específicas**.
 
