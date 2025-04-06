@@ -154,11 +154,7 @@ export const defaultContentPageLayout: PageLayout = {
           enableRadial: true,
         },
       }),
-      condition: (page) => {
-        // Mostrar el gráfico a menos que showGraph sea explícitamente false (booleano o string)
-        const show = page.frontmatter?.showGraph;
-        return show !== false && show !== "false";
-      },
+      condition: (page) => page.frontmatter?.title !== "Título Específico Para Ocultar",
     }),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
