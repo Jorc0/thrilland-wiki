@@ -17,6 +17,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
 ### 🌱 Visitante
 - 💰 Precio: Gratuito
 - ⏱️ Requisito de tiempo: —
+<br>    
 - 🎁 Recompensas:
   - 1 home
   - 1 job
@@ -66,6 +67,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
 ### 📚 Aprendiz
 - 💰 Precio: 15.000 
 - ⏱️ Tiempo requerido: 3h
+<br>    
   <details>
   <summary>🎁 Ver recompensas</summary>
   
@@ -99,6 +101,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
 ### ⚔️ Aventurero
 - 💰 Precio: 40.000 
 - ⏱️ Tiempo requerido: 6h
+<br>    
   <details>
   <summary>🎁 Ver recompensas</summary>
   
@@ -132,6 +135,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
 ### 🛡️ Centinela
 - 💰 Precio: 60.000 
 - ⏱️ Tiempo requerido: 10h
+<br>    
   <details>
   <summary>🎁 Ver recompensas</summary>
   
@@ -165,6 +169,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
 ### 🐎 Caballero
 - 💰 Precio: 100.000 
 - ⏱️ Tiempo requerido: 15h
+<br>    
   <details>
   <summary>🎁 Ver recompensas</summary>
   
@@ -199,6 +204,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
 ### ⚔️ Paladín
 - 💰 Precio: 150.000 
 - ⏱️ Tiempo requerido: 20h
+<br>    
   <details>
   <summary>🎁 Ver recompensas</summary>
   
@@ -234,6 +240,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
 ### 🏆 Campeón
 - 💰 Precio: 225.000 
 - ⏱️ Tiempo requerido: 25h
+<br>    
   <details>
   <summary>🎁 Ver recompensas</summary>
   
@@ -269,6 +276,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
 ### 🦸 Héroe
 - 💰 Precio: 400.000 
 - ⏱️ Tiempo requerido: 35h
+<br>    
   <details>
   <summary>🎁 Ver recompensas</summary>
   
@@ -304,6 +312,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
 ### 👑 Leyenda
 - 💰 Precio: 500.000 
 - ⏱️ Tiempo requerido: 50h
+<br>    
   <details>
   <summary>🎁 Ver recompensas</summary>
   
@@ -340,6 +349,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
 ### ⚡ Implacable
 - 💰 Precio: 750.000 
 - ⏱️ Tiempo requerido: 65h
+<br>    
   <details>
   <summary>🎁 Ver recompensas</summary>
   
@@ -377,6 +387,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
 ### 🦅 Inmortal
 - 💰 Precio: 1.000.000 
 - ⏱️ Tiempo requerido: 90h
+<br>    
   <details>
   <summary>🎁 Ver recompensas</summary>
   
@@ -414,6 +425,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
 ### 👑 Dios
 - 💰 Precio: 1.500.000 
 - ⏱️ Tiempo requerido: 277h
+<br>    
   <details>
   <summary>🎁 Ver recompensas</summary>
   
