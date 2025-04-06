@@ -39,8 +39,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
   - Cambio de skin
   - 1x Llave Común
 </details>
-- <details>
-  <summary>📋 Ver requisitos</summary>
+- <details><summary>📋 Ver requisitos</summary>
   - 1h de juego
   - 4000 de distancia recorrida
   - 16 mobs eliminados
