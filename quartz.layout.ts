@@ -130,35 +130,33 @@ export const defaultContentPageLayout: PageLayout = {
           zoom: true,
           depth: 1,
           scale: 1.3,
-          repelForce: 1,
+          repelForce: 0.5,
           centerForce: 0.3,
-          linkDistance: 50,
-          fontSize: 0.8,
+          linkDistance: 30,
+          fontSize: 0.6,
           opacityScale: 1,
           removeTags: [],
-          showTags: false,
+          showTags: true,
           enableRadial: false,
         },
         globalGraph: {
           drag: true,
           zoom: true,
           depth: -1,
-          scale: 1.1,
-          repelForce: 1,
+          scale: 0.9,
+          repelForce: 0.5,
           centerForce: 0.3,
-          linkDistance: 50,
-          fontSize: 0.8,
+          linkDistance: 30,
+          fontSize: 0.6,
           opacityScale: 1,
           removeTags: [],
-          showTags: false,
+          showTags: true,
           enableRadial: true,
         },
       }),
       condition: (page) => {
-        // Si showGraph no está definido, mostrar el gráfico
-        if (page.frontmatter?.showGraph === undefined) return true;
-        // Si showGraph está definido, usar su valor
-        return page.frontmatter.showGraph === true;
+        // Mostrar el gráfico si showGraph no está definido o es true
+        return page.frontmatter?.showGraph !== false;
       },
     }),
     Component.DesktopOnly(Component.TableOfContents()),
