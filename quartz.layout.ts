@@ -154,7 +154,12 @@ export const defaultContentPageLayout: PageLayout = {
           enableRadial: true,
         },
       }),
-      condition: (page) => page.frontmatter?.title !== "Título Específico Para Ocultar",
+      condition: (page) => {
+        const show = page.frontmatter?.showGraph;
+        const shouldRender = show !== false && show !== "false";
+        console.log(`[Graph Condition] Page: ${page.slug}, showGraph: ${show}, Type: ${typeof show}, Should Render: ${shouldRender}`);
+        return shouldRender;
+      },
     }),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
