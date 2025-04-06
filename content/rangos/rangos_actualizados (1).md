@@ -57,28 +57,28 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
 ### 📚 Aprendiz
 - 💰 Precio: 15.000 
 - ⏱️ Tiempo requerido: 3h
-- <details>
-  <summary>🎁 Ver recompensas</summary>
-  
-  - 2 homes
-  - 1 job
-  - 3 slots en /ah
-  - Protección: 2
-  - Cambio de skin
-  - 3x Llave Común
+<details>
+<summary>🎁 Ver recompensas</summary>
+
+- 2 homes
+- 1 job
+- 3 slots en /ah
+- Protección: 2
+- Cambio de skin
+- 3x Llave Común
 </details>
-- <details>
-  <summary>📋 Ver requisitos</summary>
-  
-  - 3h de juego
-  - 12000 de distancia recorrida
-  - 48 mobs eliminados
-  - 72 objetos crafteados
-  - 96 cofres abiertos
-  - 48 de daño infligido
-  - 720 objetos encantados
-  - 24 intercambios con aldeanos
-  - 48 monstruos eliminados
+<details>
+<summary>📋 Ver requisitos</summary>
+
+- 3h de juego
+- 12000 de distancia recorrida
+- 48 mobs eliminados
+- 72 objetos crafteados
+- 96 cofres abiertos
+- 48 de daño infligido
+- 720 objetos encantados
+- 24 intercambios con aldeanos
+- 48 monstruos eliminados
 </details>
 - ✨ Lore: *Inicia su senda de conocimiento.*
 
