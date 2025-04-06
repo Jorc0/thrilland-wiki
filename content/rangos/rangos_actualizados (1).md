@@ -32,7 +32,6 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
 - ⏱️ Tiempo requerido: 1h
 - <details>
   <summary>🎁 Ver recompensas</summary>
-  
   - 2 homes
   - 1 job
   - 3 slots en /ah
@@ -42,7 +41,6 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
 </details>
 - <details>
   <summary>📋 Ver requisitos</summary>
-  
   - 1h de juego
   - 4000 de distancia recorrida
   - 16 mobs eliminados
