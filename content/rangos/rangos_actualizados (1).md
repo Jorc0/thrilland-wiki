@@ -23,7 +23,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - 1 home
       - 1 job
       - 2 slots en /ah
-      - Protección: 1
+      - 1 protección
   </details>
     <details>
 
@@ -46,7 +46,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - 2 homes
       - 1 job
       - 3 slots en /ah
-      - Protección: 1
+      - 1 protección
       - Cambio de skin
       - 1x Llave Común
   </details>
@@ -79,7 +79,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - 2 homes
       - 1 job
       - 3 slots en /ah
-      - Protección: 2
+      - 2 protecciones
       - Cambio de skin
       - 3x Llave Común
   </details>
@@ -112,7 +112,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - 2 homes
       - 1 job
       - 4 slots en /ah
-      - Protección: 2
+      - 2 protecciones
       - Cambio de skin
       - 2x Llave Rara
   </details>
@@ -145,7 +145,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - 3 homes
       - 2 jobs
       - 4 slots en /ah
-      - Protección: 3
+      - 3 protecciones
       - Cambio de skin
       - 3x Llave Rara
   </details>
@@ -178,7 +178,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - 3 homes
       - 2 jobs
       - 5 slots en /ah
-      - Protección: 3
+      - 3 protecciones
       - Cambio de skin
       - 2x Llave Rara
   </details>
@@ -212,7 +212,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - 3 homes
       - 2 jobs
       - 5 slots en /ah
-      - Protección: 4
+      - 4 protecciones
       - Cambio de skin
       - 1x Llave Épica
   </details>
@@ -247,7 +247,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - 3 homes
       - 3 jobs
       - 6 slots en /ah
-      - Protección: 4
+      - 4 protecciones
       - Cambio de skin
       - 2x Llave Épica
   </details>
@@ -282,7 +282,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - 4 homes
       - 3 jobs
       - 6 slots en /ah
-      - Protección: 5
+      - 5 protecciones
       - Cambio de skin
       - 3x Llave Épica
   </details>
@@ -317,7 +317,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - 4 homes
       - 3 jobs
       - 7 slots en /ah
-      - Protección: 5
+      - 5 protecciones
       - Cambio de skin
       - 3x Llave Épica
   </details>
@@ -353,7 +353,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - 5 homes
       - 4 jobs
       - 7 slots en /ah
-      - Protección: 6
+      - 6 protecciones
       - Cambio de skin
       - +5% XP de jobs
       - 3x Llave Épica
@@ -390,7 +390,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - 6 homes
       - 4 jobs
       - 8 slots en /ah
-      - Protección: 6
+      - 6 protecciones
       - Cambio de skin
       - +10% XP de jobs
       - 2x Llave Mítica
@@ -421,17 +421,17 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
 - 💰 Precio: 1.500.000 
 - ⏱️ Tiempo requerido: 277h
 <br>    
-  <details>
-  <summary>🎁 Ver recompensas</summary>
+    <details>
+    <summary>🎁 Ver recompensas</summary>
   
       - 7 homes
       - 5 jobs
       - 8 slots en /ah
-      - Protección: 7
+      - 7 protecciones
       - Cambio de skin
       - +15% XP de jobs
       - 4x Llave Mítica
-  </details>
+    </details>
     <details>
 
     <summary>📋 Ver requisitos</summary>
