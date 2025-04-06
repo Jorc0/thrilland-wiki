@@ -88,8 +88,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
 - 💰 Precio: 40.000 
 - ⏱️ Tiempo requerido: 6h
 <details>
-<summary>🎁 Ver recompensas</summary>
-
+- <summary>🎁 Ver recompensas</summary>
 - 2 homes
 - 1 job
 - 4 slots en /ah
