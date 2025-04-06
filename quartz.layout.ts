@@ -155,8 +155,9 @@ export const defaultContentPageLayout: PageLayout = {
         },
       }),
       condition: (page) => {
-        // Mostrar el gráfico si showGraph no está definido o es true
-        return page.frontmatter?.showGraph !== false;
+        // Mostrar el gráfico a menos que showGraph sea explícitamente false (booleano o string)
+        const show = page.frontmatter?.showGraph;
+        return show !== false && show !== "false";
       },
     }),
     Component.DesktopOnly(Component.TableOfContents()),
