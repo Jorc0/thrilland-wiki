@@ -154,7 +154,12 @@ export const defaultContentPageLayout: PageLayout = {
           enableRadial: true,
         },
       }),
-      condition: (page) => page.frontmatter?.showGraph !== false,
+      condition: (page) => {
+        // Si showGraph no está definido, mostrar el gráfico
+        if (page.frontmatter?.showGraph === undefined) return true;
+        // Si showGraph está definido, usar su valor
+        return page.frontmatter.showGraph === true;
+      },
     }),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
