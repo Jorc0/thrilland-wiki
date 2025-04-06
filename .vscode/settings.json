@@ -5,6 +5,7 @@
         ".prettierignore": true,
         ".prettierrc": true,
         "**/.DS_Store": false,
+        "**/server/plugins/*.jar": true,
         "**/.git": false,
         "**/.hg": false,
         "**/.svn": false,
