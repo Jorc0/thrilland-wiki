@@ -26,7 +26,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
 - 📋 Requisitos: Ninguno
 <br>    
 
-- ✨ Lore: *El alma acaba de surgir del ciclo del Éter.*
+- ✨*El alma acaba de surgir del ciclo del Éter.*
 
 ---
 
@@ -60,7 +60,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
     </details>
 <br>    
 
-- ✨ Lore: *Comienza a escuchar los susurros del mundo.*
+- ✨*Comienza a escuchar los susurros del mundo.*
 
 ---
 
@@ -94,7 +94,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
     </details>
 <br>    
 
-- ✨ Lore: *Inicia su senda de conocimiento.*
+- ✨*Inicia su senda de conocimiento.*
 
 ---
 
@@ -128,7 +128,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
     </details>
 <br>    
 
-- ✨ Lore: *Aprende a vivir del mundo.*
+- ✨*Aprende a vivir del mundo.*
 
 ---
 
@@ -162,7 +162,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
     </details>
 <br>    
 
-- ✨ Lore: *Conoce el flujo del equilibrio.*
+- ✨*Conoce el flujo del equilibrio.*
 
 ---
 
@@ -197,7 +197,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
     </details>
 <br>    
 
-- ✨ Lore: *Defensor del pueblo de DHUM.*
+- ✨*Defensor del pueblo de DHUM.*
 
 ---
 
@@ -233,7 +233,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
     </details>
 <br>    
 
-- ✨ Lore: *Recibe el favor del fragmento.*
+- ✨*Recibe el favor del fragmento.*
 
 ---
 
@@ -269,7 +269,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
     </details>
 <br>    
 
-- ✨ Lore: *Recoge la gloria del combate.*
+- ✨*Recoge la gloria del combate.*
 
 ---
 
@@ -305,7 +305,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
     </details>
 <br>    
 
-- ✨ Lore: *El héroe que forja leyendas.*
+- ✨*El héroe que forja leyendas.*
 
 ---
 
@@ -342,7 +342,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
     </details>
 <br>    
 
-- ✨ Lore: *Su nombre queda en las crónicas.*
+- ✨*Su nombre queda en las crónicas.*
 
 ---
 
@@ -380,7 +380,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
     </details>
 <br>    
 
-- ✨ Lore: *Su alma no se detiene ante nada.*
+- ✨*Su alma no se detiene ante nada.*
 
 ---
 
@@ -418,7 +418,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
     </details>
 <br>    
 
-- ✨ Lore: *Trascendencia espiritual manifiesta.*
+- ✨*Trascendencia espiritual manifiesta.*
 
 ---
 
@@ -456,7 +456,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
     </details>
 <br>    
 
-- ✨ Lore: *La armonía habita en su ser.*
+- ✨*La armonía habita en su ser.*
 
 ---
 
