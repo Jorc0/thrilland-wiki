@@ -2,6 +2,7 @@ import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 import { QuartzComponent } from "./quartz/components/types"
 import { jsx } from "preact/jsx-runtime"
+import CustomRecipes from "./quartz/components/CustomRecipes"
 
 const Banner = () => {
   return {
@@ -35,6 +36,7 @@ const Banner = () => {
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [
+    Component.BodyClassHandler(),
     Component.PageTitle(),
     Component.Search(),
     Component.Darkmode(),
@@ -123,42 +125,34 @@ export const defaultContentPageLayout: PageLayout = {
     }),
   ],
   right: [
-    Component.ConditionalRender({
-      component: Component.Graph({
-        localGraph: {
-          drag: true,
-          zoom: true,
-          depth: 1,
-          scale: 1.3,
-          repelForce: 0.5,
-          centerForce: 0.3,
-          linkDistance: 30,
-          fontSize: 0.6,
-          opacityScale: 1,
-          removeTags: [],
-          showTags: true,
-          enableRadial: false,
-        },
-        globalGraph: {
-          drag: true,
-          zoom: true,
-          depth: -1,
-          scale: 0.9,
-          repelForce: 0.5,
-          centerForce: 0.3,
-          linkDistance: 30,
-          fontSize: 0.6,
-          opacityScale: 1,
-          removeTags: [],
-          showTags: true,
-          enableRadial: true,
-        },
-      }),
-      condition: (page) => {
-        const show = page.frontmatter?.showGraph;
-        const shouldRender = show !== false && show !== "false";
-        console.log(`[Graph Condition] Page: ${page.slug}, showGraph: ${show}, Type: ${typeof show}, Should Render: ${shouldRender}`);
-        return shouldRender;
+    Component.Graph({
+      localGraph: {
+        drag: true,
+        zoom: true,
+        depth: 1,
+        scale: 1.3,
+        repelForce: 0.5,
+        centerForce: 0.3,
+        linkDistance: 30,
+        fontSize: 0.6,
+        opacityScale: 1,
+        removeTags: [],
+        showTags: true,
+        enableRadial: false,
+      },
+      globalGraph: {
+        drag: true,
+        zoom: true,
+        depth: -1,
+        scale: 0.9,
+        repelForce: 0.5,
+        centerForce: 0.3,
+        linkDistance: 30,
+        fontSize: 0.6,
+        opacityScale: 1,
+        removeTags: [],
+        showTags: true,
+        enableRadial: true,
       },
     }),
     Component.DesktopOnly(Component.TableOfContents()),
@@ -234,4 +228,12 @@ export const defaultListPageLayout: PageLayout = {
     }),
   ],
   right: [],
+}
+
+export default {
+  components: {
+    // ... existing components ...
+    CustomRecipes,
+  },
+  // ... existing code ...
 }

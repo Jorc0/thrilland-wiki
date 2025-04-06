@@ -3,7 +3,7 @@ import TagContent from "./pages/TagContent"
 import FolderContent from "./pages/FolderContent"
 import NotFound from "./pages/404"
 import ArticleTitle from "./ArticleTitle"
-import CustomArticleTitle from "./CustomArticleTitle"
+import { CustomArticleTitle } from "./CustomArticleTitle"
 import Darkmode from "./Darkmode"
 import Head from "./Head"
 import PageTitle from "./PageTitle"
@@ -24,6 +24,7 @@ import Comments from "./Comments"
 import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
 import Banner from "./Banner"
+import BodyClassHandler from "./BodyClassHandler"
 
 export {
   ArticleTitle,
@@ -52,4 +53,5 @@ export {
   Flex,
   ConditionalRender,
   Banner,
+  BodyClassHandler,
 }
