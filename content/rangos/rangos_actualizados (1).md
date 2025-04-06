@@ -32,6 +32,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
 ### 🌍 Explorador
 - 💰 Precio: 3.500 
 - ⏱️ Tiempo requerido: 1h
+<br>    
   <details>
   <summary>🎁 Ver recompensas</summary>
   
