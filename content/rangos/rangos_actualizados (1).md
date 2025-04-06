@@ -1,6 +1,6 @@
 ---
 title: Rangos
-description: Lista completa de rangos
+description: "Título Específico Para Ocultar"
 emoji: 🎯
 showGraph: false
 ---
