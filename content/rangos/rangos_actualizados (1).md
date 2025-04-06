@@ -1,5 +1,5 @@
 ---
-title: Rangos
+title: "Título Específico Para Ocultar"
 description: "Título Específico Para Ocultar"
 emoji: 🎯
 showGraph: false
