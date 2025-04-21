@@ -2,7 +2,6 @@ import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 import { QuartzComponent } from "./quartz/components/types"
 import { jsx } from "preact/jsx-runtime"
-import CustomRecipes from "./quartz/components/CustomRecipes"
 
 const Banner = () => {
   return {
@@ -228,12 +227,4 @@ export const defaultListPageLayout: PageLayout = {
     }),
   ],
   right: [],
-}
-
-export default {
-  components: {
-    // ... existing components ...
-    CustomRecipes,
-  },
-  // ... existing code ...
 }
