@@ -190,8 +190,7 @@ Aventurero:
   - '&f&oAprende a vivir del mundo.'
   Commands:
   - lp user [playerName] group set aventurero
-  - broadcast! &8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha subido al rango &8⚔&6&lAventurero
-    &8⚔&e!
+  - broadcast! &8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha subido al rango &8⚔&6&lAventurero &8⚔&e!
   - crates key give [playerName] rare 2
   StatsRequirements:
   - PlayTime:21600
@@ -223,8 +222,7 @@ Centinela:
   - '&f&oConoce el flujo del equilibrio.'
   Commands:
   - lp user [playerName] group set centinela
-  - broadcast! &8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha subido al rango &8⚔&b&lCentinela
-    &8⚔&e!
+  - broadcast! "&8&l[&e&lRANGOS&8&l] &6¡[playerDisplayName] &eha subido al rango &8⚔&b&lCentinela &8⚔&e!"
   - crates key give [playerName] rare 3
   StatsRequirements:
   - PlayTime:36000
@@ -235,7 +233,7 @@ Centinela:
   - DamageDealt:160
   - Jump:2400
   - TradedWithVillager:80
-  - MonsterKills:160# Monstruos eliminados: 160
+  - MonsterKills:160 
 Caballero:
   Enabled: true
   DisplayName: '&8⚔ &9&lCaballero &8⚔'
