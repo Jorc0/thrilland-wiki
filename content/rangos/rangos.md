@@ -26,6 +26,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - 1 job
       - 2 slots en /ah
       - 1 protección
+      - AFK: 300 segundos
   </details>
 <br>    
 
@@ -46,6 +47,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - 1 protección
       - Cambio de skin
       - 1x Llave Común
+      - AFK: 600 segundos
   </details>
 <br>    
 
@@ -66,6 +68,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - 2 protecciones
       - Cambio de skin
       - 3x Llave Común
+      - AFK: 900 segundos
   </details>
 <br>    
 
@@ -86,6 +89,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - 2 protecciones
       - Cambio de skin
       - 2x Llave Rara
+      - AFK: 1200 segundos
   </details>
 <br>    
 
@@ -106,6 +110,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - 3 protecciones
       - Cambio de skin
       - 3x Llave Rara
+      - AFK: 1500 segundos
   </details>
 <br>    
 
@@ -126,6 +131,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - 3 protecciones
       - Cambio de skin
       - 2x Llave Rara
+      - AFK: 1500 segundos
   </details>
 <br>    
 
@@ -146,6 +152,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - 4 protecciones
       - Cambio de skin
       - 1x Llave Épica
+      - AFK: 1800 segundos
   </details>
 <br>    
 
@@ -166,6 +173,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - 4 protecciones
       - Cambio de skin
       - 2x Llave Épica
+      - AFK: 1800 segundos
   </details>
 <br>    
 
@@ -186,6 +194,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - 5 protecciones
       - Cambio de skin
       - 3x Llave Épica
+      - AFK: 1800 segundos
   </details>
 <br>    
 
@@ -206,6 +215,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - 5 protecciones
       - Cambio de skin
       - 3x Llave Épica
+      - AFK: 2100 segundos
   </details>
 <br>    
 
@@ -227,6 +237,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - Cambio de skin
       - +5% XP de jobs
       - 3x Llave Épica
+      - AFK: 2100 segundos
   </details>
 <br>    
 
@@ -248,6 +259,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - Cambio de skin
       - +10% XP de jobs
       - 2x Llave Mítica
+      - AFK: 2400 segundos
   </details>
 <br>    
 
@@ -269,6 +281,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - Cambio de skin
       - +15% XP de jobs
       - 4x Llave Mítica
+      - AFK: 3000 segundos
   </details>
 <br>    
 
