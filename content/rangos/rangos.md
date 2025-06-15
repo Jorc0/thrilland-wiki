@@ -1,218 +1,289 @@
 ---
-title: Rangos disponibles
-description: Lista completa de rangos y sus beneficios
-emoji: 👑
+title: Rangos
+description: Lista completa de rangos
+emoji: 🎯
+showGraph: false
 ---
 
-# 🏆 Rangos del Servidor
+## 🧭 RANGOS
 
-¡Bienvenido al sistema de rangos de Thrilland! Aquí encontrarás todos los rangos disponibles y sus beneficios. Cada rango te otorga nuevas habilidades y ventajas para mejorar tu experiencia en el servidor.
+Este sistema está diseñado para recompensar a los jugadores que se esfuerzan y progresan de forma natural dentro del juego. A diferencia de los rangos comprables con monedas, estos rangos se obtienen **cumpliendo condiciones específicas**.
 
-## 🌟 Rangos Disponibles
+Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están acompañados de un pequeño fragmento de lore para profundizar en tu rol dentro de **Thrilland**.
 
-### 👤 Visitante (FREE)
-¡Tu primera aventura comienza aquí! El rango base con lo esencial para empezar.
-- 🏠 Homes: 1
-- 💼 Jobs: 1
-- 🛡️ Protecciones: 1
-- ⏰ AFK: 5 min
-- 🛍️ /ah: 2 slots
+---
 
-### 🌍 Explorador (3.500 €)
-¡El primer paso hacia la grandeza! Desbloquea nuevas posibilidades.
-- 🏠 Homes: 2
-- 👤 Cambio de Skin
-- 💼 Jobs: 1
-- 🔑 1x Llave Común/vote
-- 🛡️ Protecciones: 1
-- ⏰ AFK: 10 min
-- 🛍️ /ah: 3 slots
+## 📜 Lista de Rangos
 
-### 📚 Aprendiz (15.000 €)
-¡El conocimiento es poder! Nuevas habilidades te esperan.
-- 🏠 Homes: 2
-- 🔄 /Back
-- 👤 Cambio de Skin
-- 💼 Jobs: 1
-- 🔑 3x Llave Común/vote
-- 🛡️ Protecciones: 2
-- 🐷 Desbloquea el uso de pets
-- 🐽 Pet cerdo gratis
-- ⏰ AFK: 15 min
-- 🛍️ /ah: 3 slots
-- 🌟 Pwarp
+### 🌱 Visitante
+- 💰 Precio: Gratuito
+- ⏱️ Tiempo requerido: 0h
+<br>    
+  <details>
+  <summary>🎁 Ver recompensas</summary>
+ 
+      - 1 home
+      - 1 job
+      - 2 slots en /ah
+      - 1 protección
+  </details>
+<br>    
 
-### ⚔️ Aventurero (40.000 €)
-¡La aventura te llama! Desbloquea el comercio y más.
-- 🏠 Homes: 2
-- 🔄 /Back
-- 👤 Cambio de Skin
-- 💼 Jobs: 1
-- 🏪 Bazar
-- 🔑 1x Llave Rara
-- 🛡️ Protecciones: 2
-- ⏰ AFK: 20 min
-- 🛍️ /ah: 4 slots
-- 🌟 Pwarp
+- ✨*El alma acaba de surgir del ciclo del Éter.*
 
-### 🛡️ Centinela (60.000 €)
-¡La guardia nunca duerme! Más poder y responsabilidades.
-- 🏠 Homes: 3
-- 🔄 /Back
-- 👤 Cambio de Skin
-- 💼 Jobs: 2
-- 🏪 Bazar
-- 🔑 1x Llave Rara
-- 🛡️ Protecciones: 3
-- ⏰ AFK: 25 min
-- 🛍️ /ah: 4 slots
-- 🌟 Pwarp
+---
 
-### 🐎 Caballero (100.000 €)
-¡La nobleza te espera! Un rango de prestigio.
-- 🏠 Homes: 3
-- 🔄 /Back
-- 👤 Cambio de Skin
-- 💼 Jobs: 2
-- 👥 Creación clan
-- 🏪 Bazar
-- ⚔️ Tala rápida
-- 🔑 2x Llave Rara
-- 🛡️ Protecciones: 3
-- ⏰ AFK: 25 min
-- 🛍️ /ah: 5 slots
-- 🎁 Kit caballero
-- 🌟 Pwarp
+### 🌍 Explorador
+- 💰 Precio: 3.500 
+- ⏱️ Tiempo requerido: 1h
+<br>    
+  <details>
+  <summary>🎁 Ver recompensas</summary>
+  
+      - 2 homes
+      - 1 job
+      - 3 slots en /ah
+      - 1 protección
+      - Cambio de skin
+      - 1x Llave Común
+  </details>
+<br>    
 
-### ⚔️ Paladín (150.000 €)
-¡La luz te guía! Un rango de honor y poder.
-- 🏠 Homes: 3
-- 🔄 /Back
-- 👤 Cambio de Skin
-- 💼 Jobs: 2
-- 👥 Creación clan
-- 🏪 Bazar
-- ⚔️ Tala rápida
-- 🔑 x1 Llave Épica
-- 🛡️ Protecciones: 4
-- ⏰ AFK: 30 min
-- 🛍️ /ah: 5 slots
-- 🌟 Pwarp
+- ✨*Comienza a escuchar los susurros del mundo.*
 
-### 🏆 Campeón (225.000 €)
-¡La gloria te espera! Un rango de élite.
-- 🏠 Homes: 3
-- 🔄 /Back
-- 👤 Cambio de Skin
-- 💼 Jobs: 3
-- 👥 Creación clan
-- 🏪 Bazar
-- ⚔️ Tala rápida
-- 🔑 x1 Llave Épica
-- 📦 /enderchest
-- 🛡️ Protecciones: 4
-- ⏰ AFK: 30 min
-- 🛍️ /ah: 6 slots
-- 🌟 Pwarp
+---
 
-### 🦸 Héroe (400.000 €)
-¡La leyenda comienza aquí! Un rango de poder supremo.
-- 🏠 Homes: 4
-- 🔄 /Back
-- 👤 Cambio de Skin
-- 💼 Jobs: 3
-- 👥 Creación clan
-- 🏪 Bazar
-- ⚔️ Tala rápida
-- 🔑 x1 Llave Épica
-- 🏷️ x1 Llave tags
-- 📦 /enderchest
-- 🛡️ Protecciones: 5
-- ⏰ AFK: 30 min
-- 🛍️ /ah: 6 slots
-- 🌟 Pwarp
+### 📚 Aprendiz
+- 💰 Precio: 15.000 
+- ⏱️ Tiempo requerido: 3h
+<br>    
+  <details>
+  <summary>🎁 Ver recompensas</summary>
+  
+      - 2 homes
+      - 1 job
+      - 3 slots en /ah
+      - 2 protecciones
+      - Cambio de skin
+      - 3x Llave Común
+  </details>
+<br>    
 
-### 👑 Leyenda (500.000 €)
-¡El poder supremo te espera! Un rango de renombre.
-- 🏠 Homes: 4
-- 🔄 /Back
-- 👤 Cambio de Skin
-- 💼 Jobs: 3
-- 👥 Creación clan
-- 🏪 Bazar
-- ⚔️ Tala rápida
-- 🔑 x1 Llave Épica
-- 📦 /enderchest
-- 🏷️ x1 Llave tags
-- 🛡️ Protecciones: 5
-- ⏰ AFK: 35 min
-- 🛍️ /ah: 7 slots
-- 🌟 Pwarp
+- ✨*Inicia su senda de conocimiento.*
 
-### ⚡ Implacable (750.000 €)
-¡La fuerza absoluta! Un rango de poder incomparable.
-- 🏠 Homes: 5
-- 🔄 /Back
-- 👤 Cambio de Skin
-- 💼 Jobs: 4
-- 👥 Creación clan
-- 🏪 Bazar
-- ⚔️ Tala rápida
-- 🔑 x2 Llave Épica
-- 📦 /enderchest
-- 🏷️ x1 Llave tags
-- 💰 5% de descuento tienda almas
-- ⭐ +5% de xp de jobs permanente
-- 🛡️ Protecciones: 6
-- ⏰ AFK: 35 min
-- 🛍️ /ah: 7 slots
-- 🌟 Pwarp
+---
 
-### 🦅 Inmortal (1.000.000 €)
-¡La eternidad te espera! Un rango de poder mítico.
-- 🏠 Homes: 6
-- 🔄 /Back
-- 👤 Cambio de Skin
-- 💼 Jobs: 4
-- 👥 Creación clan
-- 🏪 Bazar
-- ⚔️ Tala rápida
-- 🔑 x1 Llave Mítica
-- 📦 /enderchest
-- 🏷️ x2 Llave tags
-- ⭐ +10% de xp de jobs permanente
-- 🛡️ Protecciones: 6
-- ⏰ AFK: 40 min
-- 🛍️ /ah: 8 slots
-- 🌟 Pwarp
+### ⚔️ Aventurero
+- 💰 Precio: 40.000 
+- ⏱️ Tiempo requerido: 6h
+<br>    
+  <details>
+  <summary>🎁 Ver recompensas</summary>
+  
+      - 2 homes
+      - 1 job
+      - 4 slots en /ah
+      - 2 protecciones
+      - Cambio de skin
+      - 2x Llave Rara
+  </details>
+<br>    
 
-### 👑 Dios (1.500.000 €)
-¡La divinidad te espera! El rango más poderoso.
-- 🏠 Homes: 7
-- 🔄 /Back
-- 👤 Cambio de Skin
-- 💼 Jobs: 5
-- 👥 Creación clan
-- 🏪 Bazar
-- ⚔️ Tala rápida
-- 🛠️ Acceso herrería cosméticos
-- 🔑 x1 Llave Mítica
-- 📦 /enderchest
-- 🏷️ x3 Llave tags
-- ⭐ +15% de xp de jobs permanente
-- 🛡️ Protecciones: 7
-- ⏰ AFK: 50 min
-- 🛍️ /ah: 8 slots
-- 🌟 Pwarp
+- ✨*Aprende a vivir del mundo.*
 
-## 🎁 Resumen de Llavas
-- 🔑 4 Llaves Comunes (Vote)
-- 🔑 4 Llaves Raras
-- 🔑 6 Llaves Épicas
-- 🔑 2 Llaves Míticas
-- 🔑 8 Llaves Tags
+---
 
-## 💰 Costo Total
-El costo total para alcanzar el rango máximo (Dios) es de 4.743.500 €
+### 🛡️ Centinela
+- 💰 Precio: 60.000 
+- ⏱️ Tiempo requerido: 10h
+<br>    
+  <details>
+  <summary>🎁 Ver recompensas</summary>
+  
+      - 3 homes
+      - 2 jobs
+      - 4 slots en /ah
+      - 3 protecciones
+      - Cambio de skin
+      - 3x Llave Rara
+  </details>
+<br>    
 
-> 💡 **Consejo**: Recuerda que puedes votar diariamente para obtener recompensas y avanzar más rápido en tu progresión. 
+- ✨*Conoce el flujo del equilibrio.*
+
+---
+
+### 🐎 Caballero
+- 💰 Precio: 100.000 
+- ⏱️ Tiempo requerido: 15h
+<br>    
+  <details>
+  <summary>🎁 Ver recompensas</summary>
+  
+      - 3 homes
+      - 2 jobs
+      - 5 slots en /ah
+      - 3 protecciones
+      - Cambio de skin
+      - 2x Llave Rara
+  </details>
+<br>    
+
+- ✨*Defensor del pueblo de DHUM.*
+
+---
+
+### ⚔️ Paladín
+- 💰 Precio: 150.000 
+- ⏱️ Tiempo requerido: 20h
+<br>    
+  <details>
+  <summary>🎁 Ver recompensas</summary>
+  
+      - 3 homes
+      - 2 jobs
+      - 5 slots en /ah
+      - 4 protecciones
+      - Cambio de skin
+      - 1x Llave Épica
+  </details>
+<br>    
+
+- ✨*Recibe el favor del fragmento.*
+
+---
+
+### 🏆 Campeón
+- 💰 Precio: 225.000 
+- ⏱️ Tiempo requerido: 25h
+<br>    
+  <details>
+  <summary>🎁 Ver recompensas</summary>
+  
+      - 3 homes
+      - 3 jobs
+      - 6 slots en /ah
+      - 4 protecciones
+      - Cambio de skin
+      - 2x Llave Épica
+  </details>
+<br>    
+
+- ✨*Recoge la gloria del combate.*
+
+---
+
+### 🦸 Héroe
+- 💰 Precio: 400.000 
+- ⏱️ Tiempo requerido: 35h
+<br>    
+  <details>
+  <summary>🎁 Ver recompensas</summary>
+  
+      - 4 homes
+      - 3 jobs
+      - 6 slots en /ah
+      - 5 protecciones
+      - Cambio de skin
+      - 3x Llave Épica
+  </details>
+<br>    
+
+- ✨*El héroe que forja leyendas.*
+
+---
+
+### 👑 Leyenda
+- 💰 Precio: 500.000 
+- ⏱️ Tiempo requerido: 50h
+<br>    
+  <details>
+  <summary>🎁 Ver recompensas</summary>
+  
+      - 4 homes
+      - 3 jobs
+      - 7 slots en /ah
+      - 5 protecciones
+      - Cambio de skin
+      - 3x Llave Épica
+  </details>
+<br>    
+
+- ✨*Su nombre queda en las crónicas.*
+
+---
+
+### ⚡ Implacable
+- 💰 Precio: 750.000 
+- ⏱️ Tiempo requerido: 65h
+<br>    
+  <details>
+  <summary>🎁 Ver recompensas</summary>
+  
+      - 5 homes
+      - 4 jobs
+      - 7 slots en /ah
+      - 6 protecciones
+      - Cambio de skin
+      - +5% XP de jobs
+      - 3x Llave Épica
+  </details>
+<br>    
+
+- ✨*Su alma no se detiene ante nada.*
+
+---
+
+### 🦅 Inmortal
+- 💰 Precio: 1.000.000 
+- ⏱️ Tiempo requerido: 90h
+<br>    
+  <details>
+  <summary>🎁 Ver recompensas</summary>
+  
+      - 6 homes
+      - 4 jobs
+      - 8 slots en /ah
+      - 6 protecciones
+      - Cambio de skin
+      - +10% XP de jobs
+      - 2x Llave Mítica
+  </details>
+<br>    
+
+- ✨*Trascendencia espiritual manifiesta.*
+
+---
+
+### 👑 Dios
+- 💰 Precio: 1.500.000 
+- ⏱️ Tiempo requerido: 277h
+<br>    
+  <details>
+  <summary>🎁 Ver recompensas</summary>
+  
+      - 7 homes
+      - 5 jobs
+      - 8 slots en /ah
+      - 7 protecciones
+      - Cambio de skin
+      - +15% XP de jobs
+      - 4x Llave Mítica
+  </details>
+<br>    
+
+- ✨*La armonía habita en su ser.*
+
+---
+
+## 🧩 ¿Cómo progreso?
+
+Puedes usar el comando `/rankinfo` en el juego para revisar tu tiempo jugado. Una vez cumplas el tiempo requerido y tengas el dinero necesario, podrás usar `/rankup` para subir al siguiente rango.
+
+También puedes revisar tu progreso en el menú de rangos con `/menu`.
+
+> 🗺️ *Sugerencia*: Combinando tu progreso con misiones y logros, avanzarás más rápido y desbloquearás secretos únicos en Thrilland.
+
+> 💡 **Nota**: El tiempo jugado se mide automáticamente por el sistema, pero puedes consultar tu avance usando `/progreso` dentro del servidor.
+
+¿Quieres conocer los beneficios de cada rango comprable? Consulta la página 👉 [Rangos del Servidor](rangos.md)

@@ -9,16 +9,12 @@ Explora todas las misiones disponibles en Thrilland.
 ### [Misiones Diarias](misiones-diarias.md)
 - Lista de misiones
 - Recompensas diarias
-- Progresión
-- Resets
 
 ### [Misiones Principales](misiones-principales.md)
 
 ### [Sistema de Recompensas](recompensas.md)
 - Tipos de recompensas
 - Items especiales
-- Monedas y tokens
-- Cosméticos exclusivos
 
 ### [Progreso y Logros](progreso.md)
 - Sistema de logros

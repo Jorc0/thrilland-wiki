@@ -7,33 +7,5 @@ Domina todos los aspectos del juego con estas guías avanzadas.
 ## Contenido
 
 ### [Comandos Básicos](comandos-basicos.md)
-- Comercio y economía
-- Hogares y teletransportación
-- Trabajos y progresión
-- Comunicación
-- Información y utilidades
-- Cuenta y seguridad
 
 ### [Consejos y Trucos](consejos.md)
-- Tips avanzados
-- Secretos poco conocidos
-- Mecánicas avanzadas
-- Optimización de juego
-
-### [Builds Recomendados](builds.md)
-- Builds de PvP
-- Builds de farmeo
-- Builds de supervivencia
-- Equipamiento óptimo
-
-### [Estrategias de Farmeo](farmeo.md)
-- Rutas eficientes
-- Mejores lugares
-- Técnicas avanzadas
-- Automatización
-
-### [Optimización de Recursos](optimizacion.md)
-- Gestión de inventario
-- Eficiencia en crafteos
-- Rutas comerciales
-- Maximización de ganancias 

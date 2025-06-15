@@ -67,3 +67,5 @@ emoji: ⌨️
 - `/normas` - Ver las normas del servidor
 - `/sit` - Sentarse
 - `/skin` - Cambiar tu skin 
+
+Es posible que haya comandos que no estén listados correctamente en esta página, no olvides comentarlo con administracion.
