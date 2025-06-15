@@ -17,19 +17,15 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
 
 ### 🌱 Visitante
 - 💰 Precio: Gratuito
+- ⏱️ Tiempo requerido: 0h
 <br>    
   <details>
   <summary>🎁 Ver recompensas</summary>
-
+ 
       - 1 home
       - 1 job
       - 2 slots en /ah
       - 1 protección
-  </details>
-    <details>
-
-    <summary>📋 Ningún requisito</summary>
-    </details>
   </details>
 <br>    
 
@@ -51,19 +47,6 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - Cambio de skin
       - 1x Llave Común
   </details>
-    <details>
-
-    <summary>📋 Ver requisitos</summary>
-
-      - 4000 de distancia recorrida
-      - 16 mobs eliminados
-      - 24 objetos crafteados
-      - 32 cofres abiertos
-      - 16 de daño infligido
-      - 240 objetos encantados
-      - 8 intercambios con aldeanos
-      - 16 monstruos eliminados
-    </details>
 <br>    
 
 - ✨*Comienza a escuchar los susurros del mundo.*
@@ -84,19 +67,6 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - Cambio de skin
       - 3x Llave Común
   </details>
-    <details>
-
-    <summary>📋 Ver requisitos</summary>
-
-      - 12000 de distancia recorrida
-      - 48 mobs eliminados
-      - 72 objetos crafteados
-      - 96 cofres abiertos
-      - 48 de daño infligido
-      - 720 objetos encantados
-      - 24 intercambios con aldeanos
-      - 48 monstruos eliminados
-    </details>
 <br>    
 
 - ✨*Inicia su senda de conocimiento.*
@@ -117,19 +87,6 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - Cambio de skin
       - 2x Llave Rara
   </details>
-    <details>
-
-    <summary>📋 Ver requisitos</summary>
-
-      - 24000 de distancia recorrida
-      - 96 mobs eliminados
-      - 144 objetos crafteados
-      - 192 cofres abiertos
-      - 96 de daño infligido
-      - 1440 objetos encantados
-      - 48 intercambios con aldeanos
-      - 96 monstruos eliminados
-    </details>
 <br>    
 
 - ✨*Aprende a vivir del mundo.*
@@ -150,19 +107,6 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - Cambio de skin
       - 3x Llave Rara
   </details>
-    <details>
-
-    <summary>📋 Ver requisitos</summary>
-
-      - 40000 de distancia recorrida
-      - 160 mobs eliminados
-      - 240 objetos crafteados
-      - 320 cofres abiertos
-      - 160 de daño infligido
-      - 2400 objetos encantados
-      - 80 intercambios con aldeanos
-      - 160 monstruos eliminados
-    </details>
 <br>    
 
 - ✨*Conoce el flujo del equilibrio.*
@@ -183,20 +127,6 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - Cambio de skin
       - 2x Llave Rara
   </details>
-    <details>
-
-    <summary>📋 Ver requisitos</summary>
-
-      - 60000 de distancia recorrida
-      - 240 mobs eliminados
-      - 360 objetos crafteados
-      - 480 cofres abiertos
-      - 240 de daño infligido
-      - 3600 objetos encantados
-      - 120 intercambios con aldeanos
-      - 240 monstruos eliminados
-      - 6 jugadores eliminados
-    </details>
 <br>    
 
 - ✨*Defensor del pueblo de DHUM.*
@@ -217,21 +147,6 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - Cambio de skin
       - 1x Llave Épica
   </details>
-    <details>
-
-    <summary>📋 Ver requisitos</summary>
-
-      - 80000 de distancia recorrida
-      - 320 mobs eliminados
-      - 480 objetos crafteados
-      - 640 cofres abiertos
-      - 320 de daño infligido
-      - 4800 objetos encantados
-      - 160 intercambios con aldeanos
-      - 320 monstruos eliminados
-      - 16000 de vuelo con elytra
-      - 8 jugadores eliminados
-    </details>
 <br>    
 
 - ✨*Recibe el favor del fragmento.*
@@ -252,21 +167,6 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - Cambio de skin
       - 2x Llave Épica
   </details>
-    <details>
-
-    <summary>📋 Ver requisitos</summary>
-
-      - 100000 de distancia recorrida
-      - 400 mobs eliminados
-      - 600 objetos crafteados
-      - 800 cofres abiertos
-      - 400 de daño infligido
-      - 6000 objetos encantados
-      - 200 intercambios con aldeanos
-      - 400 monstruos eliminados
-      - 20000 de vuelo con elytra
-      - 10 jugadores eliminados
-    </details>
 <br>    
 
 - ✨*Recoge la gloria del combate.*
@@ -287,21 +187,6 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - Cambio de skin
       - 3x Llave Épica
   </details>
-    <details>
-
-    <summary>📋 Ver requisitos</summary>
-
-      - 140000 de distancia recorrida
-      - 560 mobs eliminados
-      - 840 objetos crafteados
-      - 1120 cofres abiertos
-      - 560 de daño infligido
-      - 8400 objetos encantados
-      - 280 intercambios con aldeanos
-      - 560 monstruos eliminados
-      - 28000 de vuelo con elytra
-      - 14 jugadores eliminados
-    </details>
 <br>    
 
 - ✨*El héroe que forja leyendas.*
@@ -322,22 +207,6 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - Cambio de skin
       - 3x Llave Épica
   </details>
-    <details>
-
-    <summary>📋 Ver requisitos</summary>
-
-      - 200000 de distancia recorrida
-      - 800 mobs eliminados
-      - 1200 objetos crafteados
-      - 1600 cofres abiertos
-      - 800 de daño infligido
-      - 12000 objetos encantados
-      - 400 intercambios con aldeanos
-      - 800 monstruos eliminados
-      - 40000 de vuelo con elytra
-      - 20 jugadores eliminados
-      - 1600 peces pescados
-    </details>
 <br>    
 
 - ✨*Su nombre queda en las crónicas.*
@@ -359,22 +228,6 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - +5% XP de jobs
       - 3x Llave Épica
   </details>
-    <details>
-
-    <summary>📋 Ver requisitos</summary>
-
-      - 260000 de distancia recorrida
-      - 1040 mobs eliminados
-      - 1560 objetos crafteados
-      - 2080 cofres abiertos
-      - 1040 de daño infligido
-      - 15600 objetos encantados
-      - 520 intercambios con aldeanos
-      - 1040 monstruos eliminados
-      - 52000 de vuelo con elytra
-      - 26 jugadores eliminados
-      - 2080 peces pescados
-    </details>
 <br>    
 
 - ✨*Su alma no se detiene ante nada.*
@@ -396,22 +249,6 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - +10% XP de jobs
       - 2x Llave Mítica
   </details>
-    <details>
-
-    <summary>📋 Ver requisitos</summary>
-
-      - 360000 de distancia recorrida
-      - 1440 mobs eliminados
-      - 2160 objetos crafteados
-      - 2880 cofres abiertos
-      - 1440 de daño infligido
-      - 21600 objetos encantados
-      - 720 intercambios con aldeanos
-      - 1440 monstruos eliminados
-      - 72000 de vuelo con elytra
-      - 36 jugadores eliminados
-      - 2880 peces pescados
-    </details>
 <br>    
 
 - ✨*Trascendencia espiritual manifiesta.*
@@ -422,8 +259,8 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
 - 💰 Precio: 1.500.000 
 - ⏱️ Tiempo requerido: 277h
 <br>    
-    <details>
-    <summary>🎁 Ver recompensas</summary>
+  <details>
+  <summary>🎁 Ver recompensas</summary>
   
       - 7 homes
       - 5 jobs
@@ -432,23 +269,7 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
       - Cambio de skin
       - +15% XP de jobs
       - 4x Llave Mítica
-    </details>
-    <details>
-
-    <summary>📋 Ver requisitos</summary>
-
-      - 1.108.000 de distancia recorrida
-      - 4432 mobs eliminados
-      - 6648 objetos crafteados
-      - 8864 cofres abiertos
-      - 4432 de daño infligido
-      - 66480 objetos encantados
-      - 2216 intercambios con aldeanos
-      - 4432 monstruos eliminados
-      - 221600 de vuelo con elytra
-      - 110 jugadores eliminados
-      - 8864 peces pescados
-    </details>
+  </details>
 <br>    
 
 - ✨*La armonía habita en su ser.*
@@ -457,14 +278,12 @@ Cada rango desbloquea recompensas, llaves y beneficios únicos. Además, están 
 
 ## 🧩 ¿Cómo progreso?
 
-Puedes usar el comando `/rankinfo` en el juego para revisar tus estadísticas actuales. Una vez cumplas los requisitos y tengas el dinero necesario, podrás usar `/rankup` para subir al siguiente rango.
+Puedes usar el comando `/rankinfo` en el juego para revisar tu tiempo jugado. Una vez cumplas el tiempo requerido y tengas el dinero necesario, podrás usar `/rankup` para subir al siguiente rango.
 
 También puedes revisar tu progreso en el menú de rangos con `/menu`.
 
 > 🗺️ *Sugerencia*: Combinando tu progreso con misiones y logros, avanzarás más rápido y desbloquearás secretos únicos en Thrilland.
 
-
-
-> 💡 **Nota**: El progreso se mide automáticamente por el sistema, pero puedes consultar tu avance usando `/progreso` dentro del servidor.
+> 💡 **Nota**: El tiempo jugado se mide automáticamente por el sistema, pero puedes consultar tu avance usando `/progreso` dentro del servidor.
 
 ¿Quieres conocer los beneficios de cada rango comprable? Consulta la página 👉 [Rangos del Servidor](rangos.md)
