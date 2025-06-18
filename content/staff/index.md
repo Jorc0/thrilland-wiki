@@ -1,7 +1,6 @@
 ---
 title: Contenido de Staff
 description: Acceso restringido bajo contraseña, no compartir con nadie
-password: staff180625
 passwordprotect: true
 ---
 ## Contenido

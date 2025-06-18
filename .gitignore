@@ -29,4 +29,10 @@ private/
 replit.nix
 .bashrc
 .github/workflows/ai-commit.yml
-ideas 
+ideas
+
+# quartz
+public
+/quartz/.obsidian
+quartz.config.ts.bak
+passwords.json 

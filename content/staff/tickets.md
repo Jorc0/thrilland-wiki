@@ -3,7 +3,6 @@ title:  🎫 Protocolo de Atención a Tickets
 description: Guía de atención y soporte
 emoji: 🛠️
 passwordprotect: true
-password: CMS2RhTT2
 showGraph: false
 ---
 ### 🎫 Protocolo de Atención a Tickets

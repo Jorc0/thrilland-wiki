@@ -1,6 +1,3 @@
-import { VFile } from "vfile"
-import { Data } from "vfile"
-
 export declare global {
   interface Document {
     addEventListener<K extends keyof CustomEventMap>(
@@ -16,13 +13,5 @@ export declare global {
   interface Window {
     spaNavigate(url: URL, isBack: boolean = false)
     addCleanup(fn: (...args: any[]) => void)
-  }
-}
-
-declare module "vfile" {
-  interface DataMap {
-    frontmatter: {
-      passwordprotect?: boolean
-    } & Data["frontmatter"]
   }
 }
