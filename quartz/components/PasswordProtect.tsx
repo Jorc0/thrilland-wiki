@@ -1,6 +1,5 @@
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { classNames } from "../util/lang"
-import { ComponentType, JSX, h } from "preact"
 
 interface Options {
   defaultPassword: string // Contraseña por defecto si no se especifica en el frontmatter
