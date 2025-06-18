@@ -29,7 +29,7 @@ jobs:
       - name: Create passwords file
         env:
           PASSWORDS_JSON: ${{ secrets.PASSWORDS_JSON }}
-        run: echo "$PASSWORDS_JSON" > passwords.json
+        run: printf '%s' "$PASSWORDS_JSON" > passwords.json
       - name: Build Quartz
         run: npx quartz build
       - name: Upload artifact
