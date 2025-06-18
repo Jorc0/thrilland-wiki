@@ -65,9 +65,8 @@ export default ((userOpts?: Partial<PasswordProtectOptions>) => {
   `
 
   PasswordProtect.afterDOMLoaded = `
-    console.log('[PasswordProtect] Script ejecutado');
-    document.addEventListener("nav", () => {
-      console.log('[PasswordProtect] nav event');
+    function setupPasswordProtection() {
+      console.log('[PasswordProtect] Intentando configurar la protección...');
       const passwordForm = document.getElementById("password-form")
       const protectedContent = document.getElementById("protected-content")
       const passwordInput = document.getElementById("password-input")
@@ -99,7 +98,7 @@ export default ((userOpts?: Partial<PasswordProtectOptions>) => {
       // Check if password es correcta y ya está almacenada
       const storedPassword = sessionStorage.getItem("page_password_" + window.location.pathname)
       const correctPassword = document.querySelector('.password-protect')?.getAttribute('data-password')
-      console.log('[PasswordProtect] Revisando localStorage', { storedPassword, correctPassword });
+      console.log('[PasswordProtect] Revisando sessionStorage', { storedPassword, correctPassword });
       if (storedPassword === correctPassword) {
         console.log('[PasswordProtect] Contraseña ya almacenada, mostrando contenido');
         passwordForm.style.display = "none"
@@ -112,7 +111,10 @@ export default ((userOpts?: Partial<PasswordProtectOptions>) => {
           checkPassword()
         }
       }
-    })
+    }
+    
+    document.addEventListener("nav", setupPasswordProtection);
+    setupPasswordProtection();
   `
 
   return PasswordProtect

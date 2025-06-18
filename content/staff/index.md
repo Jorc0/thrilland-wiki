@@ -12,7 +12,4 @@ Explora todas las misiones disponibles en Thrilland.
 ### [Soporte]( .md)
 
 ### [Guia de procedimiento y actuacion](staff.md)
-
-### [Progreso y Logros](progreso.md)
-- Sistema de logros
-- Títulos desbloqueables
+🔑 Protocolos de actuación segun rango
