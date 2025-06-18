@@ -23,12 +23,17 @@ function initProtection() {
     return
   }
 
+  // https://developer.mozilla.org/en-US/docs/Glossary/Base64#the_unicode_problem
+  function utf8_to_b64(str: string) {
+    return btoa(unescape(encodeURIComponent(str)))
+  }
+
   const checkPassword = (e?: Event) => {
     e?.preventDefault() // Evitar que la página se recargue
     if (!(passwordInput instanceof HTMLInputElement)) {
       return;
     }
-    const inputPassword = btoa(passwordInput.value)
+    const inputPassword = utf8_to_b64(passwordInput.value)
     const correctPassword = protectContainer.getAttribute('data-password')
     
     if (inputPassword === correctPassword) {

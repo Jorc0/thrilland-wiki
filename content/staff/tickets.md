@@ -3,6 +3,7 @@ title:  🎫 Protocolo de Atención a Tickets
 description: Guía de atención y soporte
 emoji: 🛠️
 passwordprotect: true
+password_id: "staff_tickets"
 showGraph: false
 ---
 ### 🎫 Protocolo de Atención a Tickets

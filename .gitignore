@@ -31,8 +31,5 @@ replit.nix
 .github/workflows/ai-commit.yml
 ideas
 
-# quartz
-public
-/quartz/.obsidian
-quartz.config.ts.bak
+# Local passwords file
 passwords.json 

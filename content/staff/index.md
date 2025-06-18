@@ -2,6 +2,7 @@
 title: Contenido de Staff
 description: Acceso restringido bajo contraseña, no compartir con nadie
 passwordprotect: true
+password_id: "main_page"
 ---
 ## Contenido
 

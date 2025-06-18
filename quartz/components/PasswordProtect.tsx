@@ -5,6 +5,22 @@ import script from "./scripts/password.inline"
 import fs from "fs"
 import path from "path"
 
+// Leer contraseñas desde el archivo local
+let passwords: Record<string, string> = {}
+try {
+  const filePath = path.join(process.cwd(), "passwords.json")
+  if (fs.existsSync(filePath)) {
+    passwords = JSON.parse(fs.readFileSync(filePath, "utf-8"))
+  } else {
+    // Si el archivo no existe, intenta usar secretos de entorno (para GitHub Actions)
+    if (process.env.PASSWORDS_JSON) {
+      passwords = JSON.parse(process.env.PASSWORDS_JSON)
+    }
+  }
+} catch (e) {
+  // No hacer nada en caso de error, simplemente no habrá contraseñas
+}
+
 interface PasswordProtectOptions {
   enabled: boolean
 }
@@ -13,61 +29,30 @@ const defaultOptions: PasswordProtectOptions = {
   enabled: true,
 }
 
-// Cargar las contraseñas una sola vez al iniciar
-const passwordsFilePath = path.join(process.cwd(), "passwords.json")
-let passwords: Record<string, string> = {}
-console.log(`\nBuscando archivo de contraseñas...`)
-try {
-  // Priorizar la variable de entorno para producción
-  if (process.env.PASSWORDS_JSON) {
-    passwords = JSON.parse(process.env.PASSWORDS_JSON)
-    console.log("Contraseñas cargadas correctamente desde la variable de entorno.")
-    console.log(`Rutas protegidas: ${Object.keys(passwords).join(", ")}`)
-  } 
-  // Usar el archivo local para desarrollo
-  else if (fs.existsSync(passwordsFilePath)) {
-    console.log(`Cargando contraseñas desde: ${passwordsFilePath}`)
-    const rawData = fs.readFileSync(passwordsFilePath, "utf-8")
-    passwords = JSON.parse(rawData)
-    console.log(`Contraseñas cargadas correctamente para las siguientes rutas: ${Object.keys(passwords).join(", ")}`)
-  } else {
-    console.warn("ADVERTENCIA: No se encontró el archivo passwords.json ni la variable de entorno PASSWORDS_JSON. Las páginas protegidas no funcionarán.")
-  }
-} catch (e) {
-  console.error("ERROR: No se pudo leer o procesar la fuente de contraseñas. Comprueba que el formato JSON es válido.", e)
-}
-
 export default ((userOpts?: Partial<PasswordProtectOptions>) => {
   const options: PasswordProtectOptions = { ...defaultOptions, ...userOpts }
 
   function PasswordProtect(props: QuartzComponentProps) {
     const { fileData, tree } = props
-    const slug = fileData.slug
-
-    // La protección se activa con el frontmatter
     const shouldProtect = fileData.frontmatter?.passwordprotect === true
-
-    // Pero la contraseña se obtiene del archivo JSON
-    const password = slug ? passwords[slug] : undefined
+    const passwordId = fileData.frontmatter?.password_id as string | undefined
+    
+    // Obtener la contraseña desde el ID
+    const password = passwordId ? passwords[passwordId] : undefined
     const passwordStr = password ? String(password).trim() : ""
 
     if (!shouldProtect || !passwordStr) {
-      // Renderiza el contenido normalmente si no está protegido o no hay contraseña para este slug
+      // Renderiza el contenido normalmente si no está protegido
       return <article class="popover-hint">{htmlToJsx(fileData.filePath!, tree)}</article>
     }
 
+    const b64password = Buffer.from(passwordStr, 'utf-8').toString('base64')
+
     return (
-      <div class="password-protect" data-password={btoa(passwordStr)}>
+      <div class="password-protect" data-password={b64password}>
         <form id="password-form" class="password-form">
-          <input
-            type="password"
-            id="password-input"
-            placeholder="Introduce la contraseña"
-            autocomplete="off"
-          />
-          <button id="password-submit" type="submit">
-            Acceder
-          </button>
+          <input type="password" id="password-input" placeholder="Introduce la contraseña" autocomplete="off" />
+          <button id="password-submit" type="submit">Acceder</button>
         </form>
         <div id="protected-content" class="protected-content" style="display: none;">
           <article class="popover-hint">{htmlToJsx(fileData.filePath!, tree)}</article>
