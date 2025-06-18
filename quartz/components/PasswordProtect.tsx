@@ -89,7 +89,7 @@ export default ((userOpts?: Partial<PasswordProtectOptions>) => {
           console.log('[PasswordProtect] Contraseña correcta');
           passwordForm.style.display = "none"
           protectedContent.style.display = "block"
-          localStorage.setItem("page_password_" + window.location.pathname, inputPassword)
+          sessionStorage.setItem("page_password_" + window.location.pathname, inputPassword)
         } else {
           console.log('[PasswordProtect] Contraseña incorrecta');
           alert("Contraseña incorrecta")
@@ -97,7 +97,7 @@ export default ((userOpts?: Partial<PasswordProtectOptions>) => {
       }
 
       // Check if password es correcta y ya está almacenada
-      const storedPassword = localStorage.getItem("page_password_" + window.location.pathname)
+      const storedPassword = sessionStorage.getItem("page_password_" + window.location.pathname)
       const correctPassword = document.querySelector('.password-protect')?.getAttribute('data-password')
       console.log('[PasswordProtect] Revisando localStorage', { storedPassword, correctPassword });
       if (storedPassword === correctPassword) {
