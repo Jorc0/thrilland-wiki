@@ -26,12 +26,10 @@ jobs:
           node-version: 22
       - name: Install Dependencies
         run: npm ci
-      - name: Create passwords file
+      - name: Create passwords file from secret
         env:
           PASSWORDS_JSON: ${{ secrets.PASSWORDS_JSON }}
-        run: printf '%s' "$PASSWORDS_JSON" > passwords.json
-      - name: Verify passwords file
-        run: cat passwords.json
+        run: echo "$PASSWORDS_JSON" | base64 --decode > passwords.json
       - name: Build Quartz
         run: npx quartz build
       - name: Upload artifact
