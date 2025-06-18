@@ -3,7 +3,7 @@ title: Protocolo de Actuación del Staff
 description: Guía de comportamiento y procedimientos para todos los departamentos de staff de Thrilland, tanto en Minecraft como en Discord.
 emoji: 🛠️
 password_encripted: yes
-password: 1234
+password: MTIzNA==
 showGraph: false
 ---
 
