@@ -157,10 +157,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
-  pageBody: Component.PasswordProtect({
-    enabled: true,
-    children: Component.Content(),
-  }),
+  pageBody: Component.PasswordProtect(),
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
