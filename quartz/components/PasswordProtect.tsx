@@ -70,7 +70,7 @@ export default ((userOpts?: Partial<PasswordProtectOptions>) => {
       console.log('[PasswordProtect] nav event');
       const passwordForm = document.getElementById("password-form")
       const protectedContent = document.getElementById("protected-content")
-      const passwordInput = document.getElementById("password-input") as HTMLInputElement
+      const passwordInput = document.getElementById("password-input")
       const passwordSubmit = document.getElementById("password-submit")
 
       console.log('[PasswordProtect] Elementos:', { passwordForm, protectedContent, passwordInput, passwordSubmit });
