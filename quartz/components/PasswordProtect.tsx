@@ -67,13 +67,17 @@ export default ((userOpts?: Partial<PasswordProtectOptions>) => {
 
   PasswordProtect.afterDOMLoaded = `
     function setupPasswordProtection() {
-      console.log('[PasswordProtect] Intentando configurar la protección...');
+      const protectContainer = document.querySelector('.password-protect');
+      if (!protectContainer) {
+        // No es una página protegida, no hacer nada.
+        return;
+      }
+
+      console.log('[PasswordProtect] Página protegida detectada. Configurando...');
       const passwordForm = document.getElementById("password-form")
       const protectedContent = document.getElementById("protected-content")
       const passwordInput = document.getElementById("password-input")
       const passwordSubmit = document.getElementById("password-submit")
-
-      console.log('[PasswordProtect] Elementos:', { passwordForm, protectedContent, passwordInput, passwordSubmit });
 
       if (!passwordForm || !protectedContent || !passwordInput || !passwordSubmit) {
         console.log('[PasswordProtect] Faltan elementos del DOM. Reintentando en 10ms.');
@@ -117,7 +121,8 @@ export default ((userOpts?: Partial<PasswordProtectOptions>) => {
       }
     }
     
-    document.addEventListener("nav", () => setTimeout(setupPasswordProtection, 0));
+    document.addEventListener("nav", setupPasswordProtection);
+    setupPasswordProtection();
   `
 
   return PasswordProtect
