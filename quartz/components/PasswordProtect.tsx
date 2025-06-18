@@ -65,30 +65,43 @@ export default ((userOpts?: Partial<PasswordProtectOptions>) => {
   `
 
   PasswordProtect.afterDOMLoaded = `
+    console.log('[PasswordProtect] Script ejecutado');
     document.addEventListener("nav", () => {
+      console.log('[PasswordProtect] nav event');
       const passwordForm = document.getElementById("password-form")
       const protectedContent = document.getElementById("protected-content")
       const passwordInput = document.getElementById("password-input") as HTMLInputElement
       const passwordSubmit = document.getElementById("password-submit")
 
-      if (!passwordForm || !protectedContent || !passwordInput || !passwordSubmit) return
+      console.log('[PasswordProtect] Elementos:', { passwordForm, protectedContent, passwordInput, passwordSubmit });
+
+      if (!passwordForm || !protectedContent || !passwordInput || !passwordSubmit) {
+        console.log('[PasswordProtect] Faltan elementos del DOM, abortando.');
+        return
+      }
 
       const checkPassword = () => {
         const inputPassword = btoa(passwordInput.value)
         const correctPassword = document.querySelector('.password-protect')?.getAttribute('data-password')
+        console.log('[PasswordProtect] Intentando acceso', { inputPassword, correctPassword });
         
         if (inputPassword === correctPassword) {
+          console.log('[PasswordProtect] Contraseña correcta');
           passwordForm.style.display = "none"
           protectedContent.style.display = "block"
           localStorage.setItem("page_password_" + window.location.pathname, inputPassword)
         } else {
+          console.log('[PasswordProtect] Contraseña incorrecta');
           alert("Contraseña incorrecta")
         }
       }
 
       // Check if password es correcta y ya está almacenada
       const storedPassword = localStorage.getItem("page_password_" + window.location.pathname)
-      if (storedPassword === document.querySelector('.password-protect')?.getAttribute('data-password')) {
+      const correctPassword = document.querySelector('.password-protect')?.getAttribute('data-password')
+      console.log('[PasswordProtect] Revisando localStorage', { storedPassword, correctPassword });
+      if (storedPassword === correctPassword) {
+        console.log('[PasswordProtect] Contraseña ya almacenada, mostrando contenido');
         passwordForm.style.display = "none"
         protectedContent.style.display = "block"
       }
