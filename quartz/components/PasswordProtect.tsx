@@ -16,13 +16,25 @@ const defaultOptions: PasswordProtectOptions = {
 // Cargar las contraseñas una sola vez al iniciar
 const passwordsFilePath = path.join(process.cwd(), "passwords.json")
 let passwords: Record<string, string> = {}
+console.log(`\nBuscando archivo de contraseñas...`)
 try {
-  if (fs.existsSync(passwordsFilePath)) {
+  // Priorizar la variable de entorno para producción
+  if (process.env.PASSWORDS_JSON) {
+    passwords = JSON.parse(process.env.PASSWORDS_JSON)
+    console.log("Contraseñas cargadas correctamente desde la variable de entorno.")
+    console.log(`Rutas protegidas: ${Object.keys(passwords).join(", ")}`)
+  } 
+  // Usar el archivo local para desarrollo
+  else if (fs.existsSync(passwordsFilePath)) {
+    console.log(`Cargando contraseñas desde: ${passwordsFilePath}`)
     const rawData = fs.readFileSync(passwordsFilePath, "utf-8")
     passwords = JSON.parse(rawData)
+    console.log(`Contraseñas cargadas correctamente para las siguientes rutas: ${Object.keys(passwords).join(", ")}`)
+  } else {
+    console.warn("ADVERTENCIA: No se encontró el archivo passwords.json ni la variable de entorno PASSWORDS_JSON. Las páginas protegidas no funcionarán.")
   }
 } catch (e) {
-  console.error("Error al leer o parsear passwords.json:", e)
+  console.error("ERROR: No se pudo leer o procesar la fuente de contraseñas. Comprueba que el formato JSON es válido.", e)
 }
 
 export default ((userOpts?: Partial<PasswordProtectOptions>) => {
