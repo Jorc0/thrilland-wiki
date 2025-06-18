@@ -1,5 +1,6 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+import * as Component from "./quartz/components"
 
 /**
  * Quartz 4 Configuration
@@ -77,7 +78,9 @@ const config: QuartzConfig = {
     emitters: [
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
-      Plugin.ContentPage(),
+      Plugin.ContentPage({
+        pageBody: Component.PasswordProtect(),
+      }),
       Plugin.FolderPage({
         sort: (f1, f2) => {
           const t1 = f1.frontmatter?.title?.toLowerCase() ?? ""
