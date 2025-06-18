@@ -30,6 +30,8 @@ jobs:
         env:
           PASSWORDS_JSON: ${{ secrets.PASSWORDS_JSON }}
         run: printf '%s' "$PASSWORDS_JSON" > passwords.json
+      - name: Verify passwords file
+        run: cat passwords.json
       - name: Build Quartz
         run: npx quartz build
       - name: Upload artifact
