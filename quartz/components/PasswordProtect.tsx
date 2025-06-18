@@ -14,11 +14,12 @@ export default ((userOpts?: Partial<PasswordProtectOptions>) => {
 
   const PasswordProtect: QuartzComponent = (props: QuartzComponentProps) => {
     const { fileData, tree } = props
+    const shouldProtect = fileData.frontmatter?.passwordprotect === true
     const password = fileData.frontmatter?.password
     const passwordStr = typeof password === "string" ? password : ""
 
-    if (!options.enabled || !passwordStr) {
-      // Renderiza el contenido normalmente si no hay contraseña
+    if (!shouldProtect || !passwordStr) {
+      // Renderiza el contenido normalmente si no está protegido
       return <article class="popover-hint">{htmlToJsx(fileData.filePath!, tree)}</article>
     }
 
