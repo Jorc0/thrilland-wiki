@@ -1,9 +1,8 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import { ComponentChildren } from "preact"
+import { htmlToJsx } from "../util/jsx"
 
 interface PasswordProtectOptions {
   enabled: boolean
-  children?: QuartzComponent
 }
 
 const defaultOptions: PasswordProtectOptions = {
@@ -14,21 +13,23 @@ export default ((userOpts?: Partial<PasswordProtectOptions>) => {
   const options: PasswordProtectOptions = { ...defaultOptions, ...userOpts }
 
   const PasswordProtect: QuartzComponent = (props: QuartzComponentProps) => {
-    const { fileData } = props
+    const { fileData, tree } = props
     const password = fileData.frontmatter?.password
+    const passwordStr = typeof password === "string" ? password : ""
 
-    if (!options.enabled || !password) {
-      return options.children ? <options.children {...props} /> : null
+    if (!options.enabled || !passwordStr) {
+      // Renderiza el contenido normalmente si no hay contraseña
+      return <article class="popover-hint">{htmlToJsx(fileData.filePath!, tree)}</article>
     }
 
     return (
-      <div class="password-protect" data-password={btoa(password)}>
+      <div class="password-protect" data-password={btoa(passwordStr)}>
         <div id="password-form" class="password-form">
           <input type="password" id="password-input" placeholder="Introduce la contraseña" />
           <button id="password-submit">Acceder</button>
         </div>
         <div id="protected-content" class="protected-content" style="display: none;">
-          {options.children && <options.children {...props} />}
+          <article class="popover-hint">{htmlToJsx(fileData.filePath!, tree)}</article>
         </div>
       </div>
     )
@@ -85,7 +86,7 @@ export default ((userOpts?: Partial<PasswordProtectOptions>) => {
         }
       }
 
-      // Check if password is already stored
+      // Check if password es correcta y ya está almacenada
       const storedPassword = localStorage.getItem("page_password_" + window.location.pathname)
       if (storedPassword === document.querySelector('.password-protect')?.getAttribute('data-password')) {
         passwordForm.style.display = "none"
