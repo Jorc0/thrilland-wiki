@@ -83,7 +83,9 @@ export const defaultContentPageLayout: PageLayout = {
           node.displayName = `${folderIcon} ${node.displayName}`
         } else {
           // Para archivos
-          if (node.displayName === "index.md") {
+          if (node.data?.passwordprotect) {
+            node.displayName = "🔒 [OCULTO]"
+          } else if (node.displayName === "index.md") {
             node.displayName = "📑 Inicio"
           } else {
             // Usar el emoji definido en el frontmatter del archivo, o un emoji por defecto si no está definido
@@ -186,7 +188,9 @@ export const defaultListPageLayout: PageLayout = {
           node.displayName = `${folderIcon} ${node.displayName}`
         } else {
           // Para archivos
-          if (node.displayName === "index.md") {
+          if (node.data?.passwordprotect) {
+            node.displayName = "🔒 [OCULTO]"
+          } else if (node.displayName === "index.md") {
             node.displayName = "📑 Inicio"
           } else {
             // Usar el emoji definido en el frontmatter del archivo, o un emoji por defecto si no está definido

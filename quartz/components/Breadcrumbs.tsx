@@ -59,6 +59,14 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
     }
 
     const crumbs: CrumbData[] = pathNodes.map((node, idx) => {
+      // Check if node is a protected page
+      if (node.file?.data?.frontmatter?.passwordprotect) {
+        return {
+          displayName: "[OCULTO]",
+          path: resolveRelative(fileData.slug!, simplifySlug(node.slug)),
+        }
+      }
+
       const crumb = formatCrumb(node.displayName, fileData.slug!, simplifySlug(node.slug))
       if (idx === 0) {
         crumb.displayName = options.rootName

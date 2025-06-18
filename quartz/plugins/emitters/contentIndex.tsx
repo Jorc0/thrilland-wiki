@@ -20,6 +20,7 @@ export type ContentDetails = {
   date?: Date
   description?: string
   emoji?: string
+  passwordprotect?: boolean
 }
 
 interface Options {
@@ -117,6 +118,7 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
             date: date,
             description: file.data.description ?? "",
             emoji: file.data.frontmatter?.emoji,
+            passwordprotect: file.data.frontmatter?.passwordprotect,
           })
         }
       }

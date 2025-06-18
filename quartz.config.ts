@@ -82,6 +82,7 @@ const config: QuartzConfig = {
         pageBody: Component.PasswordProtect(),
       }),
       Plugin.FolderPage({
+        pageBody: Component.PasswordProtect(),
         sort: (f1, f2) => {
           const t1 = f1.frontmatter?.title?.toLowerCase() ?? ""
           const t2 = f2.frontmatter?.title?.toLowerCase() ?? ""

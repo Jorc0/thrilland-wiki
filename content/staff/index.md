@@ -1,7 +1,7 @@
 ---
 title: Contenido de Staff
 description: Acceso restringido bajo contraseña, no compartir con nadie
-password: CMS2RhTT2
+password: staff180625
 passwordprotect: true
 ---
 ## Contenido
@@ -10,5 +10,5 @@ passwordprotect: true
 
 ### [Soporte]( .md)
 
-### [Guia de procedimiento y actuacion](staff.md)
+### [Guia de procedimiento y actuacion](/staff.md)
 🔑 Protocolos de actuación segun rango
