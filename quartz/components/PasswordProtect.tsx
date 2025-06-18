@@ -75,9 +75,12 @@ export default ((userOpts?: Partial<PasswordProtectOptions>) => {
       console.log('[PasswordProtect] Elementos:', { passwordForm, protectedContent, passwordInput, passwordSubmit });
 
       if (!passwordForm || !protectedContent || !passwordInput || !passwordSubmit) {
-        console.log('[PasswordProtect] Faltan elementos del DOM, abortando.');
+        console.log('[PasswordProtect] Faltan elementos del DOM. Reintentando en 10ms.');
+        setTimeout(setupPasswordProtection, 10);
         return
       }
+
+      console.log('[PasswordProtect] ¡Elementos encontrados! Configurando eventos.');
 
       const checkPassword = () => {
         const inputPassword = btoa(passwordInput.value)
@@ -113,8 +116,7 @@ export default ((userOpts?: Partial<PasswordProtectOptions>) => {
       }
     }
     
-    document.addEventListener("nav", setupPasswordProtection);
-    setupPasswordProtection();
+    document.addEventListener("nav", () => setTimeout(setupPasswordProtection, 0));
   `
 
   return PasswordProtect
