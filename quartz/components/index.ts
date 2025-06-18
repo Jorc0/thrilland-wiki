@@ -25,6 +25,7 @@ import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
 import Banner from "./Banner"
 import BodyClassHandler from "./BodyClassHandler"
+import PasswordProtect from "./PasswordProtect"
 
 export {
   ArticleTitle,
@@ -54,4 +55,5 @@ export {
   ConditionalRender,
   Banner,
   BodyClassHandler,
+  PasswordProtect,
 }
