@@ -85,7 +85,6 @@ showGraph: false
 
 **Protocolos específicos:**
 
-- Construir en zonas asignadas o mundos de test.  
 - No editar el mapa principal sin aprobación.  
 - Nombrar correctamente los schematics y reportar bugs visuales.
 
@@ -93,10 +92,5 @@ showGraph: false
 
 ### 💬 Canales esenciales en Discord
 
-- `#anuncios-staff`: Comunicados y decisiones clave.  
-- `#sanciones`: Registro de sanciones aplicadas.  
-- `#reporte-bugs`: Para errores técnicos o de gameplay.  
-- `#sugerencias`: Canal para ideas de jugadores.  
-- `#staff-habla`: Espacio libre para debatir, preguntar y proponer.
 
 ---
